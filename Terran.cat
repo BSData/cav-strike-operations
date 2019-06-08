@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="3713-e893-933c-28d4" name="Terran" revision="1" battleScribeVersion="2.02" library="false" gameSystemId="1c60-fd57-cb2f-e952" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="8825-a194-47a2-5feb" name="Archer (CAV)" hidden="false" collective="false" targetId="97b1-75c2-8510-c73d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="db75-4049-6db9-1c57" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="7d9a-4cce-1280-3992" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="052b-b8e8-3065-b609" name="Ashigaru (Vehicle)" hidden="false" collective="false" targetId="ba93-c5ee-b201-6e36" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e4f8-7410-11be-09fe" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+        <categoryLink id="86b4-7f32-c81b-a9e9" name="New CategoryLink" hidden="false" targetId="3bd6-9cfb-0450-720a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8fc1-ce47-0a69-01d3" name="Condor (Transport)" hidden="false" collective="false" targetId="6ca8-084f-cfe4-ebee" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0c75-f9ec-e4ff-297e" name="New CategoryLink" hidden="false" targetId="af15-a901-2d26-266b" primary="true"/>
+        <categoryLink id="b1ea-bed8-7164-22a2" name="Aircraft" hidden="false" targetId="ff2a-fd2f-1e39-3883" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="08ba-e010-130b-fe3d" name="Dingo (Vehicle)" hidden="false" collective="false" targetId="08bc-0c8a-2732-bc69" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c985-57fa-9c45-78f1" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="1c99-cbc2-70fe-b80c" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="204a-194a-89fe-4355" name="Falcon (CAV)" hidden="false" collective="false" targetId="8a63-4fae-1981-c2a4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7bfb-d6cd-c4a5-3167" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="46ec-082f-6b95-6cc2" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="be1e-b020-738f-ff0e" name="Harpy (Attack)" hidden="false" collective="false" targetId="864d-2fcb-dd1a-64d8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e858-5697-1480-8c40" name="New CategoryLink" hidden="false" targetId="ff2a-fd2f-1e39-3883" primary="true"/>
+        <categoryLink id="d682-1d8a-10cd-d31a" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cbfb-609d-5dc5-5ae6" name="Katana (CAV)" hidden="false" collective="false" targetId="5ea2-c163-5e8e-2540" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ab05-a40b-d6a1-24cc" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="2948-7504-615b-1285" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6e1f-65ec-1418-f154" name="Kikyu (Attack)" hidden="false" collective="false" targetId="5b4f-c99b-b71c-a2e2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="51f8-9328-511e-eead" name="New CategoryLink" hidden="false" targetId="ff2a-fd2f-1e39-3883" primary="true"/>
+        <categoryLink id="ab35-63b9-d1b0-28eb" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c3f7-273c-57a7-852d" name="Naginata (Vehicle)" hidden="false" collective="false" targetId="1737-c9d9-3bb8-34c4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="96f8-7a4e-c5cd-57a3" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="15b6-fadb-e9a0-d665" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0fde-2de6-6756-6254" name="Nightshade (CAV)" hidden="false" collective="false" targetId="da21-2ac6-867f-fefd" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="83fd-0eba-3129-5d82" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="ebcb-b1cf-a487-6bf9" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f00e-5a57-09c6-4665" name="Raijin (CAV)" hidden="false" collective="false" targetId="efb0-cd13-f0ab-3753" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="26d6-ae38-2862-6cb1" name="New CategoryLink" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="true"/>
+        <categoryLink id="e37d-03a2-b294-b071" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6da0-8343-9bab-ca0f" name="Raptor (CAV)" hidden="false" collective="false" targetId="435e-575a-cd86-6ce2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4b87-c35a-4e6e-51e7" name="New CategoryLink" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="true"/>
+        <categoryLink id="8fa1-f04c-67cc-ee0a" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8b37-b093-6cbf-247a" name="Regent (CAV)" hidden="false" collective="false" targetId="fb91-22b7-f6c7-8a44" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="85ef-89c9-2b4b-7bf6" name="New CategoryLink" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="true"/>
+        <categoryLink id="4238-2e5e-6c8d-1209" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9b36-580f-1626-f1d4" name="Ronin (CAV)" hidden="false" collective="false" targetId="0156-a6e2-869a-162d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8c8e-d876-abdf-c4cd" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="2cc9-fe24-3291-2567" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a055-66b1-e34b-d111" name="Ryoshi (Vehicle)" hidden="false" collective="false" targetId="e77e-db43-82f1-7ee5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="878f-bfd4-341f-fb1b" name="New CategoryLink" hidden="false" targetId="3bd6-9cfb-0450-720a" primary="true"/>
+        <categoryLink id="3983-fb60-c8cf-4c2a" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ce46-6741-f520-aef2" name="Starhawk V (CAV)" hidden="false" collective="false" targetId="6896-909b-20f4-240b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="805f-ba52-f865-7027" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="f520-ff0f-e7b6-e71c" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="07fd-73a8-977c-11d3" name="Starhawk VI (CAV)" hidden="false" collective="false" targetId="eb54-d656-6293-c5e0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8f81-e5bb-461c-dfc6" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="26b5-1ef5-f685-69e7" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ed50-3d49-a063-da7e" name="Talon (CAV)" hidden="false" collective="false" targetId="9108-88d9-3593-8e24" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bf63-3c47-7f37-2296" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+        <categoryLink id="5ff8-1cd7-59e5-f5e0" name="New CategoryLink" hidden="false" targetId="3bd6-9cfb-0450-720a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1701-787c-c96a-2aef" name="Talon II (CAV)" hidden="false" collective="false" targetId="48ae-882a-7976-5a6c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="dc60-0c68-cf0f-3cd1" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+        <categoryLink id="e5b2-2399-92ed-cffa" name="New CategoryLink" hidden="false" targetId="3bd6-9cfb-0450-720a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8b70-8bf1-0e14-6125" name="Thunderbird (CAV)" hidden="false" collective="false" targetId="690f-4d0c-4cdf-4829" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="933e-febb-0a9c-866f" name="New CategoryLink" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="true"/>
+        <categoryLink id="cd50-84b5-9537-56a0" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6799-772b-a349-8db8" name="Tsuiseki (Attack)" hidden="false" collective="false" targetId="40fd-cea6-de00-6714" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="50c3-d18e-c130-db64" name="New CategoryLink" hidden="false" targetId="ff2a-fd2f-1e39-3883" primary="true"/>
+        <categoryLink id="11d4-44b4-41bd-3288" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b819-27aa-cb34-201a" name="Tsukai (Vehicle)" hidden="false" collective="false" targetId="e707-9943-f554-3a6b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c514-2761-5dd6-532a" name="New CategoryLink" hidden="false" targetId="af15-a901-2d26-266b" primary="true"/>
+        <categoryLink id="b21e-7273-9981-3005" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e768-7186-2b90-2bc0" name="Weasel (CAV)" hidden="false" collective="false" targetId="5371-42ed-e31e-17c4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4882-1c7b-3381-3811" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+        <categoryLink id="4a9e-4d0a-3309-2853" name="New CategoryLink" hidden="false" targetId="3bd6-9cfb-0450-720a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4364-5763-65a4-d6a0" name="Wolf (Vehicle)" hidden="false" collective="false" targetId="7895-2a55-d9fd-1e80" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c41b-9662-4507-4aa2" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="f769-2637-1c83-2dd4" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0174-f1bc-8f3c-eda4" name="Condor (Transport)" hidden="false" collective="false" targetId="6ca8-084f-cfe4-ebee" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="dcf3-aa5b-c860-b66b" name="New CategoryLink" hidden="false" targetId="1d06-4927-dd43-4a3a" primary="true"/>
+        <categoryLink id="5db2-e3ee-fef7-c675" name="Aircraft" hidden="false" targetId="ff2a-fd2f-1e39-3883" primary="false"/>
+        <categoryLink id="7af1-7bd8-62c3-b4fc" name="Transport" hidden="false" targetId="af15-a901-2d26-266b" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="51c3-91e7-1b4e-bbc1" name="Tsukai (Vehicle)" hidden="false" collective="false" targetId="e707-9943-f554-3a6b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8be2-aad4-62bb-b1fa" name="New CategoryLink" hidden="false" targetId="1d06-4927-dd43-4a3a" primary="true"/>
+        <categoryLink id="a53c-0e6e-2d3b-7030" name="Transport" hidden="false" targetId="af15-a901-2d26-266b" primary="false"/>
+        <categoryLink id="0956-14df-60b7-9781" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2d65-0511-33c1-e3a3" name="Dingo IFV (Vehicle)" hidden="false" collective="false" targetId="c3ad-74df-b14c-2a2d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4e81-1e51-7f37-0991" name="New CategoryLink" hidden="false" targetId="1d06-4927-dd43-4a3a" primary="true"/>
+        <categoryLink id="eb50-6d21-4c41-a05e" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+        <categoryLink id="0119-10e5-26b0-632c" name="Transport" hidden="false" targetId="af15-a901-2d26-266b" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b14c-87b6-d023-9303" name="Dingo IFV (Vehicle)" hidden="false" collective="false" targetId="c3ad-74df-b14c-2a2d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e0b7-86aa-b03b-ecfb" name="New CategoryLink" hidden="false" targetId="af15-a901-2d26-266b" primary="true"/>
+        <categoryLink id="b78e-88e6-6467-26a4" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4e44-91ec-3e1e-fd2a" name="Tsuiseki II (Attack)" hidden="false" collective="false" targetId="a9de-250e-a012-1373" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="afa5-a9aa-2392-1baa" name="New CategoryLink" hidden="false" targetId="ff2a-fd2f-1e39-3883" primary="true"/>
+        <categoryLink id="1838-822e-1ef5-90f5" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="864d-2fcb-dd1a-64d8" name="Harpy (Attack)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="166.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5b4f-c99b-b71c-a2e2" name="Kikyu (Attack)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="245.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="40fd-cea6-de00-6714" name="Tsuiseki (Attack)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="178.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="97b1-75c2-8510-c73d" name="Archer (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="683.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8a63-4fae-1981-c2a4" name="Falcon (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="457.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5ea2-c163-5e8e-2540" name="Katana (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="720.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="da21-2ac6-867f-fefd" name="Nightshade (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="489.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="efb0-cd13-f0ab-3753" name="Raijin (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="854.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="435e-575a-cd86-6ce2" name="Raptor (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="347.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fb91-22b7-f6c7-8a44" name="Regent (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="550.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0156-a6e2-869a-162d" name="Ronin (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="889.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6896-909b-20f4-240b" name="Starhawk V (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="380.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eb54-d656-6293-c5e0" name="Starhawk VI (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="590.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9108-88d9-3593-8e24" name="Talon (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="274.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="48ae-882a-7976-5a6c" name="Talon II (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="356.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="690f-4d0c-4cdf-4829" name="Thunderbird (CAV)" hidden="false" collective="false" type="unit">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="1119.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5371-42ed-e31e-17c4" name="Weasel (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="311.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba93-c5ee-b201-6e36" name="Ashigaru (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="239.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="08bc-0c8a-2732-bc69" name="Dingo (Vehicle)" hidden="false" collective="false" type="model">
+      <categoryLinks>
+        <categoryLink id="d536-d120-626c-1671" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="b450-0c27-c351-39a3" name="New CategoryLink" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+        <categoryLink id="131a-8237-9012-7e1e" name="New CategoryLink" hidden="false" targetId="2789-7817-9c34-8e0c" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="185.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1737-c9d9-3bb8-34c4" name="Naginata (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="440.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e77e-db43-82f1-7ee5" name="Ryoshi (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="307.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7895-2a55-d9fd-1e80" name="Wolf (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="353.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6ca8-084f-cfe4-ebee" name="Condor (Transport)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="199.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e707-9943-f554-3a6b" name="Tsukai (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="127.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c3ad-74df-b14c-2a2d" name="Dingo IFV (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="145.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a9de-250e-a012-1373" name="Tsuiseki II (Attack)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="327.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

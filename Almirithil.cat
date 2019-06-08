@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="240e-41ef-b571-2e40" name="Almirithil" revision="1" battleScribeVersion="2.02" library="false" gameSystemId="1c60-fd57-cb2f-e952" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="dee0-ab0a-babc-ffe7" name="Armada (Vehicle)" hidden="false" collective="false" targetId="29cd-209f-90d0-410e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="342b-daa5-9988-08f2" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="076f-b42e-44b2-4e3d" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="90bd-a078-3e26-1cb8" name="Bear (CAV)" hidden="false" collective="false" targetId="0f76-7eb7-60da-c770" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6084-e474-1e51-7690" name="New CategoryLink" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="true"/>
+        <categoryLink id="37c3-e5ec-738c-5760" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d910-9ff4-ffb1-beab" name="Bruin (CAV)" hidden="false" collective="false" targetId="fab0-86fe-0ed9-19d1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="dc41-5d78-ae76-494f" name="New CategoryLink" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="true"/>
+        <categoryLink id="3ae6-c79d-d297-61a0" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f2c5-912e-93f9-f508" name="Cobra (CAV)" hidden="false" collective="false" targetId="a7b7-dba6-c7ef-6d0c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="16be-085f-1953-470d" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+        <categoryLink id="a2f5-e117-6bed-634a" name="New CategoryLink" hidden="false" targetId="3bd6-9cfb-0450-720a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a82c-e3a4-9e63-fc0f" name="Concussion (CAV)" hidden="false" collective="false" targetId="8ef2-03c6-8fd9-3368" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f927-6304-981d-3865" name="New CategoryLink" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="true"/>
+        <categoryLink id="9ceb-8270-78b5-3c8d" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5ee7-3842-b0cf-a18e" name="Cossack (Vehicle)" hidden="false" collective="false" targetId="3e1e-b7a0-21c1-67ed" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fc11-7cbc-43c6-cdb8" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="86a6-49e6-ae67-4733" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a300-9ed1-65f3-e4dc" name="Fencer (Attack)" hidden="false" collective="false" targetId="181d-44b2-8af2-aa75" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="841f-00a8-f739-cf89" name="New CategoryLink" hidden="false" targetId="ff2a-fd2f-1e39-3883" primary="true"/>
+        <categoryLink id="ef3a-5ec8-62b2-d7f2" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c00f-7975-3fc6-e2e4" name="Fulcrum (Transport)" hidden="false" collective="false" targetId="55c8-b39b-db8f-9813" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3570-246e-81a2-5f8b" name="New CategoryLink" hidden="false" targetId="1d06-4927-dd43-4a3a" primary="true"/>
+        <categoryLink id="d355-ec2e-eaff-9190" name="Aircraft" hidden="false" targetId="ff2a-fd2f-1e39-3883" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9754-be2e-868b-43f9" name="Fulcrum (Transport)" hidden="false" collective="false" targetId="55c8-b39b-db8f-9813" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a327-5dcb-d1c4-e9d4" name="New CategoryLink" hidden="false" targetId="af15-a901-2d26-266b" primary="true"/>
+        <categoryLink id="0132-3f5b-d447-c5e8" name="Aircraft" hidden="false" targetId="ff2a-fd2f-1e39-3883" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e905-3ff7-03b1-d449" name="Grizzly (CAV)" hidden="false" collective="false" targetId="cb47-6ed5-a766-be50" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9672-f95f-54e2-91cf" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="5b49-b227-2927-ddc3" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ff34-13d5-0fca-736f" name="Growler (CAV)" hidden="false" collective="false" targetId="a51c-9eb3-840c-9e87" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e0bb-822c-8a01-99dc" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+        <categoryLink id="b90d-93c1-587f-d254" name="New CategoryLink" hidden="false" targetId="3bd6-9cfb-0450-720a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f840-035e-6e3c-0dbf" name="Hind (Attack)" hidden="false" collective="false" targetId="201b-84af-1470-4b82" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7318-67dd-69d4-f6ea" name="New CategoryLink" hidden="false" targetId="ff2a-fd2f-1e39-3883" primary="true"/>
+        <categoryLink id="af45-bd7e-9143-ae44" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="74f3-3c17-d228-512f" name="Hound (Vehicle)" hidden="false" collective="false" targetId="9cbc-dae9-d4dc-7cec" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7528-898c-8665-5d83" name="New CategoryLink" hidden="false" targetId="3bd6-9cfb-0450-720a" primary="true"/>
+        <categoryLink id="29e0-43ca-70f5-5ff7" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8746-592e-048e-f3b0" name="King Cobra (CAV)" hidden="false" collective="false" targetId="59f8-a409-bf92-63e9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6b56-2e6a-f475-60cd" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+        <categoryLink id="ca87-257b-eab5-b96a" name="New CategoryLink" hidden="false" targetId="3bd6-9cfb-0450-720a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="936a-7e90-1564-2ea4" name="Kodiak (CAV)" hidden="false" collective="false" targetId="739a-38cf-0186-e13b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e877-8a36-d1a7-1bd5" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="34d8-c797-c62e-7be6" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6f5b-62d0-2b1f-cd30" name="Mongol (Vehicle)" hidden="false" collective="false" targetId="5c9c-8ae2-7b32-e118" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="939d-ea47-2a16-e2a6" name="New CategoryLink" hidden="false" targetId="1d06-4927-dd43-4a3a" primary="true"/>
+        <categoryLink id="85c2-56bf-4147-76b7" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9e61-4531-7017-1be4" name="Mongol (Vehicle)" hidden="false" collective="false" targetId="5c9c-8ae2-7b32-e118" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7b81-a300-e520-1b08" name="New CategoryLink" hidden="false" targetId="af15-a901-2d26-266b" primary="true"/>
+        <categoryLink id="3628-f1b7-9c8e-0d3d" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="232d-96d3-3d63-4a57" name="Sunder (CAV)" hidden="false" collective="false" targetId="3533-1c80-5269-e266" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0708-92f3-e3fa-4275" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="6868-2a03-f2dc-5423" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="29cd-209f-90d0-410e" name="Armada (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="431.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0f76-7eb7-60da-c770" name="Bear (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="605.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fab0-86fe-0ed9-19d1" name="Bruin (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="999.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a7b7-dba6-c7ef-6d0c" name="Cobra (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="246.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8ef2-03c6-8fd9-3368" name="Concussion (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="985.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3e1e-b7a0-21c1-67ed" name="Cossack (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="294.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="181d-44b2-8af2-aa75" name="Fencer (Attack)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="196.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="55c8-b39b-db8f-9813" name="Fulcrum (Transport)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="192.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cb47-6ed5-a766-be50" name="Grizzly (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="828.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a51c-9eb3-840c-9e87" name="Growler (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="327.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="201b-84af-1470-4b82" name="Hind (Attack)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="290.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9cbc-dae9-d4dc-7cec" name="Hound (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="172.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="59f8-a409-bf92-63e9" name="King Cobra (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="478.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="739a-38cf-0186-e13b" name="Kodiak (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="1065.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5c9c-8ae2-7b32-e118" name="Mongol (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="250.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3533-1c80-5269-e266" name="Sunder (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="421.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

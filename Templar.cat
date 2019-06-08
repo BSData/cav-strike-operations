@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="fb07-a5b5-755d-c205" name="Templar" revision="1" battleScribeVersion="2.02" library="false" gameSystemId="1c60-fd57-cb2f-e952" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="d126-abfd-b3c5-fd07" name="Ballista (CAV)" hidden="false" collective="false" targetId="bd2d-b85c-9820-dda6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1866-439e-3662-af96" name="New CategoryLink" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="true"/>
+        <categoryLink id="7257-b357-16c8-96d7" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f830-c6e0-8551-917a" name="Centurion" hidden="false" collective="false" targetId="d6b8-3a04-9b3d-3c70" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7f2d-73f3-9076-c295" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="6cb4-becf-4e0a-4aca" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ec39-71b2-11fd-a5b0" name="Charger (Vehicle)" hidden="false" collective="false" targetId="674a-2d31-0422-3594" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8480-8d43-3a9b-8c24" name="New CategoryLink" hidden="false" targetId="1d06-4927-dd43-4a3a" primary="true"/>
+        <categoryLink id="9a0e-c87f-07a0-e009" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e0bd-fbc5-32b5-5c4d" name="Charger (Vehicle)" hidden="false" collective="false" targetId="674a-2d31-0422-3594" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c3d8-307b-24ea-0a75" name="New CategoryLink" hidden="false" targetId="af15-a901-2d26-266b" primary="true"/>
+        <categoryLink id="a44a-8d80-f041-f838" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8c35-04ee-ddf5-59c6" name="Claymore (CAV)" hidden="false" collective="false" targetId="382c-326d-8471-5bbf" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c866-911b-d4d6-5a90" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+        <categoryLink id="3738-ca52-f644-e4fd" name="New CategoryLink" hidden="false" targetId="3bd6-9cfb-0450-720a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1b85-840e-2746-d3c7" name="Crossbow (Attack)" hidden="false" collective="false" targetId="2bd6-f42e-ec0e-e3df" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c5e1-0c3d-54f7-63d2" name="New CategoryLink" hidden="false" targetId="ff2a-fd2f-1e39-3883" primary="true"/>
+        <categoryLink id="6826-3939-dba3-95b2" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="62c8-dcd8-2b6c-9824" name="Crusader (CAV)" hidden="false" collective="false" targetId="3aed-66b5-5ee6-1a44" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="92a9-c5ab-2296-ff82" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="0757-602c-8ecc-c623" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="88e8-937b-0a8b-49ea" name="Destrier (Vehicle)" hidden="false" collective="false" targetId="7577-fb4e-9b45-11c2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="85e4-1442-e5ac-c5a9" name="New CategoryLink" hidden="false" targetId="1d06-4927-dd43-4a3a" primary="true"/>
+        <categoryLink id="f44f-bce9-176a-c8bd" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f6f1-71d8-ced5-21fe" name="Destrier (Vehicle)" hidden="false" collective="false" targetId="7577-fb4e-9b45-11c2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0575-0afc-de16-4bd7" name="New CategoryLink" hidden="false" targetId="af15-a901-2d26-266b" primary="true"/>
+        <categoryLink id="f247-9267-00ec-d3c6" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6e49-f50a-35f9-d85f" name="Duelist (CAV)" hidden="false" collective="false" targetId="d653-00c2-ae2c-6284" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="75ae-dd49-869c-3b2f" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="505a-fcc8-a7d1-5ce1" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="dcde-e748-939d-0689" name="Flail (Vehicle)" hidden="false" collective="false" targetId="ef85-e4d5-58dd-334e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="29d4-eb9c-318c-05f9" name="New CategoryLink" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="true"/>
+        <categoryLink id="0e03-b9f4-7ffd-7e75" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="72be-0c38-879a-69b7" name="Gladiator II (CAV)" hidden="false" collective="false" targetId="2166-de03-a81c-cfc2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="658e-5e38-00be-c8bd" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="249d-4428-b7ca-7ec8" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4fca-291c-e483-af7f" name="Halberd (CAV)" hidden="false" collective="false" targetId="861d-06db-3680-dc55" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="40c0-b6dd-3240-867d" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="4ed7-31ca-1e54-96f5" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6d8a-6b7c-78d4-7bce" name="Knight (CAV)" hidden="false" collective="false" targetId="04e0-c1b4-00ac-460a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fde0-6eaa-593c-bcc1" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="30b0-5a9e-6e75-e930" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="98a4-caf6-1a19-f210" name="Lance (Vehicle)" hidden="false" collective="false" targetId="168e-f326-1e21-e180" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8fe8-c7cf-a417-b841" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="87b1-b2a3-c024-c918" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b00e-0ad5-b0fe-43e3" name="Longbow (Attack)" hidden="false" collective="false" targetId="53e1-a21b-544a-6733" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7219-1e45-3d67-fe2e" name="New CategoryLink" hidden="false" targetId="ff2a-fd2f-1e39-3883" primary="true"/>
+        <categoryLink id="56bc-aeeb-cb9d-f482" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5e66-7207-a892-8ffe" name="Mamba (Vehicle)" hidden="false" collective="false" targetId="b8bd-b7d2-052d-017b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="caf9-c0c4-4c1d-110d" name="New CategoryLink" hidden="false" targetId="3bd6-9cfb-0450-720a" primary="true"/>
+        <categoryLink id="8acf-5142-51a6-b2a9" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="029e-d1ea-90c2-aa98" name="Rapier (CAV)" hidden="false" collective="false" targetId="d4f9-1ce5-c6b5-9aa6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e9df-8441-ea4c-bfc4" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+        <categoryLink id="6343-b854-d78f-a2b2" name="New CategoryLink" hidden="false" targetId="3bd6-9cfb-0450-720a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="de0d-5243-e1d4-c388" name="Sabre (Vehicle)" hidden="false" collective="false" targetId="3349-fa97-8682-505f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9ed2-593c-e3dc-eee3" name="New CategoryLink" hidden="false" targetId="3bd6-9cfb-0450-720a" primary="true"/>
+        <categoryLink id="e403-3ddf-4c39-4da6" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5d18-de8e-b1c6-65ec" name="Sovereign III (CAV)" hidden="false" collective="false" targetId="af33-edd4-7f6e-13c4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5881-e63a-8aa4-ba89" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+        <categoryLink id="74f1-8e72-0c96-95af" name="New CategoryLink" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6c28-ebcc-7340-400a" name="Spartan (CAV)" hidden="false" collective="false" targetId="7521-f328-24f1-5d81" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="70e9-1ce2-98a4-5ad9" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+        <categoryLink id="a493-1b96-e562-a6ce" name="New CategoryLink" hidden="false" targetId="3bd6-9cfb-0450-720a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fc64-b739-c440-35bb" name="Spatha (Vehicle)" hidden="false" collective="false" targetId="0051-7d68-2c95-b0ff" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ff8c-d00c-8e5f-bfdf" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="9fb7-3a2b-1ea8-a1ec" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ea46-6b1d-2280-5430" name="Stiletto (Vehicle)" hidden="false" collective="false" targetId="b36c-c381-e1d0-4bb4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e2b8-faa8-c71b-0898" name="New CategoryLink" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="true"/>
+        <categoryLink id="c3e2-0900-74f9-8222" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="86b0-4a7c-018c-3fa2" name="Tomahawk (CAV)" hidden="false" collective="false" targetId="0ebe-e178-4432-0bcc" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8fb2-0fd5-a8da-3b35" name="New CategoryLink" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="true"/>
+        <categoryLink id="09c1-69cc-818a-e9f1" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d0f5-0c29-2c4e-da83" name="Trebuchet (CAV)" hidden="false" collective="false" targetId="0bd0-f542-1634-367b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0f18-e6ac-a756-779a" name="New CategoryLink" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="true"/>
+        <categoryLink id="470d-5eea-4eae-9aa9" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9890-8477-be45-f6b6" name="Warhammer (CAV)" hidden="false" collective="false" targetId="9ee5-35fa-f338-180b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="665c-9d71-0932-0836" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="3790-a4a9-46e3-6015" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f74f-2896-014c-6bdd" name="Warhawk (CAV)" hidden="false" collective="false" targetId="b478-f354-e8c0-68b1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7c48-d355-7a78-8d2a" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="3a47-6bfe-e2f3-8ddf" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f3ab-898f-80e0-8ed3" name="Warlord (CAV)" hidden="false" collective="false" targetId="70f1-0854-88d5-3f98" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4c62-6b17-f071-2289" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="f5b4-7047-44d9-aed9" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="bd2d-b85c-9820-dda6" name="Ballista (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="517.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d6b8-3a04-9b3d-3c70" name="Centurion (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="1240.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="674a-2d31-0422-3594" name="Charger (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="129.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="382c-326d-8471-5bbf" name="Claymore (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="361.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2bd6-f42e-ec0e-e3df" name="Crossbow (Attack)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="233.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3aed-66b5-5ee6-1a44" name="Crusader (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="560.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7577-fb4e-9b45-11c2" name="Destrier (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="135.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d653-00c2-ae2c-6284" name="Duelist (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="639.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ef85-e4d5-58dd-334e" name="Flail (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="402.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2166-de03-a81c-cfc2" name="Gladiator II (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="412.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="861d-06db-3680-dc55" name="Halberd (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="665.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="04e0-c1b4-00ac-460a" name="Knight (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="512.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="168e-f326-1e21-e180" name="Lance (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="398.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="53e1-a21b-544a-6733" name="Longbow (Attack)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="116.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b8bd-b7d2-052d-017b" name="Mamba (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="121.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d4f9-1ce5-c6b5-9aa6" name="Rapier (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="345.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3349-fa97-8682-505f" name="Sabre (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="143.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="af33-edd4-7f6e-13c4" name="Sovereign III (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="389.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7521-f328-24f1-5d81" name="Spartan (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="207.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0051-7d68-2c95-b0ff" name="Spatha (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="459.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b36c-c381-e1d0-4bb4" name="Stiletto (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="71.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0ebe-e178-4432-0bcc" name="Tomahawk (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="647.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0bd0-f542-1634-367b" name="Trebuchet (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="895.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9ee5-35fa-f338-180b" name="Warhammer (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="791.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b478-f354-e8c0-68b1" name="Warhawk (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="529.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="70f1-0854-88d5-3f98" name="Warlord (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="725.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

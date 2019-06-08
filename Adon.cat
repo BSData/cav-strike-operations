@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="089f-cb52-ea5c-b448" name="Adon" revision="1" battleScribeVersion="2.02" library="false" gameSystemId="1c60-fd57-cb2f-e952" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="ca68-514f-83b8-5e8a" name="Bishop (CAV)" hidden="false" collective="false" targetId="4c12-8eb0-91e3-c73f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5bf1-6949-86dd-d304" name="New CategoryLink" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="true"/>
+        <categoryLink id="7e18-cfb6-5663-dfbe" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="26f8-c5b8-8241-1ac9" name="Bishop II (CAV)" hidden="false" collective="false" targetId="ad1c-05cf-d7aa-1391" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="38be-1f49-dc03-e64e" name="New CategoryLink" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="true"/>
+        <categoryLink id="2e53-19b4-61d2-3972" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="502f-fa0d-95d3-e35c" name="Centipede (Vehicle) T" hidden="false" collective="false" targetId="6876-caad-0b45-2872" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5fbe-34a5-7c19-011b" name="New CategoryLink" hidden="false" targetId="1d06-4927-dd43-4a3a" primary="true"/>
+        <categoryLink id="8075-2e8e-c37d-0206" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c504-7f6a-22a0-ef9e" name="Centipede (Vehicle) T" hidden="false" collective="false" targetId="6876-caad-0b45-2872" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="824e-bff8-28fb-044a" name="New CategoryLink" hidden="false" targetId="af15-a901-2d26-266b" primary="true"/>
+        <categoryLink id="c9ed-b9e7-57f7-59d1" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f0a1-4ae3-686f-6b3a" name="Challenger (CAV)" hidden="false" collective="false" targetId="e66f-e436-382b-5628" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1b32-98a2-011e-c051" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="9b38-a991-999a-b17b" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a63e-f633-ceba-42e7" name="Chancellor (CAV)" hidden="false" collective="false" targetId="f002-6bc8-2089-bab7" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3233-b67c-7818-7d57" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="a2dc-34a4-7dc1-ea04" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6aeb-3875-d897-55e0" name="Chieftain (Vehicle)" hidden="false" collective="false" targetId="b2a7-099c-af19-5c8e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d92b-1b09-9a84-47db" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="5c41-77c1-14a0-94e7" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="877d-f3ef-a445-c51a" name="Chimera (CAV)" hidden="false" collective="false" targetId="5057-994f-bf4a-ecf8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d593-b7e3-c3b0-05cc" name="New CategoryLink" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="true"/>
+        <categoryLink id="64e2-f160-4abd-c73f" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e0d7-d60e-67ba-df64" name="Commander (Vehicle)" hidden="false" collective="false" targetId="48d2-4f0d-5080-4df6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3e97-e3a7-8245-c10f" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="7586-9863-aa50-8d7a" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="979a-2011-5683-27b4" name="Commander II (Vehicle)" hidden="false" collective="false" targetId="69c1-1f24-5df5-6f21" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9f67-ce7c-66fe-0cb0" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="830b-0d47-b6c9-397d" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="015f-3fee-06aa-71ba" name="Courier (Vehicle) T" hidden="false" collective="false" targetId="ddc2-55dd-2367-7d2a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ab32-2b0f-f293-7d47" name="New CategoryLink" hidden="false" targetId="1d06-4927-dd43-4a3a" primary="true"/>
+        <categoryLink id="a9cb-89ae-9ef5-9338" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1840-9391-3fc7-e40d" name="Courier (Vehicle) T" hidden="false" collective="false" targetId="ddc2-55dd-2367-7d2a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a323-779e-dff9-b3bf" name="New CategoryLink" hidden="false" targetId="af15-a901-2d26-266b" primary="true"/>
+        <categoryLink id="d329-e459-6fa6-802f" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="88d2-1b9d-19d9-77b2" name="Cyclops (CAV)" hidden="false" collective="false" targetId="7455-6014-7f23-1618" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f22b-35cb-ea98-d84e" name="New CategoryLink" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="true"/>
+        <categoryLink id="ad84-dfde-8aff-6917" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f5e9-47b6-263c-f5f8" name="Dervish (CAV)" hidden="false" collective="false" targetId="f713-e6c2-06cf-3b55" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0d6d-166e-b708-c984" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="9f21-523a-0c62-7265" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5c30-141f-bdae-78c1" name="Dragonfly (Recon)" hidden="false" collective="false" targetId="c8d8-fcaf-dd57-f8aa" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8e68-fa35-34e2-ee06" name="New CategoryLink" hidden="false" targetId="ff2a-fd2f-1e39-3883" primary="true"/>
+        <categoryLink id="fb6c-b949-8831-44d0" name="Recon" hidden="false" targetId="3bd6-9cfb-0450-720a" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="107e-c0e2-6774-91ad" name="Dragoon (Vehicle)" hidden="false" collective="false" targetId="aadd-2610-306d-365e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8c34-6712-2b12-0e68" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="7315-e66d-95ec-7287" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1ac9-c434-0929-cb1f" name="Eagle (Attack)" hidden="false" collective="false" targetId="3781-29ea-baa3-5b24" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1f24-1f8d-6299-f435" name="New CategoryLink" hidden="false" targetId="ff2a-fd2f-1e39-3883" primary="true"/>
+        <categoryLink id="997c-6068-1c5d-94c5" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7f25-ae85-5199-8ebf" name="Enforcer (CAV)" hidden="false" collective="false" targetId="dba8-9da2-af58-52ac" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7c8e-39f6-4783-a3b6" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="68cd-680e-f75d-b023" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ce5d-6510-bc3b-4822" name="Hornet (Vehicle)" hidden="false" collective="false" targetId="1bb9-ef5f-f70e-35b0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5b29-ed01-d1bb-cbc2" name="New CategoryLink" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="true"/>
+        <categoryLink id="004e-98f4-4ecd-b48a" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="632b-e9d6-fc45-0bf9" name="Javelin (CAV)" hidden="false" collective="false" targetId="1978-dd42-b7fd-4a7f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1236-32fd-094c-b201" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+        <categoryLink id="e202-7d4a-9bc2-848b" name="New CategoryLink" hidden="false" targetId="3bd6-9cfb-0450-720a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6730-541e-6e90-24db" name="Kestral (CAV)" hidden="false" collective="false" targetId="4958-0908-5fb3-df9d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c1e7-ffbb-affd-36c5" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="c429-1972-a4d4-9eeb" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="df1f-4509-f64a-b277" name="Mantis (CAV)" hidden="false" collective="false" targetId="5214-faab-0220-bf32" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="818e-94d9-2ef5-1a72" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="8c68-1b15-aa7a-a12a" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="eee2-16cf-f2a8-5f5e" name="Ogre (CAV)" hidden="false" collective="false" targetId="4528-f4b1-1feb-b02b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2314-3734-3f14-132a" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="4429-8eef-092b-8282" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8079-fd12-9910-f857" name="Ogre II (CAV)" hidden="false" collective="false" targetId="e3d4-8a63-2cb6-d31a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4275-44df-3f40-64e0" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="2b8a-89f3-f673-c8d0" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d1f3-ef80-3876-1730" name="Overlord (Attack)" hidden="false" collective="false" targetId="f78d-c793-5d11-338e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9eba-3752-6a77-03df" name="New CategoryLink" hidden="false" targetId="ff2a-fd2f-1e39-3883" primary="true"/>
+        <categoryLink id="8153-3cb2-e10c-8c3b" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="db78-5835-c531-d5cb" name="Scarab (Vehicle)" hidden="false" collective="false" targetId="f7a2-c31c-eede-d4d3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c768-2ffe-38fd-12bc" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="fdea-4cca-cfcf-e76f" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4d4d-5af6-89f4-a5d4" name="Sultan (CAV)" hidden="false" collective="false" targetId="2dab-c4bc-cc9f-e935" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="00b8-281a-01ea-14ba" name="New CategoryLink" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="true"/>
+        <categoryLink id="547e-d624-c942-414e" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4205-0be9-378b-8973" name="Wyvern (CAV)" hidden="false" collective="false" targetId="3ff5-5d51-d84c-ff2c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="81ab-0dd0-3e0d-0d30" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="a3ef-0f14-7acf-8df0" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="4c12-8eb0-91e3-c73f" name="Bishop (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="283.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ad1c-05cf-d7aa-1391" name="Bishop II (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="366.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6876-caad-0b45-2872" name="Centipede (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="99.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e66f-e436-382b-5628" name="Challenger (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="611.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f002-6bc8-2089-bab7" name="Chancellor (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="790.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b2a7-099c-af19-5c8e" name="Chieftain (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="169.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5057-994f-bf4a-ecf8" name="Chimera (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="379.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="48d2-4f0d-5080-4df6" name="Commander (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="479.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="69c1-1f24-5df5-6f21" name="Commander II (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="469.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ddc2-55dd-2367-7d2a" name="Courier (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7455-6014-7f23-1618" name="Cyclops (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="878.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f713-e6c2-06cf-3b55" name="Dervish (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="204.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c8d8-fcaf-dd57-f8aa" name="Dragonfly (Recon)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="111.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aadd-2610-306d-365e" name="Dragoon (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="398.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3781-29ea-baa3-5b24" name="Eagle (Attack)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="156.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dba8-9da2-af58-52ac" name="Enforcer (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="1216.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1bb9-ef5f-f70e-35b0" name="Hornet (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="244.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1978-dd42-b7fd-4a7f" name="Javelin (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="268.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4958-0908-5fb3-df9d" name="Kestral (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="224.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5214-faab-0220-bf32" name="Mantis (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="573.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4528-f4b1-1feb-b02b" name="Ogre (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="834.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e3d4-8a63-2cb6-d31a" name="Ogre II (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="1025.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f78d-c793-5d11-338e" name="Overlord (Attack)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="302.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f7a2-c31c-eede-d4d3" name="Scarab (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="209.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2dab-c4bc-cc9f-e935" name="Sultan (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="578.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3ff5-5d51-d84c-ff2c" name="Wyvern (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="401.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
