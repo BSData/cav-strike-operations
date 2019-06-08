@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="9c33-64ab-9927-c143" name="Mercenary/Pirate/Independent" revision="1" battleScribeVersion="2.02" library="false" gameSystemId="1c60-fd57-cb2f-e952" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="0417-7c06-cbf0-5465" name="Ammit (Vehicle)" hidden="false" collective="false" targetId="38e2-8c37-6172-9406" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="32dc-323d-b260-3f82" name="New CategoryLink" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="true"/>
+        <categoryLink id="2690-d5ae-df07-fe41" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d64d-12f3-8237-77a1" name="Anhur (CAV)" hidden="false" collective="false" targetId="3c15-7539-fb82-f35d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7a4d-1fbc-77ce-7c11" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="6eb3-da6c-3961-79f0" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0941-d2ec-6fac-4073" name="Horus (Vehicle)" hidden="false" collective="false" targetId="c57e-892e-ad46-0d92" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2240-952c-0a52-1cac" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="bf6b-aa48-62f7-8d26" name="Vehicle" hidden="false" targetId="6246-d585-0ebf-f1e9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="86f3-b958-ae56-18fb" name="Serket (CAV)" hidden="false" collective="false" targetId="a40d-af4b-8afd-cdd0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="cb8c-132a-d1a9-62e7" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="2409-f21c-4744-8579" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="38e2-8c37-6172-9406" name="Ammit (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="169.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3c15-7539-fb82-f35d" name="Anhur (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="355.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c57e-892e-ad46-0d92" name="Horus (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="169.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a40d-af4b-8afd-cdd0" name="Serket (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="160.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink id="c60b-2c31-6f56-cd55" name="Adon" targetId="089f-cb52-ea5c-b448" type="catalogue"/>
+    <catalogueLink id="eae5-4c80-0e95-0d9a" name="Almirithil" targetId="240e-41ef-b571-2e40" type="catalogue"/>
+    <catalogueLink id="fc63-9e81-5d00-42dd" name="Malvernis" targetId="5432-fafd-a759-1f95" type="catalogue"/>
+    <catalogueLink id="e030-9f74-41d0-6efc" name="Rach" targetId="5eda-6e85-6e3a-0059" type="catalogue"/>
+    <catalogueLink id="9aa0-f7f1-1210-bf91" name="Ritterlich" targetId="2e9e-a2a9-29e3-e7f5" type="catalogue"/>
+    <catalogueLink id="8c7e-f1dc-6965-dc37" name="Templar" targetId="fb07-a5b5-755d-c205" type="catalogue"/>
+    <catalogueLink id="84b3-8a48-d7e9-6c45" name="Terran" targetId="3713-e893-933c-28d4" type="catalogue"/>
+  </catalogueLinks>
+</catalogue>
