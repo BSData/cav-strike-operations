@@ -3732,6 +3732,9 @@
             <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6246-d585-0ebf-f1e9" type="instanceOf"/>
             <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ff2a-fd2f-1e39-3883" type="instanceOf"/>
           </conditions>
+          <conditionGroups>
+            <conditionGroup type="or"/>
+          </conditionGroups>
         </modifier>
         <modifier type="increment" field="c890-7a16-f974-2f7d" value="5.0">
           <repeats>
