@@ -219,6 +219,10 @@
     </categoryEntry>
     <categoryEntry id="8d8e-b952-cb61-6b2a" name="ECM" hidden="false"/>
     <categoryEntry id="800e-00d3-5890-31c7" name="APA" hidden="false"/>
+    <categoryEntry id="f45b-544e-11fc-45f1" name="Power Armor" hidden="false"/>
+    <categoryEntry id="c57a-91e3-1de0-d98f" name="LA Infantry" hidden="false"/>
+    <categoryEntry id="b68e-370a-3a0a-74fd" name="New CategoryEntry" hidden="false"/>
+    <categoryEntry id="fe77-3a6f-abc3-bebc" name="HA Infantry" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="ee2b-3982-f939-02bf" name="Attack Squad (Primary)" hidden="false">
@@ -547,6 +551,7 @@
         <categoryLink id="5d0e-43d6-f0d5-1db2" name="New CategoryLink" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="true"/>
         <categoryLink id="8b8a-38bb-5026-f7ec" name="Fire Support" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="false"/>
         <categoryLink id="11a9-a341-ada2-62c7" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
+        <categoryLink id="bc1d-c5e9-4879-8724" name="HA Infantry" hidden="false" targetId="fe77-3a6f-abc3-bebc" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="9b5a-b8ed-60b2-bc27" name="Light Infantry Medium Mortar" hidden="false" collective="false" targetId="1374-5159-29ce-ab88" type="selectionEntry">
@@ -554,6 +559,7 @@
         <categoryLink id="83d5-e0bf-eb99-a85c" name="New CategoryLink" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="true"/>
         <categoryLink id="8ca9-9f1f-c641-0c94" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
         <categoryLink id="2e50-910f-cf92-a39a" name="Fire Support" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="false"/>
+        <categoryLink id="735d-3a87-9e8f-c8a0" name="LA Infantry" hidden="false" targetId="c57a-91e3-1de0-d98f" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7d9d-3079-c09d-2ccc" name="Powered Armor Infantry Light Mortar" hidden="false" collective="false" targetId="edf7-bbe8-f5b1-504d" type="selectionEntry">
@@ -561,6 +567,7 @@
         <categoryLink id="4b22-76f9-2e43-3bde" name="New CategoryLink" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="true"/>
         <categoryLink id="3ee5-9700-3045-d0b0" name="Mortar" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="false"/>
         <categoryLink id="15c3-94a0-df4b-bbd7" name="Fire Support" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="false"/>
+        <categoryLink id="5368-3898-1371-b392" name="Power Armor" hidden="false" targetId="f45b-544e-11fc-45f1" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e3ca-2261-3223-f8c0" name="Powered Armor Infantry Medium Mortar" hidden="false" collective="false" targetId="451a-c9ba-d933-3d23" type="selectionEntry">
@@ -568,6 +575,7 @@
         <categoryLink id="a97c-e1d1-ed03-d2f7" name="New CategoryLink" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="true"/>
         <categoryLink id="44c3-6b99-7d9f-7135" name="Mortar" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="false"/>
         <categoryLink id="385f-393e-386e-91d2" name="Fire Support" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="false"/>
+        <categoryLink id="863e-bc34-071c-9ecb" name="Power Armor" hidden="false" targetId="f45b-544e-11fc-45f1" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e914-42d1-844a-a078" name="Simba (CAV) (Quad)" hidden="false" collective="false" targetId="485a-3171-655f-9fd5" type="selectionEntry">
@@ -580,18 +588,21 @@
       <categoryLinks>
         <categoryLink id="2775-df24-a66e-f612" name="New CategoryLink" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="true"/>
         <categoryLink id="1f6d-06a7-ad8b-3d4a" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+        <categoryLink id="709b-68c6-106a-358e" name="Power Armor" hidden="false" targetId="f45b-544e-11fc-45f1" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="3329-a143-b5b5-bf80" name="Light Infantry Rifle" hidden="false" collective="false" targetId="006d-3f63-2c9a-b48e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="90e3-54e7-3e1a-c010" name="New CategoryLink" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="true"/>
         <categoryLink id="898a-1a49-905d-fe04" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+        <categoryLink id="1edf-e247-56df-dd1d" name="LA Infantry" hidden="false" targetId="c57a-91e3-1de0-d98f" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4ab8-7b3d-9a02-7f9d" name="Heavy Infantry Rifle" hidden="false" collective="false" targetId="77db-89bc-b282-594b" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="1bb3-8d25-6d58-d430" name="New CategoryLink" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="true"/>
         <categoryLink id="34f0-2e36-2ff5-3965" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+        <categoryLink id="6ac1-fce8-7a2c-19d5" name="HA Infantry" hidden="false" targetId="fe77-3a6f-abc3-bebc" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="47c6-ef7b-fbbc-2bc6" name="Light Infantry Light Mortar" hidden="false" collective="false" targetId="e553-6172-3d00-47d2" type="selectionEntry">
@@ -599,6 +610,7 @@
         <categoryLink id="cfec-3b30-7f23-9c55" name="New CategoryLink" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="true"/>
         <categoryLink id="b169-b93a-5f31-35d4" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
         <categoryLink id="1639-8f3e-0c29-64c4" name="Fire Support" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="false"/>
+        <categoryLink id="0c8d-2faa-d767-7c6c" name="LA Infantry" hidden="false" targetId="c57a-91e3-1de0-d98f" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e787-d082-45bd-752a" name="Ripper (Vehicle)" hidden="false" collective="false" targetId="b090-b96a-e201-a337" type="selectionEntry">
@@ -614,11 +626,24 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="972a-4460-a6fe-7e6f" name="Heavy Infantry Light Mortar" hidden="false" collective="false" targetId="e087-d397-5e0a-0a9a" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c57a-91e3-1de0-d98f" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f45b-544e-11fc-45f1" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="e642-42fb-b5e4-4ecb" name="New CategoryLink" hidden="false" targetId="a78a-d27f-ce48-62b1" primary="true"/>
         <categoryLink id="8014-1677-e58f-5b87" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
         <categoryLink id="6155-9db1-fd1d-c4b0" name="Mortar" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="false"/>
         <categoryLink id="ad86-6a8c-5496-8dd5" name="Fire Support" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="false"/>
+        <categoryLink id="6bb1-e3eb-3924-094f" name="HA Infantry" hidden="false" targetId="fe77-3a6f-abc3-bebc" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a4e8-3aa8-b109-3b5c" name="Heavy Infantry Medium Mortar" hidden="false" collective="false" targetId="72ce-36b4-4ee1-ceb8" type="selectionEntry">
@@ -627,6 +652,7 @@
         <categoryLink id="9413-6610-3a34-1b8b" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
         <categoryLink id="bd5d-6b90-a165-745a" name="Mortar" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="false"/>
         <categoryLink id="8502-9c5f-7d87-5795" name="Fire Support" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="false"/>
+        <categoryLink id="e2e3-d3bd-48d5-3020" name="HA Infantry" hidden="false" targetId="fe77-3a6f-abc3-bebc" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a872-38e5-50b2-4ec0" name="Heavy Infantry Rifle" hidden="false" collective="false" targetId="77db-89bc-b282-594b" type="selectionEntry">
@@ -634,6 +660,7 @@
         <categoryLink id="0749-7228-60ed-916f" name="New CategoryLink" hidden="false" targetId="a78a-d27f-ce48-62b1" primary="true"/>
         <categoryLink id="1fef-7f51-f53f-e9af" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
         <categoryLink id="78bf-24bc-2aa2-1e5e" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+        <categoryLink id="d0f0-7a03-76ca-68cc" name="HA Infantry" hidden="false" targetId="fe77-3a6f-abc3-bebc" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5e90-3d33-3f1d-e89e" name="Light Infantry Light Mortar" hidden="false" collective="false" targetId="e553-6172-3d00-47d2" type="selectionEntry">
@@ -642,6 +669,7 @@
         <categoryLink id="4e2f-0f0e-e261-ba47" name="Mortar" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="false"/>
         <categoryLink id="67f0-898c-30f9-a791" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
         <categoryLink id="8255-8cdf-e0c3-208d" name="Fire Support" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="false"/>
+        <categoryLink id="62df-d361-32af-1ade" name="LA Infantry" hidden="false" targetId="c57a-91e3-1de0-d98f" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e0c3-a993-dbca-5f83" name="Light Infantry Medium Mortar" hidden="false" collective="false" targetId="1374-5159-29ce-ab88" type="selectionEntry">
@@ -650,6 +678,7 @@
         <categoryLink id="48b7-ff64-462a-20ca" name="Mortar" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="false"/>
         <categoryLink id="c58d-faa5-6870-726c" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
         <categoryLink id="4cfc-a7b9-fecc-322a" name="Fire Support" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="false"/>
+        <categoryLink id="0205-b096-0ee0-7ad4" name="LA Infantry" hidden="false" targetId="c57a-91e3-1de0-d98f" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="2070-5934-598c-378b" name="Light Infantry Rifle" hidden="false" collective="false" targetId="006d-3f63-2c9a-b48e" type="selectionEntry">
@@ -657,6 +686,7 @@
         <categoryLink id="79c1-b63a-1fff-b774" name="New CategoryLink" hidden="false" targetId="a78a-d27f-ce48-62b1" primary="true"/>
         <categoryLink id="f321-b92a-9872-8e55" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
         <categoryLink id="6786-38e1-6337-6bb4" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+        <categoryLink id="f928-69f1-8548-f441" name="LA Infantry" hidden="false" targetId="c57a-91e3-1de0-d98f" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1a60-b55b-e667-64e1" name="Powered Armor Infantry Light Mortar" hidden="false" collective="false" targetId="edf7-bbe8-f5b1-504d" type="selectionEntry">
@@ -665,6 +695,7 @@
         <categoryLink id="a7f7-0855-843b-9450" name="Mortar" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="false"/>
         <categoryLink id="57a9-59d9-b48c-8297" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
         <categoryLink id="3d48-3ebd-b86f-7b7f" name="Fire Support" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="false"/>
+        <categoryLink id="9445-7093-a89e-bfeb" name="Power Armor" hidden="false" targetId="f45b-544e-11fc-45f1" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1f72-1b60-cc63-79e4" name="Powered Armor Infantry MAR" hidden="false" collective="false" targetId="a9b9-933d-fc6f-fc9e" type="selectionEntry">
@@ -672,6 +703,7 @@
         <categoryLink id="c767-3e4f-4850-1779" name="Mechanized Infantry" hidden="false" targetId="a78a-d27f-ce48-62b1" primary="true"/>
         <categoryLink id="46c0-7e77-6960-b4ab" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
         <categoryLink id="3673-aeed-de37-c4e6" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+        <categoryLink id="ddb5-ef03-6785-1da1" name="Power Armor" hidden="false" targetId="f45b-544e-11fc-45f1" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="dd61-93de-d654-cb81" name="Powered Armor Infantry Medium Mortar" hidden="false" collective="false" targetId="451a-c9ba-d933-3d23" type="selectionEntry">
@@ -680,6 +712,7 @@
         <categoryLink id="8d7f-9862-cdb1-c10d" name="Mortar" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="false"/>
         <categoryLink id="6c57-73d2-9d89-abb3" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
         <categoryLink id="b8a6-a2f2-f426-4b08" name="Fire Support" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="false"/>
+        <categoryLink id="3624-9bce-d4a5-60ae" name="Power Armor" hidden="false" targetId="f45b-544e-11fc-45f1" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="90ae-d6f8-1a7b-85db" name="Devastator (CAV) (Quad)" hidden="false" collective="false" targetId="af20-df59-01f1-a24e" type="selectionEntry">
@@ -709,6 +742,7 @@
         <categoryLink id="cb5b-ceb4-eba1-4b43" name="New CategoryLink" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="true"/>
         <categoryLink id="337c-683b-78ac-70ad" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
         <categoryLink id="48de-cb4e-fd98-fe43" name="Fire Support" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="false"/>
+        <categoryLink id="23a8-4676-95a5-85d5" name="HA Infantry" hidden="false" targetId="fe77-3a6f-abc3-bebc" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="b4b6-6b18-4b02-8b55" name="Simba (CAV) (Quad)" hidden="false" collective="false" targetId="485a-3171-655f-9fd5" type="selectionEntry">
@@ -741,6 +775,36 @@
     <entryLink id="768b-dbc9-88d8-c72e" name="Bunkers" hidden="false" collective="false" targetId="20b9-525a-688d-dfbe" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="5bdb-c1c0-ab46-5b5d" name="New CategoryLink" hidden="false" targetId="c73f-4c3b-962c-fe3f" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a186-abe5-f0db-80f7" name="Powered Armor Infantry ATM" hidden="false" collective="false" targetId="57b7-208e-cd00-3e8d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3e9e-6e48-60ba-611a" name="New CategoryLink" hidden="false" targetId="a78a-d27f-ce48-62b1" primary="true"/>
+        <categoryLink id="48a4-15b5-8256-ec2d" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+        <categoryLink id="2ef4-cf39-2cc1-e75a" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
+        <categoryLink id="d58a-5828-1580-79e5" name="Power Armor" hidden="false" targetId="f45b-544e-11fc-45f1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="be85-2212-7199-e1b1" name="Powered Armor Infantry ATM" hidden="false" collective="false" targetId="57b7-208e-cd00-3e8d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="adb8-1ec6-1e7a-91ce" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+        <categoryLink id="92d9-73aa-3593-e3e9" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="true"/>
+        <categoryLink id="3b17-92f0-7730-2dcb" name="Power Armor" hidden="false" targetId="f45b-544e-11fc-45f1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f85f-32ee-3441-72a0" name="Powered Armor Infantry SAM" hidden="false" collective="false" targetId="750b-3f3c-c8dd-af8c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a164-e393-293f-baed" name="Mechanized Infantry" hidden="false" targetId="a78a-d27f-ce48-62b1" primary="true"/>
+        <categoryLink id="7a7c-6de8-8dbb-6ed1" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
+        <categoryLink id="7fa9-92bf-d606-8e01" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+        <categoryLink id="01fd-25ff-1fd7-3ee1" name="Power Armor" hidden="false" targetId="f45b-544e-11fc-45f1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d30a-e881-7a99-2483" name="Powered Armor Infantry SAM" hidden="false" collective="false" targetId="750b-3f3c-c8dd-af8c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="cd70-75f1-22ce-6554" name="New CategoryLink" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="true"/>
+        <categoryLink id="b52e-a8bf-bb40-7e08" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+        <categoryLink id="ec74-ea23-7f63-1e26" name="Power Armor" hidden="false" targetId="f45b-544e-11fc-45f1" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -916,7 +980,18 @@
             <entryLink id="51fc-887c-8112-7e08" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
             <entryLink id="c824-1684-cb35-8cf1" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
             <entryLink id="efc4-3e4d-d63e-36e7" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="5562-7f9d-1682-95ec" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="6704-da7a-702f-ec4e" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="aaa9-c51e-348a-830b" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="36a3-b397-18dc-1a05" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaa9-c51e-348a-830b" type="min"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="2a47-a455-d166-ca99" name="Weapon Upgrades" hidden="false" collective="false">
@@ -1150,7 +1225,18 @@
             <entryLink id="0bb2-0534-7a92-3425" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
             <entryLink id="f9b0-875f-f0cd-3047" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
             <entryLink id="5fb1-c5c1-7e49-7134" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="8d6f-3f26-5e2d-5f4e" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="37e1-ed07-694a-f4dc" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="e436-4b03-ab5a-b2a5" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="36a3-b397-18dc-1a05" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e436-4b03-ab5a-b2a5" type="min"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="2f57-12fb-9cff-60cd" name="Weapon Upgrades" hidden="false" collective="false">
@@ -1263,29 +1349,40 @@
             <entryLink id="da86-d95a-5989-9d4f" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="7e8b-7634-2ce5-06b8" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="aaf9-63a2-ae4d-0d66" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="d7a8-7a4a-b9d9-09d8" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="c9a6-3c35-9846-d15d" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="43c7-ec46-f709-eec0" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="138b-3451-9565-8b89" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="58be-27d8-27d5-a901" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="de3b-53b3-05de-6c32" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="b8b6-f3d3-b8b1-1e2f" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="cb3f-a1e4-3795-ea07" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="02a8-d523-b846-e3ce" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="82db-ee80-6ced-467e" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="9d33-9bdc-982f-f8f7" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="1a5b-72d0-f262-f50a" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="5eff-471a-f6e0-9417" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="6bac-df8a-3d65-ddd8" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="8986-53ce-76c0-d3ed" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="d51d-9c14-36a2-e193" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="187c-5a12-6e48-5399" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="5375-8b71-df7f-930d" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="14d1-395d-8e6e-fbd4" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="2a4f-6980-5fa4-01d7" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="590e-f094-8aff-44de" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="2d63-d8f0-cb77-f403" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="4e1c-1fa0-8840-f955" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="df56-43d7-35e3-9933" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="b580-cc95-eb28-d593" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="09f4-3048-005c-500d" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="e136-fca3-060c-a527" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="f438-90f3-660c-41f8" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="2336-394b-939b-f86a" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="d17d-cf37-c0cb-9755" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="ceaf-f69a-31ca-0e52" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="36a3-b397-18dc-1a05" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ceaf-f69a-31ca-0e52" type="min"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1325,29 +1422,40 @@
             <entryLink id="e37f-ce72-88d0-4177" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="9fa6-ad8c-e118-c607" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="9256-f3ff-d90f-1f16" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="885c-3936-16ea-758c" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="d1c3-ff8e-21fc-11da" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="090a-2f24-1c38-c0fd" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="0c49-6b39-53ed-0bec" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="489d-912f-be03-865a" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="1936-75a2-201e-af33" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="6fb2-d58f-e672-2905" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="260e-d6f1-11a3-23af" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="8438-376a-62ac-0248" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="4bd0-513b-29fb-5326" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="f253-7f74-1b0b-caa4" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="5252-e225-94ed-0213" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="fb9b-c7c3-c6fb-bc4d" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="3dcc-0f59-fb9e-81aa" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="c383-5a62-e40d-722a" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="b36e-bc86-4984-c12c" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="748f-205b-3e02-a59f" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="d45c-1eac-cd5c-c637" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="a27d-56a9-0926-35f0" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="8288-6188-3f68-61e6" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="09fe-0ac7-bd18-6e0f" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="7961-dcdc-7431-9e64" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="d0f0-54a3-b438-6b52" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="a92e-1a67-0ee5-02a2" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="10de-adce-a947-2fd1" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="2946-c7ab-f21b-2885" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="08da-a317-3952-2800" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="9ae9-e7c8-e936-5882" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="ed10-e989-6e76-0aef" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="7c6c-47b1-c39f-9aa2" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="2578-920d-7dc4-bdf1" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="36a3-b397-18dc-1a05" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2578-920d-7dc4-bdf1" type="min"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1387,29 +1495,40 @@
             <entryLink id="2231-886f-661b-4ddb" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="fa9c-219b-0bcb-124d" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="d071-95d7-7499-4837" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="e249-4f1e-b022-a783" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="4dfd-3110-51a6-838b" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="500d-b421-58aa-35e1" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="9752-0658-c04b-040c" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="71f6-bd24-34b5-5c49" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="849d-86f5-e88f-6a7b" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="0483-27e1-0d1b-2ec7" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="3c69-b77d-b09c-e3df" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="bd0b-0fe4-d76e-f596" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="034e-0002-0983-a440" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="4875-56eb-e9d1-0da8" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="a60b-3d97-15b7-c0c4" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="7651-75dc-51b1-d859" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="169e-7750-135e-1c28" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="e5bb-c2ef-31e7-3cce" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="fe53-6e1d-d180-e0e1" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="6563-f91e-b8c7-6db2" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="e995-2b78-a38d-5cd5" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="fb21-105c-0635-a82e" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="a037-17ac-7e28-0ad3" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="8534-107e-e550-2a1e" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="40b9-224a-3dcf-8ff9" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="7534-a891-eb46-3ca2" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="5a40-0151-12e8-a778" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="ef6d-352a-42a3-4ee1" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="706f-a564-52fd-87e9" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="4289-606b-5acc-3788" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="0273-e77b-e01d-2a88" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="6b19-dbd2-cc68-6504" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="5dd9-05b0-c788-d6de" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="d4ca-0dfc-14e5-419c" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="36a3-b397-18dc-1a05" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4ca-0dfc-14e5-419c" type="min"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1449,29 +1568,40 @@
             <entryLink id="eb34-d474-78f1-e00b" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="32fb-0990-c8c6-255d" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="b363-dc7c-4b37-6b99" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="ebea-e800-672e-2ec6" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="c3f6-e287-0f33-e722" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="85a3-401f-3c69-2cdc" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="fd01-4c63-a0d9-1230" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="2dc9-6bf4-0f25-fce5" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="b622-eabb-b477-b00e" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="1aca-dff1-7978-5104" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="d6a3-a861-b039-8c8b" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="0a26-2cf6-4354-bd6d" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="0911-7497-5466-29a5" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="7b4e-9bd8-230e-6ca2" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="a601-91f0-e911-3a07" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="9c57-d488-e86b-374c" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="1ace-3b5a-5133-e446" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="f3b8-74e2-6596-6b5d" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="50e7-74ae-2a88-df61" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="0af6-ce8c-60d6-d5b9" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="b88e-6936-cd3a-3f0f" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="2ab5-c2e2-cb33-1ee5" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="250f-dc88-20a0-ef8f" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="bc7d-3ee5-2abe-1a3c" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="f0dc-799c-93cf-9ae9" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="3579-f518-cdcd-2303" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="32de-5f1c-68bc-dbec" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="f3ce-8f23-c9ce-2089" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="4518-c2db-1c54-7eb2" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="443e-ad93-e20e-46b8" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="8387-f4ce-159e-7705" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="60aa-6cbb-8baf-0a52" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="e2f8-5734-3f5f-1f7d" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="ecb6-fbf5-68db-f760" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="36a3-b397-18dc-1a05" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecb6-fbf5-68db-f760" type="min"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1511,29 +1641,40 @@
             <entryLink id="e1ef-f1f5-ecc9-804d" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="af20-2c07-a3c4-5ad6" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="6e2e-fa65-236c-cbce" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="f5ab-7508-a35b-f9ac" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="cb2a-1449-4162-7572" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="19cf-9b4d-e844-6d30" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="4003-7737-fea6-65c8" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="6511-d0a9-1dbe-b27f" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="25e2-18ad-3e48-2fb1" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="7e4a-61f8-d281-8ec9" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="10ff-4c82-96d7-58a0" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="afbf-3cdf-c90f-0ea8" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="b156-9184-d951-bcd7" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="3873-1452-3d40-5d90" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="b9c8-d618-d7cc-c712" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="9e86-5be7-01c2-60e1" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="2852-cd6f-8200-3e82" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="91fc-5f09-bd69-af03" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="95ae-5ba2-551a-a09e" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="c7e9-27af-e3ab-2d71" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="895b-8b28-78fa-b453" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="9f5b-7984-ef3c-0c6e" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="9c4b-301c-6a08-6c6c" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="b7e6-52ed-c76d-c4cf" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="7d1d-cd68-11da-2256" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="18f5-54f7-3f18-49fa" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="3701-ea2f-b4f4-67ec" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="02f2-ee78-794f-93cb" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="12c8-a666-d496-94fe" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="10f5-6830-b72b-738e" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="6c12-9aef-5a3c-9746" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="8530-fe2b-a680-e878" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="cdb9-3106-9400-ad22" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="63a1-c89d-9511-1f23" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="36a3-b397-18dc-1a05" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63a1-c89d-9511-1f23" type="min"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1573,29 +1714,40 @@
             <entryLink id="916c-3b25-11ab-1798" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="548a-b306-3556-413c" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="3676-4e25-2472-1308" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="8b9a-73df-527c-d4f9" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="e134-a6ac-fb49-b65c" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="ed8f-17fb-998a-7aa3" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="56a6-9aef-5667-5d69" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="82a6-55ba-9137-71c8" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="34e3-ba37-e828-9f14" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="56b9-1db8-f84f-957f" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="a1a7-fdaf-2b2b-e382" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="e960-3979-0401-ac57" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="5eaa-c74d-5113-f4d0" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="6d16-62c7-f479-e535" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="8ea9-f4f8-44d1-5ce6" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="7e0f-613a-1664-68be" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="5319-1a03-9190-bb61" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="903a-e72e-7334-4084" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="3c02-57de-170f-31e5" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="3178-0255-0317-d108" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="789c-a308-df3a-202d" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="0931-8b8b-4cd2-2cd0" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="1a61-c027-ffd4-d4d8" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="4d6a-7fcb-4820-ca02" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="00de-e9be-42c4-8b9e" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="874f-e0ce-3d4a-9b83" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="aa05-da72-aaf3-5a27" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="c92f-0852-5fb3-42ff" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="09e0-894b-9b6f-616c" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="1722-a312-4d7b-f93d" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="bed4-9c2b-89a0-fe96" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="8873-5799-10df-ede1" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="0549-f146-9446-0f5c" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="bb59-6b15-4c77-c11e" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="36a3-b397-18dc-1a05" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb59-6b15-4c77-c11e" type="min"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1635,29 +1787,40 @@
             <entryLink id="fcb2-71cb-ae76-a2de" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4ce6-aa7d-bc4f-36ab" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="9ece-9f5b-22c2-6627" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="cd61-507f-2735-5a05" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="6a05-56fc-08a2-479d" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="122c-9a52-2345-0859" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="dcb1-fc9e-d4dd-34c9" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="ab4e-83fd-35ec-529b" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="ae65-84fc-2585-18f1" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="c280-1e7e-06d1-50a5" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="4684-7bc9-c7ca-2416" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="0000-eb01-fd5f-ad31" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="0258-db31-29c6-f6bd" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="280e-27a9-313f-4dbc" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="b70f-78d2-ea62-8da9" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="0cc0-eda8-158b-2a7a" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="a9da-7192-3989-5a20" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="d269-e589-873c-965e" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="6e34-c389-78bf-4298" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="1ea5-bb4d-9090-6086" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="f62c-647a-e109-de21" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="e948-d351-f2ba-b50c" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="a58a-43c9-0704-2149" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="77ed-72a9-64f6-6e84" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="db9e-15c9-b10d-c065" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="8abe-9bba-0bc3-1de6" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="c389-d3ed-ce31-71d9" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="2015-75e5-3fb0-8d8c" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="36e6-b764-bc48-5b5f" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="edb8-3f5e-983c-6187" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="990f-8817-eca6-0287" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="c30f-6aa9-06f4-1436" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="d6a9-4cc5-5137-e13c" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="352d-688e-6ed5-e4f7" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="36a3-b397-18dc-1a05" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="352d-688e-6ed5-e4f7" type="min"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1697,29 +1860,40 @@
             <entryLink id="e0d2-e940-a6d1-8709" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4349-9486-bcfc-b70d" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="0488-c842-cd07-4356" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="3f8e-fd6f-ec3b-e102" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="551e-9bb4-350e-b30b" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="8272-f88e-6975-f319" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="20a7-3694-4617-6307" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="5eff-2ae8-1717-9238" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="6b6a-c739-17ed-8d86" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="ddc4-f408-4f87-d664" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="e14d-64e4-9d73-0b90" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="59f0-3990-aa5b-ed5f" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="78f8-d41f-b94b-d18b" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="0f12-6da8-9fcb-0d00" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="0a4b-94ea-c5b9-d63c" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="7638-ae7d-3038-53dd" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="135b-3ce5-40af-f6ee" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="c1fa-5d01-b376-7708" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="385c-d5a3-df3f-0d5f" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="5560-d4b5-f1df-f74f" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="953f-fbe9-93fc-e7f1" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="d6e4-aa85-0b3e-4961" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="6ba5-cddc-a949-76b5" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="b077-d2e6-1ca3-b5c1" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="5e35-580c-7622-acd0" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="1145-bb97-766a-15f0" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="c4b0-730d-a97b-2508" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="37a9-c4a9-fb64-c22a" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="eb5e-130a-152d-30e4" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="bb1b-03af-14b9-822c" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="1731-f5b5-794e-421e" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="bb0d-f748-072f-ea21" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="371e-0e29-e715-06f0" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="245b-0b53-f567-a6cb" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="36a3-b397-18dc-1a05" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="245b-0b53-f567-a6cb" type="min"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1759,29 +1933,40 @@
             <entryLink id="8856-a6c5-ac7a-202c" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e176-3da6-e068-ea66" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="ed2c-1e2a-ee9f-db44" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="dccc-cc03-1795-b33b" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="02d5-c0c2-d351-84dd" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="1bf7-9b42-1c56-7b86" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="7107-9c9a-44b2-38e1" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="5a1d-c8cc-6215-d58b" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="c8a2-606a-5049-6721" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="e8f8-2a7d-0250-32a4" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="1d25-f633-b743-2031" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="1c8f-1195-0a2f-3fd9" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="1117-8632-0bd5-186b" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="1401-55fb-8750-eac6" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="5ec1-3e3a-e287-61c7" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="0931-256d-e478-af1e" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="6ba9-f14c-fa25-f92f" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="ff21-736a-9ec8-4b2f" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="af98-527e-c93c-9ef4" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="9ce0-454c-bf09-7821" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="aae4-3c03-d9eb-0049" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="04bb-2665-036d-338b" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="de27-f62c-abda-cb33" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="877a-025b-0fb8-bc27" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="b817-faa5-099f-fdcb" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="6dfa-313e-54e3-6937" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="4d61-18e0-4636-e6c8" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="ffa7-c69b-3f98-891f" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="96b6-9b46-50be-77c5" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="ebec-7280-344d-f3fe" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="bfb7-075e-2170-a3e8" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="a6f4-1e8f-c6a9-df85" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="850b-8c5c-2d4d-1561" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="f5a0-7d78-21ce-b48e" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="36a3-b397-18dc-1a05" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5a0-7d78-21ce-b48e" type="min"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1821,29 +2006,40 @@
             <entryLink id="6255-9fac-e724-adc7" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8d18-d10b-139a-730c" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="f03b-f8a5-c297-c136" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="6724-84a1-9dda-7d51" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="6993-43c7-8495-a1e3" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="d859-5d99-b39d-c068" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="a98a-e034-a916-befe" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="b6bd-331c-89a5-ab65" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="41e0-56fe-369d-5739" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="c711-9702-5e2c-16a1" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="b109-d6bd-6c68-822f" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="7a26-e164-183d-3968" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="9afb-aeec-24e5-f14c" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="6a19-0499-e132-6701" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="2235-76a3-a647-69c8" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="40bd-18d1-489f-ad25" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="e161-44e4-04a8-41bb" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="5210-a9c7-504c-aff9" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="4952-ab1a-b159-e602" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="3574-e3b6-4595-f34b" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="b274-8975-a7fb-61e1" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="0639-9403-f25e-d900" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="bd8a-9f29-32e8-1410" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="7e0e-1d94-1bde-5165" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="2494-4f8d-508c-1f44" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="1a41-70c9-4dd4-4059" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="f184-f756-e399-ad7b" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="d0c5-2280-6efb-8e85" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="b7b2-638c-adbe-cff6" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="9dda-ebd2-8d2d-2e5a" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="68ea-69a4-560b-79f2" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="e93d-3602-a245-3e81" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="f349-360d-af19-1254" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="5d6d-e4be-ae48-ff8c" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="36a3-b397-18dc-1a05" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d6d-e4be-ae48-ff8c" type="min"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1883,29 +2079,40 @@
             <entryLink id="c8ba-2369-90ba-72eb" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6509-2ccf-e6d8-7be8" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="2c22-880d-6ee2-d0fa" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="f940-bef8-0573-017f" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="7b13-7057-3fab-ddcb" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="467a-ad93-a9b6-78e4" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="0066-f4de-38bb-d427" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="4de2-7ea6-a925-4ec0" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="d9af-86ba-06df-6109" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="1bfa-c84a-79f0-1bd4" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="0d7f-b91d-8581-f0f8" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="8939-52d7-aa78-79ac" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="ab4f-2447-c4ba-a4d9" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="bb3d-cc7b-b04c-600d" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="4530-253b-5380-992f" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="0d81-43e9-9689-2fcb" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="92e6-a2d4-49d5-591d" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="dc36-5489-e28b-4946" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="22a6-712d-6dd1-fd2d" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="e947-3923-f90a-8aaa" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="441c-27f2-6564-d704" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="d4bb-3484-4069-7133" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="c59e-8698-1b7f-e738" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="1f32-3c14-3717-d2a8" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="5816-b4d7-ec9e-7a6e" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="b70b-79cd-da25-e93e" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="0e46-5d81-edf2-b90c" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="55ec-2423-cd6a-6c84" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="3908-fedf-1ede-5f59" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="fd72-62d9-c1cc-843e" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="e7e6-3ee0-bfd2-8465" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="30f2-b340-a2fa-7e7e" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="35c7-891a-05a4-f129" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="9f81-35d8-6d2a-dc1e" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="36a3-b397-18dc-1a05" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f81-35d8-6d2a-dc1e" type="min"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2110,7 +2317,18 @@
             <entryLink id="245a-e8f1-1177-7785" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
             <entryLink id="885e-8dac-c86f-3cd2" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
             <entryLink id="0e2a-3aff-7d8c-4c0e" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="50fe-2247-0b48-542c" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="18b6-c1fd-9024-d660" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="bd48-0e45-00c7-92cd" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="36a3-b397-18dc-1a05" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd48-0e45-00c7-92cd" type="min"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="17c7-cec7-2c1b-9695" name="Weapon Upgrades" hidden="false" collective="false">
@@ -2300,7 +2518,18 @@
             <entryLink id="6009-de10-a0c4-7ea2" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
             <entryLink id="5da7-63a6-72bb-1978" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
             <entryLink id="724f-4ef9-4346-c2ac" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="758c-0a8c-3cc1-a82c" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="758c-0a8c-3cc1-a82c" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="16c2-f0d6-9c83-f662" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="36a3-b397-18dc-1a05" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16c2-f0d6-9c83-f662" type="min"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="d35e-dd7a-34c3-069a" name="Ammo Upgrades" hidden="false" collective="false">
@@ -2415,29 +2644,40 @@
             <entryLink id="c826-e1c5-5b02-37a4" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="628d-edea-da42-7a51" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="22a5-0dfc-2e02-1768" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="8206-f5a5-9eda-9a87" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="6d6d-6399-4642-f0bf" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="f571-0e1f-cd35-38a4" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="35e4-c2c0-6c65-caf6" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="51f3-7aff-9c18-9432" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="7e9b-0fde-290c-e76e" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="ec49-463e-2e8a-099f" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="6014-5793-84e1-ac2f" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="4e08-e3b4-04b4-5228" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="b501-c947-4b66-ef51" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="46e6-a87b-b460-bfb5" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="1fb7-cffe-c6c1-bd3e" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="eccb-d832-8c52-fc83" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="416d-2d03-5c70-329f" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="c1af-0ba4-6816-77fc" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="7310-0b28-8487-b95c" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="8c2a-e941-ab9b-52f7" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="696f-ca6f-da65-c22e" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="9b81-0096-dd13-7710" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="10a2-bf98-38ee-35bc" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="1630-0945-d009-aef8" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="92dd-3ede-f5e8-aa7c" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="d345-9194-7f4f-afd4" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="d428-186e-67a5-73b7" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="fa9a-226d-5021-febd" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="7aed-0004-9196-29c8" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="5f3a-dab5-02f2-fd9e" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="c566-b4fd-f545-35bd" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="61c0-b792-9f8c-bb34" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="02ad-70d6-1868-150b" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="01e6-2425-479a-ccc9" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="36a3-b397-18dc-1a05" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01e6-2425-479a-ccc9" type="min"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2477,29 +2717,40 @@
             <entryLink id="7df6-be9a-3e5a-6277" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="caea-0446-246a-70d7" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="0a55-1597-fa86-7043" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="0460-c825-e3d0-640f" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="299e-c56e-ecdd-e1b4" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="01b1-7b21-9254-b456" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="fc98-3315-e5d9-2923" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="16d3-3c83-eeb1-5d46" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="6ab7-9d59-6281-78ea" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="1f10-9026-b3c9-9835" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="2eac-d9dc-e15e-d1aa" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="9d7a-6d92-4950-7991" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="1ce6-ba6d-e06d-bc2f" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="85a0-5bd7-af99-136a" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="b592-1811-3001-182e" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="3fd3-32a2-bedb-db37" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="3172-4f03-eca7-6c9b" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="595e-9c48-beeb-5afb" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="9756-6ec0-7e85-1857" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="1337-38f8-515a-38f7" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="eade-bc30-3bc2-ec85" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="3381-910c-f400-55cd" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="bd5e-7ee9-9ae7-0d8f" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="16cb-900d-e8c4-b423" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="b7bf-0283-9f2d-f45b" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="e5a6-233a-427d-97fb" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="2532-cb3f-c245-8aa7" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="be4c-c20a-672b-49d9" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="81b6-f9c8-79b5-29f3" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="fee5-d1ff-be73-294a" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="c799-8357-e8b8-1607" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="df32-d1b7-ce12-c303" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="3e8f-1ba6-c735-a598" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="8c08-52d9-cc98-4be4" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="36a3-b397-18dc-1a05" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c08-52d9-cc98-4be4" type="min"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3939,11 +4190,6 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="increment" field="c890-7a16-f974-2f7d" value="5.0">
-          <repeats>
-            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4e8-4f1a-a1d8-4257" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b83-3da5-500e-e98f" type="max"/>
@@ -3996,6 +4242,258 @@
       <infoLinks>
         <infoLink id="7153-2e98-a26d-1442" name="Semi-Guided (136)" hidden="false" targetId="91ab-6fc4-f96e-053a" type="rule"/>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="9ef2-062c-b11d-7889" name="Airborne Training" hidden="false" collective="false" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="c890-7a16-f974-2f7d" value="10.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4e8-4f1a-a1d8-4257" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd9e-a17b-6185-2e3b" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a5c0-016c-6e41-ccc9" name="Airborne Training (129)" hidden="false" targetId="f2e6-5aba-0858-7761" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="72c9-1713-c72d-0cc8" name="Jump Pack" hidden="false" collective="false" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="c890-7a16-f974-2f7d" value="10.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4e8-4f1a-a1d8-4257" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4e7-2f72-4ccd-332c" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a003-0876-c4c7-61f3" name="Jump Pack (132)" hidden="false" targetId="1070-9545-c4a8-5f34" type="rule"/>
+        <infoLink id="104d-da36-16ad-8454" name="Bulky (126)" hidden="false" targetId="3e6a-9aa8-2992-5cf9" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="f7d5-9d5b-3c76-9011" name="Medic" hidden="false" collective="false" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="c890-7a16-f974-2f7d" value="15.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4e8-4f1a-a1d8-4257" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e244-0db6-566c-1319" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e479-53c1-20f3-4476" name="Medic (132)" hidden="false" targetId="161e-f55f-5306-926c" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="2079-dc02-b052-3651" name="Motorized: Anti-Grav" hidden="false" collective="false" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="c890-7a16-f974-2f7d" value="10.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4e8-4f1a-a1d8-4257" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="327a-0d92-7522-7c7d" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="94ba-4c30-9860-0c04" name="Motorized (132)" hidden="false" targetId="87b1-f6ab-e27b-27a5" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="c4b7-e434-4149-34a5" name="Motorized: Hover" hidden="false" collective="false" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="c890-7a16-f974-2f7d" value="10.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4e8-4f1a-a1d8-4257" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="507d-31db-2f11-1180" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2d55-f7d0-ad8c-6268" name="Motorized (132)" hidden="false" targetId="87b1-f6ab-e27b-27a5" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="c54d-7d13-9423-67fb" name="Motorized: Wheeled" hidden="false" collective="false" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="c890-7a16-f974-2f7d" value="10.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4e8-4f1a-a1d8-4257" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee67-a64e-0a80-9986" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="978f-ecda-ebde-21ba" name="Motorized (132)" hidden="false" targetId="87b1-f6ab-e27b-27a5" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="4b0f-7e81-980e-2d43" name="Storm Training" hidden="false" collective="false" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="c890-7a16-f974-2f7d" value="3.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4e8-4f1a-a1d8-4257" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2a5-f86b-ca02-e5db" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="0683-50a0-427d-4591" name="Storm Training (134)" hidden="false" targetId="43d4-1758-db21-c885" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="57b7-208e-cd00-3e8d" name="Powered Armor Infantry ATM" hidden="false" collective="false" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="378f-6248-8dae-f2cf" name="Armor Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10ab-af90-418a-2bba" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="55e6-c751-097b-116c" name="Ablative Armor" hidden="false" collective="false" targetId="b869-88b1-7587-cf98" type="selectionEntry"/>
+            <entryLink id="6acc-fb2c-b4c3-0c2e" name="Reactive Armor" hidden="false" collective="false" targetId="5c8b-63f4-c497-275d" type="selectionEntry"/>
+            <entryLink id="c02b-a915-7c52-5e47" name="Makeshift Armor" hidden="false" collective="false" targetId="e7a7-86bd-cdc0-8471" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7d56-fbea-2396-6da8" name="Combat Engineer Upgrade" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9788-3b2f-d2b4-af35" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b3a5-3ca9-2234-0159" name="Combat Engineer 1" hidden="false" collective="false" targetId="c9b1-3c76-7beb-0ec6" type="selectionEntry"/>
+            <entryLink id="467f-7be1-76b8-1536" name="Combat Engineer 2" hidden="false" collective="false" targetId="c689-3d18-8f5c-af36" type="selectionEntry"/>
+            <entryLink id="3c4f-c27d-458e-6563" name="Combat Engineer 3" hidden="false" collective="false" targetId="fa36-9a71-23bf-0858" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d419-9b06-4dc8-8319" name="Fire Support Team Upgrade" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16e5-53d3-769a-1734" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5fe5-9ca3-6820-7771" name="FIST 1" hidden="false" collective="false" targetId="ea71-fae6-9e9f-95bc" type="selectionEntry"/>
+            <entryLink id="397a-a42b-388f-cacc" name="FIST 2" hidden="false" collective="false" targetId="667a-7e1e-5e01-7aff" type="selectionEntry"/>
+            <entryLink id="866b-8e85-a2b5-551d" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="442a-e082-e587-fad8" name="Support Upgrades" hidden="false" collective="false">
+          <entryLinks>
+            <entryLink id="0dff-aba6-a17d-0a95" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="8a63-a1e2-0f15-a451" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="f0a7-323c-d0c5-d950" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="08a2-0e1f-a358-8829" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="47a4-d585-6709-37c6" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="665b-6413-8c4e-d238" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="6088-c621-afa3-6bb7" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="7d91-aec1-6d23-f891" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="ee24-8470-7234-b06f" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="6e37-47d5-39f3-6e6c" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="1ec7-6090-adf0-f856" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="cf84-ce40-a910-1474" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="48f9-09b9-7bb9-5040" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="db02-a1f2-87ab-7437" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="bd0a-0c09-a47e-bd68" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="5c6e-53f4-9cfe-fccf" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="36a3-b397-18dc-1a05" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c6e-53f4-9cfe-fccf" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="58.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="750b-3f3c-c8dd-af8c" name="Powered Armor Infantry SAM" hidden="false" collective="false" type="unit">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5aa2-4ad0-b183-f07a" name="Armor Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa09-aa59-8f82-44d5" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e4bc-424c-d731-3993" name="Ablative Armor" hidden="false" collective="false" targetId="b869-88b1-7587-cf98" type="selectionEntry"/>
+            <entryLink id="8dc7-6b0a-4012-3de1" name="Reactive Armor" hidden="false" collective="false" targetId="5c8b-63f4-c497-275d" type="selectionEntry"/>
+            <entryLink id="e1ed-4adf-09de-144d" name="Makeshift Armor" hidden="false" collective="false" targetId="e7a7-86bd-cdc0-8471" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="21fa-0e85-0291-c303" name="Combat Engineer Upgrade" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="166c-60f5-4354-54b9" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a0bf-ce26-f4a2-cc3b" name="Combat Engineer 1" hidden="false" collective="false" targetId="c9b1-3c76-7beb-0ec6" type="selectionEntry"/>
+            <entryLink id="a146-3660-2f49-7aaa" name="Combat Engineer 2" hidden="false" collective="false" targetId="c689-3d18-8f5c-af36" type="selectionEntry"/>
+            <entryLink id="cf4e-6f24-1060-0cb4" name="Combat Engineer 3" hidden="false" collective="false" targetId="fa36-9a71-23bf-0858" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="afff-95a4-f7d1-f966" name="Fire Support Team Upgrade" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5fe-43b2-64ac-e642" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1b9c-c51c-052e-33d4" name="FIST 1" hidden="false" collective="false" targetId="ea71-fae6-9e9f-95bc" type="selectionEntry"/>
+            <entryLink id="baa1-f6d0-fc0e-64e9" name="FIST 2" hidden="false" collective="false" targetId="667a-7e1e-5e01-7aff" type="selectionEntry"/>
+            <entryLink id="22bf-a53d-85b2-dc50" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="943e-774e-1110-17c8" name="Support Upgrades" hidden="false" collective="false">
+          <entryLinks>
+            <entryLink id="6075-f376-ad40-c16a" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="f2b4-471d-546d-0f7e" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="2bd4-c98d-47a4-382d" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="7916-fe5c-e2c6-1354" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="2fa9-dc0c-47e7-d5e6" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="692a-3d07-4723-3ed0" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="99de-a9ee-0a36-2141" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="231f-3f8e-dc94-be40" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="d1d3-716a-66de-7386" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="911d-6a84-58f0-086a" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="d805-8ad0-9559-36f3" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="2cd3-16ea-dd3a-dfc2" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="e581-6383-f199-cf34" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="6966-3ca0-6837-c95b" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="3004-ccb0-ab96-2d69" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="8b33-06b7-f89c-604c" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="36a3-b397-18dc-1a05" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b33-06b7-f89c-604c" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="48.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
