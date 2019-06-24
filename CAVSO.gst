@@ -219,6 +219,10 @@
     </categoryEntry>
     <categoryEntry id="8d8e-b952-cb61-6b2a" name="ECM" hidden="false"/>
     <categoryEntry id="800e-00d3-5890-31c7" name="APA" hidden="false"/>
+    <categoryEntry id="f45b-544e-11fc-45f1" name="Power Armor" hidden="false"/>
+    <categoryEntry id="c57a-91e3-1de0-d98f" name="LA Infantry" hidden="false"/>
+    <categoryEntry id="b68e-370a-3a0a-74fd" name="New CategoryEntry" hidden="false"/>
+    <categoryEntry id="fe77-3a6f-abc3-bebc" name="HA Infantry" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="ee2b-3982-f939-02bf" name="Attack Squad (Primary)" hidden="false">
@@ -547,6 +551,7 @@
         <categoryLink id="5d0e-43d6-f0d5-1db2" name="New CategoryLink" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="true"/>
         <categoryLink id="8b8a-38bb-5026-f7ec" name="Fire Support" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="false"/>
         <categoryLink id="11a9-a341-ada2-62c7" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
+        <categoryLink id="bc1d-c5e9-4879-8724" name="HA Infantry" hidden="false" targetId="fe77-3a6f-abc3-bebc" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="9b5a-b8ed-60b2-bc27" name="Light Infantry Medium Mortar" hidden="false" collective="false" targetId="1374-5159-29ce-ab88" type="selectionEntry">
@@ -554,20 +559,23 @@
         <categoryLink id="83d5-e0bf-eb99-a85c" name="New CategoryLink" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="true"/>
         <categoryLink id="8ca9-9f1f-c641-0c94" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
         <categoryLink id="2e50-910f-cf92-a39a" name="Fire Support" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="false"/>
+        <categoryLink id="735d-3a87-9e8f-c8a0" name="LA Infantry" hidden="false" targetId="c57a-91e3-1de0-d98f" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7d9d-3079-c09d-2ccc" name="Powered Armor Infantry Light Mortar" hidden="false" collective="false" targetId="edf7-bbe8-f5b1-504d" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="4b22-76f9-2e43-3bde" name="New CategoryLink" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="true"/>
-        <categoryLink id="3ee5-9700-3045-d0b0" name="Mortar" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="false"/>
+        <categoryLink id="4b22-76f9-2e43-3bde" name="New CategoryLink" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
+        <categoryLink id="3ee5-9700-3045-d0b0" name="Mortar" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="true"/>
         <categoryLink id="15c3-94a0-df4b-bbd7" name="Fire Support" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="false"/>
+        <categoryLink id="5368-3898-1371-b392" name="Power Armor" hidden="false" targetId="f45b-544e-11fc-45f1" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e3ca-2261-3223-f8c0" name="Powered Armor Infantry Medium Mortar" hidden="false" collective="false" targetId="451a-c9ba-d933-3d23" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="a97c-e1d1-ed03-d2f7" name="New CategoryLink" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="true"/>
-        <categoryLink id="44c3-6b99-7d9f-7135" name="Mortar" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="false"/>
+        <categoryLink id="a97c-e1d1-ed03-d2f7" name="New CategoryLink" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
+        <categoryLink id="44c3-6b99-7d9f-7135" name="Mortar" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="true"/>
         <categoryLink id="385f-393e-386e-91d2" name="Fire Support" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="false"/>
+        <categoryLink id="863e-bc34-071c-9ecb" name="Power Armor" hidden="false" targetId="f45b-544e-11fc-45f1" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e914-42d1-844a-a078" name="Simba (CAV) (Quad)" hidden="false" collective="false" targetId="485a-3171-655f-9fd5" type="selectionEntry">
@@ -580,18 +588,21 @@
       <categoryLinks>
         <categoryLink id="2775-df24-a66e-f612" name="New CategoryLink" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="true"/>
         <categoryLink id="1f6d-06a7-ad8b-3d4a" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+        <categoryLink id="709b-68c6-106a-358e" name="Power Armor" hidden="false" targetId="f45b-544e-11fc-45f1" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="3329-a143-b5b5-bf80" name="Light Infantry Rifle" hidden="false" collective="false" targetId="006d-3f63-2c9a-b48e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="90e3-54e7-3e1a-c010" name="New CategoryLink" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="true"/>
         <categoryLink id="898a-1a49-905d-fe04" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+        <categoryLink id="1edf-e247-56df-dd1d" name="LA Infantry" hidden="false" targetId="c57a-91e3-1de0-d98f" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4ab8-7b3d-9a02-7f9d" name="Heavy Infantry Rifle" hidden="false" collective="false" targetId="77db-89bc-b282-594b" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="1bb3-8d25-6d58-d430" name="New CategoryLink" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="true"/>
         <categoryLink id="34f0-2e36-2ff5-3965" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+        <categoryLink id="6ac1-fce8-7a2c-19d5" name="HA Infantry" hidden="false" targetId="fe77-3a6f-abc3-bebc" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="47c6-ef7b-fbbc-2bc6" name="Light Infantry Light Mortar" hidden="false" collective="false" targetId="e553-6172-3d00-47d2" type="selectionEntry">
@@ -599,6 +610,7 @@
         <categoryLink id="cfec-3b30-7f23-9c55" name="New CategoryLink" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="true"/>
         <categoryLink id="b169-b93a-5f31-35d4" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
         <categoryLink id="1639-8f3e-0c29-64c4" name="Fire Support" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="false"/>
+        <categoryLink id="0c8d-2faa-d767-7c6c" name="LA Infantry" hidden="false" targetId="c57a-91e3-1de0-d98f" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e787-d082-45bd-752a" name="Ripper (Vehicle)" hidden="false" collective="false" targetId="b090-b96a-e201-a337" type="selectionEntry">
@@ -619,6 +631,7 @@
         <categoryLink id="8014-1677-e58f-5b87" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
         <categoryLink id="6155-9db1-fd1d-c4b0" name="Mortar" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="false"/>
         <categoryLink id="ad86-6a8c-5496-8dd5" name="Fire Support" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="false"/>
+        <categoryLink id="6bb1-e3eb-3924-094f" name="HA Infantry" hidden="false" targetId="fe77-3a6f-abc3-bebc" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a4e8-3aa8-b109-3b5c" name="Heavy Infantry Medium Mortar" hidden="false" collective="false" targetId="72ce-36b4-4ee1-ceb8" type="selectionEntry">
@@ -627,6 +640,7 @@
         <categoryLink id="9413-6610-3a34-1b8b" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
         <categoryLink id="bd5d-6b90-a165-745a" name="Mortar" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="false"/>
         <categoryLink id="8502-9c5f-7d87-5795" name="Fire Support" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="false"/>
+        <categoryLink id="e2e3-d3bd-48d5-3020" name="HA Infantry" hidden="false" targetId="fe77-3a6f-abc3-bebc" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="a872-38e5-50b2-4ec0" name="Heavy Infantry Rifle" hidden="false" collective="false" targetId="77db-89bc-b282-594b" type="selectionEntry">
@@ -634,6 +648,7 @@
         <categoryLink id="0749-7228-60ed-916f" name="New CategoryLink" hidden="false" targetId="a78a-d27f-ce48-62b1" primary="true"/>
         <categoryLink id="1fef-7f51-f53f-e9af" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
         <categoryLink id="78bf-24bc-2aa2-1e5e" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+        <categoryLink id="d0f0-7a03-76ca-68cc" name="HA Infantry" hidden="false" targetId="fe77-3a6f-abc3-bebc" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5e90-3d33-3f1d-e89e" name="Light Infantry Light Mortar" hidden="false" collective="false" targetId="e553-6172-3d00-47d2" type="selectionEntry">
@@ -642,6 +657,7 @@
         <categoryLink id="4e2f-0f0e-e261-ba47" name="Mortar" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="false"/>
         <categoryLink id="67f0-898c-30f9-a791" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
         <categoryLink id="8255-8cdf-e0c3-208d" name="Fire Support" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="false"/>
+        <categoryLink id="62df-d361-32af-1ade" name="LA Infantry" hidden="false" targetId="c57a-91e3-1de0-d98f" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e0c3-a993-dbca-5f83" name="Light Infantry Medium Mortar" hidden="false" collective="false" targetId="1374-5159-29ce-ab88" type="selectionEntry">
@@ -650,6 +666,7 @@
         <categoryLink id="48b7-ff64-462a-20ca" name="Mortar" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="false"/>
         <categoryLink id="c58d-faa5-6870-726c" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
         <categoryLink id="4cfc-a7b9-fecc-322a" name="Fire Support" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="false"/>
+        <categoryLink id="0205-b096-0ee0-7ad4" name="LA Infantry" hidden="false" targetId="c57a-91e3-1de0-d98f" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="2070-5934-598c-378b" name="Light Infantry Rifle" hidden="false" collective="false" targetId="006d-3f63-2c9a-b48e" type="selectionEntry">
@@ -657,6 +674,7 @@
         <categoryLink id="79c1-b63a-1fff-b774" name="New CategoryLink" hidden="false" targetId="a78a-d27f-ce48-62b1" primary="true"/>
         <categoryLink id="f321-b92a-9872-8e55" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
         <categoryLink id="6786-38e1-6337-6bb4" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+        <categoryLink id="f928-69f1-8548-f441" name="LA Infantry" hidden="false" targetId="c57a-91e3-1de0-d98f" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1a60-b55b-e667-64e1" name="Powered Armor Infantry Light Mortar" hidden="false" collective="false" targetId="edf7-bbe8-f5b1-504d" type="selectionEntry">
@@ -665,6 +683,7 @@
         <categoryLink id="a7f7-0855-843b-9450" name="Mortar" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="false"/>
         <categoryLink id="57a9-59d9-b48c-8297" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
         <categoryLink id="3d48-3ebd-b86f-7b7f" name="Fire Support" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="false"/>
+        <categoryLink id="9445-7093-a89e-bfeb" name="Power Armor" hidden="false" targetId="f45b-544e-11fc-45f1" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1f72-1b60-cc63-79e4" name="Powered Armor Infantry MAR" hidden="false" collective="false" targetId="a9b9-933d-fc6f-fc9e" type="selectionEntry">
@@ -672,6 +691,7 @@
         <categoryLink id="c767-3e4f-4850-1779" name="Mechanized Infantry" hidden="false" targetId="a78a-d27f-ce48-62b1" primary="true"/>
         <categoryLink id="46c0-7e77-6960-b4ab" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
         <categoryLink id="3673-aeed-de37-c4e6" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+        <categoryLink id="ddb5-ef03-6785-1da1" name="Power Armor" hidden="false" targetId="f45b-544e-11fc-45f1" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="dd61-93de-d654-cb81" name="Powered Armor Infantry Medium Mortar" hidden="false" collective="false" targetId="451a-c9ba-d933-3d23" type="selectionEntry">
@@ -680,6 +700,7 @@
         <categoryLink id="8d7f-9862-cdb1-c10d" name="Mortar" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="false"/>
         <categoryLink id="6c57-73d2-9d89-abb3" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
         <categoryLink id="b8a6-a2f2-f426-4b08" name="Fire Support" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="false"/>
+        <categoryLink id="3624-9bce-d4a5-60ae" name="Power Armor" hidden="false" targetId="f45b-544e-11fc-45f1" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="90ae-d6f8-1a7b-85db" name="Devastator (CAV) (Quad)" hidden="false" collective="false" targetId="af20-df59-01f1-a24e" type="selectionEntry">
@@ -709,6 +730,7 @@
         <categoryLink id="cb5b-ceb4-eba1-4b43" name="New CategoryLink" hidden="false" targetId="3910-cbfc-33c6-bf83" primary="true"/>
         <categoryLink id="337c-683b-78ac-70ad" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
         <categoryLink id="48de-cb4e-fd98-fe43" name="Fire Support" hidden="false" targetId="d80e-15e1-8dc2-904e" primary="false"/>
+        <categoryLink id="23a8-4676-95a5-85d5" name="HA Infantry" hidden="false" targetId="fe77-3a6f-abc3-bebc" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="b4b6-6b18-4b02-8b55" name="Simba (CAV) (Quad)" hidden="false" collective="false" targetId="485a-3171-655f-9fd5" type="selectionEntry">
@@ -741,6 +763,36 @@
     <entryLink id="768b-dbc9-88d8-c72e" name="Bunkers" hidden="false" collective="false" targetId="20b9-525a-688d-dfbe" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="5bdb-c1c0-ab46-5b5d" name="New CategoryLink" hidden="false" targetId="c73f-4c3b-962c-fe3f" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a186-abe5-f0db-80f7" name="Powered Armor Infantry ATM" hidden="false" collective="false" targetId="57b7-208e-cd00-3e8d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3e9e-6e48-60ba-611a" name="New CategoryLink" hidden="false" targetId="a78a-d27f-ce48-62b1" primary="true"/>
+        <categoryLink id="48a4-15b5-8256-ec2d" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+        <categoryLink id="2ef4-cf39-2cc1-e75a" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
+        <categoryLink id="d58a-5828-1580-79e5" name="Power Armor" hidden="false" targetId="f45b-544e-11fc-45f1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="be85-2212-7199-e1b1" name="Powered Armor Infantry ATM" hidden="false" collective="false" targetId="57b7-208e-cd00-3e8d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="adb8-1ec6-1e7a-91ce" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+        <categoryLink id="92d9-73aa-3593-e3e9" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="true"/>
+        <categoryLink id="3b17-92f0-7730-2dcb" name="Power Armor" hidden="false" targetId="f45b-544e-11fc-45f1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f85f-32ee-3441-72a0" name="Powered Armor Infantry SAM" hidden="false" collective="false" targetId="750b-3f3c-c8dd-af8c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a164-e393-293f-baed" name="Mechanized Infantry" hidden="false" targetId="a78a-d27f-ce48-62b1" primary="true"/>
+        <categoryLink id="7a7c-6de8-8dbb-6ed1" name="Infantry" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="false"/>
+        <categoryLink id="7fa9-92bf-d606-8e01" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+        <categoryLink id="01fd-25ff-1fd7-3ee1" name="Power Armor" hidden="false" targetId="f45b-544e-11fc-45f1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d30a-e881-7a99-2483" name="Powered Armor Infantry SAM" hidden="false" collective="false" targetId="750b-3f3c-c8dd-af8c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="cd70-75f1-22ce-6554" name="New CategoryLink" hidden="false" targetId="7fa4-8488-f8fe-9d6d" primary="true"/>
+        <categoryLink id="b52e-a8bf-bb40-7e08" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
+        <categoryLink id="ec74-ea23-7f63-1e26" name="Power Armor" hidden="false" targetId="f45b-544e-11fc-45f1" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -894,31 +946,6 @@
             <entryLink id="e8ac-79e7-e87f-6c01" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="f4f4-ed79-dcb3-9208" name="Support Upgrades" hidden="false" collective="false">
-          <entryLinks>
-            <entryLink id="0e62-010f-942b-a62a" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="4205-5b45-70bb-e4b3" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="8f78-f160-f0d9-7f62" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="e6c3-738f-1829-6c2f" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="d937-c74a-4a62-b2ae" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
-              <categoryLinks>
-                <categoryLink id="426a-4c58-2e26-dae6" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
-              </categoryLinks>
-            </entryLink>
-            <entryLink id="3452-73e7-f971-5195" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="2a2f-1471-9ec3-0f22" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="4754-99c3-66e8-11f4" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
-              <categoryLinks>
-                <categoryLink id="c374-e8b8-7cf9-668e" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
-              </categoryLinks>
-            </entryLink>
-            <entryLink id="2642-a059-ca0a-27f9" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="51fc-887c-8112-7e08" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="c824-1684-cb35-8cf1" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="efc4-3e4d-d63e-36e7" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="5562-7f9d-1682-95ec" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
         <selectionEntryGroup id="2a47-a455-d166-ca99" name="Weapon Upgrades" hidden="false" collective="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7733-9731-d42b-fa07" type="max"/>
@@ -957,6 +984,31 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="9bab-7c9f-64ee-6e1f" name="Support Upgrades" hidden="false" collective="false">
+          <entryLinks>
+            <entryLink id="fd2d-086e-1162-1c7e" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="dcf0-89bb-54f0-5201" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="8970-c32a-356d-3023" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="52e2-ece6-17bc-fb1b" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="ef87-0287-f8ff-e089" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="e04d-06ea-d93e-c190" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="8e60-3ab2-f31d-33eb" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="aac2-db41-3cd3-bdd0" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="d825-1ad5-e57a-c16d" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="7d99-c1ec-9155-939d" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="b9fc-6569-663f-df33" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="3d2d-9f94-10e6-187c" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="80c5-0326-baa3-5458" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="aee0-0247-0038-18c9" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="f683-2738-d258-8ba3" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -1128,31 +1180,6 @@
             <entryLink id="367e-0b3d-cb57-308d" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4a8a-c956-0c9e-87f4" name="Support Upgrades" hidden="false" collective="false">
-          <entryLinks>
-            <entryLink id="79f3-9a2f-350e-1995" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="f59f-f9d0-6612-4260" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="5da3-1d71-f63b-dca5" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="202f-71c5-c788-a6c1" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="eba6-6069-b98f-acbf" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
-              <categoryLinks>
-                <categoryLink id="db43-1f67-8597-5c80" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
-              </categoryLinks>
-            </entryLink>
-            <entryLink id="db6b-8305-74d3-d1ea" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="9ebe-c9c8-657a-bf16" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="3f12-7b34-70d7-90c9" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
-              <categoryLinks>
-                <categoryLink id="38d5-5d79-3845-652a" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
-              </categoryLinks>
-            </entryLink>
-            <entryLink id="32c9-4b79-fa79-72cc" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="0bb2-0534-7a92-3425" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="f9b0-875f-f0cd-3047" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="5fb1-c5c1-7e49-7134" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="8d6f-3f26-5e2d-5f4e" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
         <selectionEntryGroup id="2f57-12fb-9cff-60cd" name="Weapon Upgrades" hidden="false" collective="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6535-9fca-f55e-1aff" type="max"/>
@@ -1218,6 +1245,31 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="c60f-bb18-6ca6-c5f4" name="Support Upgrades" hidden="false" collective="false">
+          <entryLinks>
+            <entryLink id="8353-df6d-dc7f-af69" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="b9c9-d20c-1f7a-253b" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="77b2-8f7c-819e-22a4" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="3752-4549-8a6b-b6d2" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="6ac2-9089-4ca1-c5f8" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="97aa-8c92-e130-64cc" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="69bf-2c5a-4e04-0f76" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="9ece-f7b6-5150-0efd" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="11d9-3e05-1048-aa83" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="9c74-c4ae-7f95-ba07" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="72a3-80ca-697e-5faa" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="f5e4-d37a-4501-f033" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="745e-46da-0f8c-dcaf" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="9981-e1ea-1b31-0355" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="79d2-badc-3b1b-85bb" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="d47f-7b0a-878f-81b4" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
@@ -1263,29 +1315,29 @@
             <entryLink id="da86-d95a-5989-9d4f" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="7e8b-7634-2ce5-06b8" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="f6aa-55b9-f1ef-764f" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="d7a8-7a4a-b9d9-09d8" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="c9a6-3c35-9846-d15d" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="43c7-ec46-f709-eec0" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="138b-3451-9565-8b89" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="58be-27d8-27d5-a901" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="4fd3-7462-8a59-c445" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="d52f-f8ca-4d9d-1d56" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="583a-e4f9-e023-58d0" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="dfa0-f3bd-37f7-dde1" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="7963-6c67-55d8-641e" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="9d33-9bdc-982f-f8f7" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="2694-0d44-ce24-7a02" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="5eff-471a-f6e0-9417" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="6bac-df8a-3d65-ddd8" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="8986-53ce-76c0-d3ed" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="e3ca-c166-7b9f-533e" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="5c79-735d-af3a-3acf" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="fd71-e90d-4bca-5b91" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="14d1-395d-8e6e-fbd4" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="43aa-0fef-bcd3-1a6b" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="590e-f094-8aff-44de" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="2d63-d8f0-cb77-f403" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="4e1c-1fa0-8840-f955" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="df56-43d7-35e3-9933" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="b580-cc95-eb28-d593" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="fcc8-5439-c2ed-c0e6" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="e675-93c9-f06e-d2ef" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="a551-767a-14f0-cfdc" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="639c-a40c-0f93-d367" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="c79e-9b42-c529-2774" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1325,29 +1377,29 @@
             <entryLink id="e37f-ce72-88d0-4177" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="9fa6-ad8c-e118-c607" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="9256-f3ff-d90f-1f16" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="885c-3936-16ea-758c" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="d1c3-ff8e-21fc-11da" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="090a-2f24-1c38-c0fd" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="0c49-6b39-53ed-0bec" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="489d-912f-be03-865a" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="1936-75a2-201e-af33" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="6fb2-d58f-e672-2905" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="260e-d6f1-11a3-23af" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="8438-376a-62ac-0248" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="4bd0-513b-29fb-5326" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="f253-7f74-1b0b-caa4" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="5252-e225-94ed-0213" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="fb9b-c7c3-c6fb-bc4d" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="3dcc-0f59-fb9e-81aa" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="c383-5a62-e40d-722a" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="b36e-bc86-4984-c12c" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="748f-205b-3e02-a59f" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="d45c-1eac-cd5c-c637" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="a27d-56a9-0926-35f0" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="8288-6188-3f68-61e6" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="09fe-0ac7-bd18-6e0f" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="7961-dcdc-7431-9e64" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="d0f0-54a3-b438-6b52" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="a92e-1a67-0ee5-02a2" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="10de-adce-a947-2fd1" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="2946-c7ab-f21b-2885" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="08da-a317-3952-2800" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="9ae9-e7c8-e936-5882" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="ed10-e989-6e76-0aef" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="7c6c-47b1-c39f-9aa2" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1356,6 +1408,142 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="e087-d397-5e0a-0a9a" name="Heavy Infantry Light Mortar" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c57a-91e3-1de0-d98f" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f45b-544e-11fc-45f1" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <infoGroups>
+        <infoGroup id="71ac-7d0a-5e70-0f8a" name="Data Card" hidden="false">
+          <profiles>
+            <profile id="2c5b-e9ca-5e06-279b" name="1. Move" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">2</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">2</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">2</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c98b-455e-c74e-6302" name="2. Armor" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">2</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">2</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">2</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="92ce-e0e0-ae4c-d29b" name="3. Close Assault" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">1/2</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">1/2</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">1/1</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">0/1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="3777-33b3-4a11-2b0c" name="4. Damage Control" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">3</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0a9d-378b-e610-f85e" name="Submachine Gun" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-/1</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-/1</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">-/1</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">-/1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="81b4-056a-da5c-5287" name="Light Mortar" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">3/3</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">3/3</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">2/2</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">2/2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="88ee-524a-8b94-a5e0" name="Data Card" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d"/>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719"/>
+                <characteristic name="2" typeId="0665-079d-c90f-735e"/>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543"/>
+              </characteristics>
+            </profile>
+            <profile id="3598-0d1d-2705-9e77" name="Grenade" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">-</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="5ac1-061d-f161-0245" name="Munitions" hidden="false">
+          <profiles>
+            <profile id="1af6-4ea6-175f-93d2" name="Submachine Gun" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">1</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">AoE 1, Anti-Inf</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="48da-8ae6-9586-bd69" name="Light Mortar" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">16</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">14</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">IF, Ltd. Ammo, Strike</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e1fc-9af3-44d7-5630" name="Grenade" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">-</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Anti-Inf</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7785-2f80-d3a6-0226" name="Anti-Infantry (119)" hidden="false" targetId="0fd9-23b7-3187-123d" type="rule"/>
+            <infoLink id="cd26-b324-b0bf-b1b0" name="AoE (125)" hidden="false" targetId="9e14-0c54-5c31-c1e4" type="rule"/>
+            <infoLink id="daf6-348f-267c-5b26" name="Indirect-Fire (127)" hidden="false" targetId="c418-60de-d4b7-827b" type="rule"/>
+            <infoLink id="6fa4-c6a7-1254-34d4" name="Limited Ammo (E16)" hidden="false" targetId="9719-1a67-bb77-7838" type="rule"/>
+            <infoLink id="a1c5-4565-afd0-657c" name="Strike (128)" hidden="false" targetId="cfba-20ba-37bf-e3c5" type="rule"/>
+            <infoLink id="f4b7-2d47-3ba9-5b69" name="Grenade (E13)" hidden="false" targetId="fa24-5e32-9628-0181" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="dc9b-9a3a-0ac3-d3ec" name="SA" hidden="false">
+          <profiles>
+            <profile id="a767-f0f8-0805-c42c" name="SA" hidden="false" typeId="fe4e-9428-6ade-3e50" typeName="Unit">
+              <characteristics>
+                <characteristic name="Info" typeId="f9ae-6c30-aef9-52d3">Soft, Bulky, Pop-Up, Assault 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="8582-11b6-633a-da3c" name="Soft (128)" hidden="false" targetId="f23d-d95f-d99b-0e8c" type="rule"/>
+            <infoLink id="6cfd-8d1e-0426-4d80" name="Bulky (126)" hidden="false" targetId="3e6a-9aa8-2992-5cf9" type="rule"/>
+            <infoLink id="b4b1-e955-b843-ba17" name="Pop-Up (E18)" hidden="false" targetId="f511-3fdd-293a-cfcb" type="rule"/>
+            <infoLink id="a388-794e-942f-2344" name="Assault (120)" hidden="false" targetId="0373-6128-cf5b-2c28" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
       <selectionEntryGroups>
         <selectionEntryGroup id="3c30-ea5f-934c-c6b0" name="Armor Upgrades" hidden="false" collective="false">
           <constraints>
@@ -1387,37 +1575,165 @@
             <entryLink id="2231-886f-661b-4ddb" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="fa9c-219b-0bcb-124d" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="6bba-4cc1-999b-3404" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="e249-4f1e-b022-a783" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="4dfd-3110-51a6-838b" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="500d-b421-58aa-35e1" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="9752-0658-c04b-040c" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="71f6-bd24-34b5-5c49" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="a55c-cfda-4211-05c9" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="412a-5440-f1f2-79ab" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="2243-1812-1ef5-68a9" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="b415-4dcf-3701-47f2" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="39f1-29b2-69a7-f36f" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="4875-56eb-e9d1-0da8" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="b0bd-c747-4b1f-2402" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="7651-75dc-51b1-d859" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="169e-7750-135e-1c28" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="e5bb-c2ef-31e7-3cce" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="c6aa-ee86-99ce-d76b" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="1ea2-c169-3343-0257" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="4988-21e2-53b6-7c32" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="fb21-105c-0635-a82e" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="7eda-8fdd-55d6-6599" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="8534-107e-e550-2a1e" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="40b9-224a-3dcf-8ff9" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="7534-a891-eb46-3ca2" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="5a40-0151-12e8-a778" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="ef6d-352a-42a3-4ee1" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="5503-ae79-f687-9e11" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="37fc-1ab3-6b08-d269" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="96be-c2df-8e0e-72e8" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="2e2c-316d-dc86-7d69" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="3660-e564-a23a-945e" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="114d-080b-4694-e58f" name="Infantry Upgrades" hidden="false" collective="false">
+          <entryLinks>
+            <entryLink id="2223-5bb7-63af-11cb" name="Airborne Training" hidden="false" collective="false" targetId="9ef2-062c-b11d-7889" type="selectionEntry"/>
+            <entryLink id="ab64-c2ae-d3ec-c7af" name="Jump Pack" hidden="false" collective="false" targetId="72c9-1713-c72d-0cc8" type="selectionEntry"/>
+            <entryLink id="10aa-4454-7c48-870d" name="Medic" hidden="false" collective="false" targetId="f7d5-9d5b-3c76-9011" type="selectionEntry"/>
+            <entryLink id="3f0e-f952-b759-2b41" name="Motorized: Anti-Grav" hidden="false" collective="false" targetId="2079-dc02-b052-3651" type="selectionEntry"/>
+            <entryLink id="5a0c-7fa6-0e81-32c3" name="Motorized: Hover" hidden="false" collective="false" targetId="c4b7-e434-4149-34a5" type="selectionEntry"/>
+            <entryLink id="ca1c-2781-03d2-d83b" name="Motorized: Wheeled" hidden="false" collective="false" targetId="c54d-7d13-9423-67fb" type="selectionEntry"/>
+            <entryLink id="c76b-27aa-7340-7300" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="c975-eb81-a49e-3152" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddf8-ee6a-ac7b-7587" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="507d-5b42-12e2-13e2" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="48.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="72ce-36b4-4ee1-ceb8" name="Heavy Infantry Medium Mortar" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c57a-91e3-1de0-d98f" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f45b-544e-11fc-45f1" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <infoGroups>
+        <infoGroup id="9779-dc2a-0937-286c" name="Data Card" hidden="false">
+          <profiles>
+            <profile id="91a9-3394-0726-bbd2" name="1. Move" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">2</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">2</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">2</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="9be3-0946-7b2e-8b60" name="2. Armor" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">2</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">2</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">2</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="9590-be6b-36df-6999" name="3. Close Assault" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">1/2</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">1/2</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">1/1</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">0/1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6353-64cb-8149-13f4" name="4. Damage Control" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">3</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="47b8-6c51-0b4a-cd3f" name="Submachine Gun" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-/1</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-/1</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">-/1</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">-/1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7c85-8cda-e892-e1f8" name="Medium Mortar" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">5/5</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">4/4</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">4/4</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">3/3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="ae39-cedb-6841-e457" name="Munitions" hidden="false">
+          <profiles>
+            <profile id="3e2f-a37b-0a6a-cbcb" name="Submachine Gun" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">1</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">AoE 1, Anti-Inf</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="ff39-4d45-ca86-98b4" name="Medium Mortar" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">16</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">14</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">IF, Ltd. Ammo, Strike</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3073-4569-1019-e3bf" name="Anti-Infantry (119)" hidden="false" targetId="0fd9-23b7-3187-123d" type="rule"/>
+            <infoLink id="eaa3-366a-bb3a-20eb" name="AoE (125)" hidden="false" targetId="9e14-0c54-5c31-c1e4" type="rule"/>
+            <infoLink id="ad37-adf7-210b-00b8" name="Indirect-Fire (127)" hidden="false" targetId="c418-60de-d4b7-827b" type="rule"/>
+            <infoLink id="69ac-1c3a-e812-2b87" name="Limited Ammo (E16)" hidden="false" targetId="9719-1a67-bb77-7838" type="rule"/>
+            <infoLink id="6654-e6f5-da6d-e084" name="Strike (128)" hidden="false" targetId="cfba-20ba-37bf-e3c5" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="d793-7584-4811-11cb" name="SA" hidden="false">
+          <profiles>
+            <profile id="4b02-7cce-8a37-006c" name="SA" hidden="false" typeId="fe4e-9428-6ade-3e50" typeName="Unit">
+              <characteristics>
+                <characteristic name="Info" typeId="f9ae-6c30-aef9-52d3">Soft, Bulky, Pop-Up, Assault 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7fa0-60e6-7b42-3d51" name="Soft (128)" hidden="false" targetId="f23d-d95f-d99b-0e8c" type="rule"/>
+            <infoLink id="40f1-9250-4526-e4ac" name="Bulky (126)" hidden="false" targetId="3e6a-9aa8-2992-5cf9" type="rule"/>
+            <infoLink id="094b-03fe-3da6-70bc" name="Pop-Up (E18)" hidden="false" targetId="f511-3fdd-293a-cfcb" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
       <selectionEntryGroups>
         <selectionEntryGroup id="b043-e534-0b60-c1da" name="Armor Upgrades" hidden="false" collective="false">
           <constraints>
@@ -1449,37 +1765,183 @@
             <entryLink id="eb34-d474-78f1-e00b" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="32fb-0990-c8c6-255d" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="dc8c-87ca-9fb5-004d" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="ebea-e800-672e-2ec6" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="c3f6-e287-0f33-e722" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="85a3-401f-3c69-2cdc" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="fd01-4c63-a0d9-1230" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="2dc9-6bf4-0f25-fce5" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="caa5-8a19-aba5-7fab" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="5ac8-6dd0-174e-7a04" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="2ebf-ad57-e420-b0c4" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="beb1-fcd7-dc6e-fa8a" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="5c83-f033-704c-d9ef" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="7b4e-9bd8-230e-6ca2" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="47bc-e861-9065-aaac" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="9c57-d488-e86b-374c" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="1ace-3b5a-5133-e446" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="f3b8-74e2-6596-6b5d" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="f6fe-107c-fc71-03c2" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="e39b-d722-0a4b-40b7" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="69fa-266f-c0c6-47e3" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="2ab5-c2e2-cb33-1ee5" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="5ebe-c76e-bfc6-8d92" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="bc7d-3ee5-2abe-1a3c" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="f0dc-799c-93cf-9ae9" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="3579-f518-cdcd-2303" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="32de-5f1c-68bc-dbec" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="f3ce-8f23-c9ce-2089" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="b91c-f419-3cc0-0c92" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="96c9-68cf-e139-d202" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="19b9-0a03-86fb-bcd8" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="6b9b-e0d9-3540-f75a" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="0b25-2ff4-d9af-5232" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a002-bbfc-9ae3-23c3" name="Infantry Upgrades" hidden="false" collective="false">
+          <entryLinks>
+            <entryLink id="947f-4dd5-c154-69a5" name="Airborne Training" hidden="false" collective="false" targetId="9ef2-062c-b11d-7889" type="selectionEntry"/>
+            <entryLink id="6117-5028-b96c-5123" name="Jump Pack" hidden="false" collective="false" targetId="72c9-1713-c72d-0cc8" type="selectionEntry"/>
+            <entryLink id="cea9-e6e9-1176-0abd" name="Medic" hidden="false" collective="false" targetId="f7d5-9d5b-3c76-9011" type="selectionEntry"/>
+            <entryLink id="e932-8e8d-9c2d-b7ce" name="Motorized: Anti-Grav" hidden="false" collective="false" targetId="2079-dc02-b052-3651" type="selectionEntry"/>
+            <entryLink id="6a19-03fb-a136-925a" name="Motorized: Hover" hidden="false" collective="false" targetId="c4b7-e434-4149-34a5" type="selectionEntry"/>
+            <entryLink id="3e33-9a77-73fd-85ae" name="Motorized: Wheeled" hidden="false" collective="false" targetId="c54d-7d13-9423-67fb" type="selectionEntry"/>
+            <entryLink id="ccd3-e36a-68e4-32ce" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="8127-d3c0-2549-22b3" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c44e-a81e-5be1-e678" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9012-6011-946d-bffc" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="52.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="77db-89bc-b282-594b" name="Heavy Infantry Rifle" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c57a-91e3-1de0-d98f" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f45b-544e-11fc-45f1" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <infoGroups>
+        <infoGroup id="9edf-2fbb-31d6-cf27" name="Data Card" hidden="false">
+          <profiles>
+            <profile id="980c-caf9-d2c4-ff35" name="1. Move" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">2</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">2</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">2</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e8bb-4ee9-9dec-5abd" name="2. Armor" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">2</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">2</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">2</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="5407-0749-51b6-e1f5" name="3. Close Assault" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">1/2</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">1/2</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">1/1</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">0/1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b6e7-08e6-8574-f321" name="4. Damage Control" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">3</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1779-7205-072f-3f40" name="Grenade" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">-</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="aa56-c96b-1f2f-100d" name="Assault Rifle" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-/1</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-/1</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">-/1</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">-/1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="301e-35db-ca8c-352c" name="Grenade Launcher" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-/2</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-/2</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">-/1</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">-/1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="8c9c-51fe-9a6d-0de6" name="Munitions" hidden="false">
+          <profiles>
+            <profile id="e35d-f756-b84d-adb9" name="Grenade Launcher" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">3</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">1</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">IF, AoE 1, Ravage</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8072-9b76-dd00-1511" name="Assault Rifle" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">2</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d"></characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Full Auto</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e45f-53d3-00c5-ba14" name="Grenade" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">-</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Anti-Inf</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="cc12-5742-7acd-3608" name="AoE (125)" hidden="false" targetId="9e14-0c54-5c31-c1e4" type="rule"/>
+            <infoLink id="d026-dc5f-9ad0-3155" name="Indirect-Fire (127)" hidden="false" targetId="c418-60de-d4b7-827b" type="rule"/>
+            <infoLink id="cde5-eaf5-630f-788b" name="Ravage (127)" hidden="false" targetId="517e-67d2-9699-ecd4" type="rule"/>
+            <infoLink id="59c7-5b68-0e3c-7cc1" name="Grenade (E13)" hidden="false" targetId="fa24-5e32-9628-0181" type="rule"/>
+            <infoLink id="6dfe-f5b7-f1de-e494" name="Full-Auto (126)" hidden="false" targetId="ab3e-e2fe-6f54-dc81" type="rule"/>
+            <infoLink id="a80b-5d5f-3e69-5929" name="Anti-Infantry (119)" hidden="false" targetId="0fd9-23b7-3187-123d" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="aff4-b459-ac3c-afc2" name="SA" hidden="false">
+          <profiles>
+            <profile id="fc1d-5238-9a07-3966" name="SA" hidden="false" typeId="fe4e-9428-6ade-3e50" typeName="Unit">
+              <characteristics>
+                <characteristic name="Info" typeId="f9ae-6c30-aef9-52d3">Soft, Pop-Up, Assault 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="0a8c-cc7c-ad15-4a16" name="Soft (128)" hidden="false" targetId="f23d-d95f-d99b-0e8c" type="rule"/>
+            <infoLink id="9737-9280-9e1c-3f82" name="Pop-Up (E18)" hidden="false" targetId="f511-3fdd-293a-cfcb" type="rule"/>
+            <infoLink id="a46e-d6f4-ca88-68a3" name="Assault (120)" hidden="false" targetId="0373-6128-cf5b-2c28" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
       <selectionEntryGroups>
         <selectionEntryGroup id="91fc-7002-3a19-5b38" name="Armor Upgrades" hidden="false" collective="false">
           <constraints>
@@ -1511,37 +1973,184 @@
             <entryLink id="e1ef-f1f5-ecc9-804d" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="af20-2c07-a3c4-5ad6" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="ef55-661f-59e0-5ee2" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="f5ab-7508-a35b-f9ac" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="cb2a-1449-4162-7572" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="19cf-9b4d-e844-6d30" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="4003-7737-fea6-65c8" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="6511-d0a9-1dbe-b27f" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="e766-0698-a1f6-5f12" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="d7ff-9a47-aac8-bb8c" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="f53a-0d31-e6c2-f162" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="0b25-cb56-edaa-7954" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="80ee-f4e8-c27a-f9bc" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="3873-1452-3d40-5d90" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="273e-7069-7202-929d" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="9e86-5be7-01c2-60e1" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="2852-cd6f-8200-3e82" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="91fc-5f09-bd69-af03" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="1bfb-97e5-d061-8f6b" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="eac4-c58b-b6a3-9e0a" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="a981-2861-ff8e-9b64" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="9f5b-7984-ef3c-0c6e" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="8b56-ef15-e4ed-c859" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="b7e6-52ed-c76d-c4cf" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="7d1d-cd68-11da-2256" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="18f5-54f7-3f18-49fa" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="3701-ea2f-b4f4-67ec" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="02f2-ee78-794f-93cb" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="ee79-d401-6be7-9770" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="733e-75d6-9152-59a5" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="2818-2b3e-8c93-9026" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="3ff8-5839-1b23-1730" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="5a11-e17f-8dfe-5495" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="4753-2628-3bd0-e22f" name="Infantry Upgrades" hidden="false" collective="false">
+          <entryLinks>
+            <entryLink id="1368-33df-76b4-4d57" name="Airborne Training" hidden="false" collective="false" targetId="9ef2-062c-b11d-7889" type="selectionEntry"/>
+            <entryLink id="9e3d-e84f-64f5-8bc3" name="Jump Pack" hidden="false" collective="false" targetId="72c9-1713-c72d-0cc8" type="selectionEntry"/>
+            <entryLink id="1fac-5a8c-a790-f09b" name="Medic" hidden="false" collective="false" targetId="f7d5-9d5b-3c76-9011" type="selectionEntry"/>
+            <entryLink id="1b55-cca1-b81c-c6db" name="Motorized: Anti-Grav" hidden="false" collective="false" targetId="2079-dc02-b052-3651" type="selectionEntry"/>
+            <entryLink id="95d2-ad4e-2478-a992" name="Motorized: Hover" hidden="false" collective="false" targetId="c4b7-e434-4149-34a5" type="selectionEntry"/>
+            <entryLink id="d6b6-0ec7-3c1e-9a95" name="Motorized: Wheeled" hidden="false" collective="false" targetId="c54d-7d13-9423-67fb" type="selectionEntry"/>
+            <entryLink id="4897-5861-6152-ecab" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4612-21b7-3686-3f6f" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0327-b7b5-54d3-0d72" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d440-8469-9f10-bddf" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="29.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e553-6172-3d00-47d2" name="Light Infantry Light Mortar" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fe77-3a6f-abc3-bebc" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f45b-544e-11fc-45f1" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <infoGroups>
+        <infoGroup id="9d38-469d-4e74-259f" name="Data Card" hidden="false">
+          <profiles>
+            <profile id="060e-0dfb-9816-8b0c" name="1. Move" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">3</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">3</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">3</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f5a7-5ae9-9342-7089" name="2. Armor" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">1</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">1</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">1</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="56bc-873e-8323-2a9e" name="3. Close Assault" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">1/1</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">1/1</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">1/1</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">0/0</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1807-728c-002a-2119" name="4. Damage Control" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">3</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="ca06-2e80-4aa5-a3f0" name="Grenade" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">-</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1b33-f7db-5671-f9aa" name="Light Mortar" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">3/3</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">3/3</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">2/2</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">2/2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="aa5d-ea43-d51e-f4a0" name="Submachine Gun" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-/1</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-/1</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">-/1</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">-/1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="eaa5-0fae-bbb3-52ff" name="Munitions" hidden="false">
+          <profiles>
+            <profile id="7075-c077-b082-2b45" name="Submachine Gun" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">1</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">AoE 1, Anti-Inf</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="9c53-77a3-8f98-1ce9" name="Light Mortar" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">16</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">14</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">IF, Ltd. Ammo, Strike</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="dc7c-b1ed-fdcf-be61" name="Grenade" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">-</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Anti-Inf</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c2df-f941-f278-b81e" name="Anti-Infantry (119)" hidden="false" targetId="0fd9-23b7-3187-123d" type="rule"/>
+            <infoLink id="1c2f-f02b-8902-6eb1" name="AoE (125)" hidden="false" targetId="9e14-0c54-5c31-c1e4" type="rule"/>
+            <infoLink id="fe47-e7a7-c2f2-7aeb" name="Indirect-Fire (127)" hidden="false" targetId="c418-60de-d4b7-827b" type="rule"/>
+            <infoLink id="9270-2fb2-6364-08af" name="Limited Ammo (E16)" hidden="false" targetId="9719-1a67-bb77-7838" type="rule"/>
+            <infoLink id="d30c-3654-89fd-2590" name="Strike (128)" hidden="false" targetId="cfba-20ba-37bf-e3c5" type="rule"/>
+            <infoLink id="dede-9bec-d0ba-ea97" name="Grenade (E13)" hidden="false" targetId="fa24-5e32-9628-0181" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="2dae-7c61-2770-a191" name="SA" hidden="false">
+          <profiles>
+            <profile id="55d6-45e4-86cd-b1f1" name="SA" hidden="false" typeId="fe4e-9428-6ade-3e50" typeName="Unit">
+              <characteristics>
+                <characteristic name="Info" typeId="f9ae-6c30-aef9-52d3">Soft, Bulky, Pop-Up, Assault 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="1f85-ed6d-7c15-6c18" name="Soft (128)" hidden="false" targetId="f23d-d95f-d99b-0e8c" type="rule"/>
+            <infoLink id="fc89-291f-f3ff-1fb9" name="Bulky (126)" hidden="false" targetId="3e6a-9aa8-2992-5cf9" type="rule"/>
+            <infoLink id="3930-77b7-17a5-3bad" name="Pop-Up (E18)" hidden="false" targetId="f511-3fdd-293a-cfcb" type="rule"/>
+            <infoLink id="2819-2c4d-5eef-36b0" name="Assault (120)" hidden="false" targetId="0373-6128-cf5b-2c28" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
       <selectionEntryGroups>
         <selectionEntryGroup id="5d6f-9054-3450-11ff" name="Armor Upgrades" hidden="false" collective="false">
           <constraints>
@@ -1573,37 +2182,165 @@
             <entryLink id="916c-3b25-11ab-1798" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="548a-b306-3556-413c" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="d0bc-b83e-4b3b-46be" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="8b9a-73df-527c-d4f9" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="e134-a6ac-fb49-b65c" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="ed8f-17fb-998a-7aa3" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="56a6-9aef-5667-5d69" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="82a6-55ba-9137-71c8" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="e2f5-224d-7ed8-e9fa" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="2aca-b2e8-ebd4-95d7" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="f02c-abb8-421e-b2cb" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="c9d9-d423-f6ee-b5bf" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="4856-5d82-0545-c7e0" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="6d16-62c7-f479-e535" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="230e-22f3-5842-65c2" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="7e0f-613a-1664-68be" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="5319-1a03-9190-bb61" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="903a-e72e-7334-4084" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="dad8-2aea-19bf-4205" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="9820-fa80-06da-4cbd" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="34ab-fd90-115f-be1d" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="0931-8b8b-4cd2-2cd0" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="0993-a6e1-fb28-de44" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="4d6a-7fcb-4820-ca02" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="00de-e9be-42c4-8b9e" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="874f-e0ce-3d4a-9b83" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="aa05-da72-aaf3-5a27" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="c92f-0852-5fb3-42ff" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="ae29-8f58-2576-866c" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="43d5-8e57-8c71-de4e" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="ea71-c6fe-445d-14e1" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="3fbb-e943-dd5e-0ab4" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="5826-5216-c979-6f37" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="37b1-6a05-6d94-e487" name="Infantry Upgrades" hidden="false" collective="false">
+          <entryLinks>
+            <entryLink id="3984-16c8-3884-7e56" name="Airborne Training" hidden="false" collective="false" targetId="9ef2-062c-b11d-7889" type="selectionEntry"/>
+            <entryLink id="54f0-ab4c-94aa-c275" name="Jump Pack" hidden="false" collective="false" targetId="72c9-1713-c72d-0cc8" type="selectionEntry"/>
+            <entryLink id="3e61-fb9c-24ca-4b3d" name="Medic" hidden="false" collective="false" targetId="f7d5-9d5b-3c76-9011" type="selectionEntry"/>
+            <entryLink id="5782-3e96-90d0-2de1" name="Motorized: Anti-Grav" hidden="false" collective="false" targetId="2079-dc02-b052-3651" type="selectionEntry"/>
+            <entryLink id="915e-49e2-8915-11db" name="Motorized: Hover" hidden="false" collective="false" targetId="c4b7-e434-4149-34a5" type="selectionEntry"/>
+            <entryLink id="cb65-c3bd-0424-6aad" name="Motorized: Wheeled" hidden="false" collective="false" targetId="c54d-7d13-9423-67fb" type="selectionEntry"/>
+            <entryLink id="0d97-bfa3-6c6f-182f" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="c18e-9415-2da6-6960" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d85c-bef1-3af4-700b" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="842a-dca5-06c0-7176" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="43.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1374-5159-29ce-ab88" name="Light Infantry Medium Mortar" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fe77-3a6f-abc3-bebc" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f45b-544e-11fc-45f1" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <infoGroups>
+        <infoGroup id="1c96-3adb-455c-0823" name="Data Card" hidden="false">
+          <profiles>
+            <profile id="8839-2df9-868f-da4b" name="1. Move" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">3</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">3</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">3</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f82d-f5d3-375e-2ce7" name="2. Armor" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">1</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">1</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">1</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c9eb-d324-c3d8-563c" name="3. Close Assault" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">1/1</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">1/1</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">1/1</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">0/0</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a1a1-bed1-4a8e-5282" name="4. Damage Control" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">3</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="663f-e52f-a247-69e5" name="Medium Mortar" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">5/5</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">4/4</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">4/4</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">3/3</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="11d6-d59e-366b-d377" name="Submachine Gun" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-/1</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-/1</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">-/1</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">-/1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="54cb-137f-5263-69ca" name="Munitions" hidden="false">
+          <profiles>
+            <profile id="0e16-c4e8-d613-8272" name="Submachine Gun" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">1</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">AoE 1, Anti-Inf</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="430e-154c-40f6-1c1d" name="Medium Mortar" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">16</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">14</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">IF, Ltd. Ammo, Strike</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9647-6803-5986-2396" name="Anti-Infantry (119)" hidden="false" targetId="0fd9-23b7-3187-123d" type="rule"/>
+            <infoLink id="8451-552c-d7a9-22bc" name="AoE (125)" hidden="false" targetId="9e14-0c54-5c31-c1e4" type="rule"/>
+            <infoLink id="022b-c7f4-d4f7-00a9" name="Indirect-Fire (127)" hidden="false" targetId="c418-60de-d4b7-827b" type="rule"/>
+            <infoLink id="2d9d-a122-e55b-6cb5" name="Limited Ammo (E16)" hidden="false" targetId="9719-1a67-bb77-7838" type="rule"/>
+            <infoLink id="9f64-bfcf-6f79-568c" name="Strike (128)" hidden="false" targetId="cfba-20ba-37bf-e3c5" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="221c-5b91-1ee6-14f3" name="SA" hidden="false">
+          <profiles>
+            <profile id="d1bd-6874-686d-f69c" name="SA" hidden="false" typeId="fe4e-9428-6ade-3e50" typeName="Unit">
+              <characteristics>
+                <characteristic name="Info" typeId="f9ae-6c30-aef9-52d3">Soft, Bulky, Pop-Up, Assault 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2618-ecf6-f34c-557a" name="Soft (128)" hidden="false" targetId="f23d-d95f-d99b-0e8c" type="rule"/>
+            <infoLink id="09dc-067d-06d7-9147" name="Bulky (126)" hidden="false" targetId="3e6a-9aa8-2992-5cf9" type="rule"/>
+            <infoLink id="b6f2-f7dc-a38e-c193" name="Pop-Up (E18)" hidden="false" targetId="f511-3fdd-293a-cfcb" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
       <selectionEntryGroups>
         <selectionEntryGroup id="c298-fbd7-4a45-db5b" name="Armor Upgrades" hidden="false" collective="false">
           <constraints>
@@ -1635,37 +2372,183 @@
             <entryLink id="fcb2-71cb-ae76-a2de" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4ce6-aa7d-bc4f-36ab" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="1101-7ff7-c2d8-2a82" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="cd61-507f-2735-5a05" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="6a05-56fc-08a2-479d" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="122c-9a52-2345-0859" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="dcb1-fc9e-d4dd-34c9" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="ab4e-83fd-35ec-529b" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="c182-e576-0cf1-ef19" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="6b85-e175-19e0-3384" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="5e33-11f1-eed5-6bec" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="a55c-5eb8-3173-50ae" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="604b-db4c-30a5-e2f3" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="280e-27a9-313f-4dbc" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="0de6-295d-9e7b-5ee6" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="0cc0-eda8-158b-2a7a" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="a9da-7192-3989-5a20" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="d269-e589-873c-965e" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="ee7d-9ef3-ce1a-bca3" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="a46a-7fd1-bb8f-f688" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="3803-1bbf-d07c-95ce" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="e948-d351-f2ba-b50c" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="79ec-fdfd-0271-3a53" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="77ed-72a9-64f6-6e84" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="db9e-15c9-b10d-c065" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="8abe-9bba-0bc3-1de6" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="c389-d3ed-ce31-71d9" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="2015-75e5-3fb0-8d8c" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="9c7e-e4d5-3468-398a" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="7252-7e23-7ed8-a810" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="80e5-e5e9-56e8-5a42" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="7b70-5219-5049-a829" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="7f3d-d9a8-1bff-20db" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c863-523b-62c2-1757" name="Infantry Upgrades" hidden="false" collective="false">
+          <entryLinks>
+            <entryLink id="9dea-c857-0e28-e9c2" name="Airborne Training" hidden="false" collective="false" targetId="9ef2-062c-b11d-7889" type="selectionEntry"/>
+            <entryLink id="a651-d66e-0c4d-4271" name="Jump Pack" hidden="false" collective="false" targetId="72c9-1713-c72d-0cc8" type="selectionEntry"/>
+            <entryLink id="7056-c1e5-3ccc-c342" name="Medic" hidden="false" collective="false" targetId="f7d5-9d5b-3c76-9011" type="selectionEntry"/>
+            <entryLink id="8007-de60-4061-e670" name="Motorized: Anti-Grav" hidden="false" collective="false" targetId="2079-dc02-b052-3651" type="selectionEntry"/>
+            <entryLink id="d44e-ded3-68a8-e25c" name="Motorized: Hover" hidden="false" collective="false" targetId="c4b7-e434-4149-34a5" type="selectionEntry"/>
+            <entryLink id="2095-3f27-70ce-91e6" name="Motorized: Wheeled" hidden="false" collective="false" targetId="c54d-7d13-9423-67fb" type="selectionEntry"/>
+            <entryLink id="46ac-3758-00d9-69a8" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="71af-18c5-cfe1-134a" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5d0-a24f-d4d8-ef66" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a086-0a53-18c9-1bb9" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="47.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="006d-3f63-2c9a-b48e" name="Light Infantry Rifle" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fe77-3a6f-abc3-bebc" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f45b-544e-11fc-45f1" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <infoGroups>
+        <infoGroup id="22f2-f326-40a2-d664" name="Data Card" hidden="false">
+          <profiles>
+            <profile id="da3f-af8a-f517-4af0" name="1. Move" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">3</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">3</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">3</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="5f42-eee5-e2ea-1636" name="2. Armor" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">1</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">1</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">1</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8018-6d8a-a16c-1143" name="3. Close Assault" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">1/1</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">1/1</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">1/1</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">0/0</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="200c-5adc-7642-8496" name="4. Damage Control" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">3</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="ab39-5211-ce8e-6f55" name="Assault Rifle" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-/1</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-/1</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">-/1</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">-/1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="2591-bedb-7fe2-3175" name="Grenade" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">-</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6d9e-8270-1c7e-db87" name="Grenade Launcher" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-/2</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-/2</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">-/1</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">-/1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="d820-a2a0-0509-ca49" name="Munitions" hidden="false">
+          <profiles>
+            <profile id="617d-215d-7882-4297" name="Grenade Launcher" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">3</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">1</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">IF, AoE 1, Ravage</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a712-9c33-55ef-5581" name="Assault Rifle" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">2</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d"></characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Full Auto</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="81df-4ccf-8084-1bac" name="Grenade" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">-</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Anti-Inf</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="00cb-1e13-36ed-aaf1" name="AoE (125)" hidden="false" targetId="9e14-0c54-5c31-c1e4" type="rule"/>
+            <infoLink id="a9c1-b77f-4dde-ffd4" name="Indirect-Fire (127)" hidden="false" targetId="c418-60de-d4b7-827b" type="rule"/>
+            <infoLink id="de64-d4d9-4140-492b" name="Ravage (127)" hidden="false" targetId="517e-67d2-9699-ecd4" type="rule"/>
+            <infoLink id="d61a-6b40-9b41-f315" name="Grenade (E13)" hidden="false" targetId="fa24-5e32-9628-0181" type="rule"/>
+            <infoLink id="9b6b-5669-7e94-57f2" name="Full-Auto (126)" hidden="false" targetId="ab3e-e2fe-6f54-dc81" type="rule"/>
+            <infoLink id="a66c-06fb-378d-0339" name="Anti-Infantry (119)" hidden="false" targetId="0fd9-23b7-3187-123d" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="d8ea-0a3d-be8f-c629" name="SA" hidden="false">
+          <profiles>
+            <profile id="718d-ecf5-fdc0-38db" name="SA" hidden="false" typeId="fe4e-9428-6ade-3e50" typeName="Unit">
+              <characteristics>
+                <characteristic name="Info" typeId="f9ae-6c30-aef9-52d3">Soft, Pop-Up, Assault 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="04fd-0e82-bf67-a3fa" name="Soft (128)" hidden="false" targetId="f23d-d95f-d99b-0e8c" type="rule"/>
+            <infoLink id="b08c-5154-3b03-7a69" name="Pop-Up (E18)" hidden="false" targetId="f511-3fdd-293a-cfcb" type="rule"/>
+            <infoLink id="e555-516d-7062-525f" name="Assault (120)" hidden="false" targetId="0373-6128-cf5b-2c28" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
       <selectionEntryGroups>
         <selectionEntryGroup id="13d7-6e4b-4323-1179" name="Armor Upgrades" hidden="false" collective="false">
           <constraints>
@@ -1697,37 +2580,186 @@
             <entryLink id="e0d2-e940-a6d1-8709" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4349-9486-bcfc-b70d" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="f1bb-8b2f-3f7a-f132" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="3f8e-fd6f-ec3b-e102" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="551e-9bb4-350e-b30b" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="8272-f88e-6975-f319" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="20a7-3694-4617-6307" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="5eff-2ae8-1717-9238" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="0ddb-0a57-6781-8a9e" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="9eae-d2e9-9017-e302" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="23cf-7c92-daa5-1f13" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="0025-a9f2-5737-433d" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="dc89-61e5-df3a-87d2" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="0f12-6da8-9fcb-0d00" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="ef31-7594-1ece-6a71" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="7638-ae7d-3038-53dd" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="135b-3ce5-40af-f6ee" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="c1fa-5d01-b376-7708" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="f94b-c768-5c30-c687" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="4ad8-f601-cb35-1523" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="29d2-7f58-afe2-cb54" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="d6e4-aa85-0b3e-4961" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="3e13-056f-c09c-9af7" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="b077-d2e6-1ca3-b5c1" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="5e35-580c-7622-acd0" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="1145-bb97-766a-15f0" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="c4b0-730d-a97b-2508" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="37a9-c4a9-fb64-c22a" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="0acf-0f7d-84f4-25cf" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="7981-bb0d-63ac-dad1" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="3ce3-0f9d-9f86-2b6b" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="956f-8008-3929-cf13" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="3fc3-fec6-02c0-4011" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="169f-3753-2eb2-cfc0" name="Infantry Upgrades" hidden="false" collective="false">
+          <entryLinks>
+            <entryLink id="124e-4a70-c834-e9c3" name="Airborne Training" hidden="false" collective="false" targetId="9ef2-062c-b11d-7889" type="selectionEntry"/>
+            <entryLink id="91d9-1616-b1e1-1839" name="Jump Pack" hidden="false" collective="false" targetId="72c9-1713-c72d-0cc8" type="selectionEntry"/>
+            <entryLink id="186e-8730-7579-e9ed" name="Medic" hidden="false" collective="false" targetId="f7d5-9d5b-3c76-9011" type="selectionEntry"/>
+            <entryLink id="5f03-fa08-c43c-b06a" name="Motorized: Anti-Grav" hidden="false" collective="false" targetId="2079-dc02-b052-3651" type="selectionEntry"/>
+            <entryLink id="c848-75e3-209c-fbd0" name="Motorized: Hover" hidden="false" collective="false" targetId="c4b7-e434-4149-34a5" type="selectionEntry"/>
+            <entryLink id="cef7-edb4-accd-e3d2" name="Motorized: Wheeled" hidden="false" collective="false" targetId="c54d-7d13-9423-67fb" type="selectionEntry"/>
+            <entryLink id="099f-bfc8-b525-ff34" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="9b5d-76fe-948a-68e1" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95c8-538b-fe0f-3f1f" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2b2-ca6c-496d-0bf6" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="24.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="edf7-bbe8-f5b1-504d" name="Powered Armor Infantry Light Mortar" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fe77-3a6f-abc3-bebc" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c57a-91e3-1de0-d98f" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <infoGroups>
+        <infoGroup id="c654-f6f4-7631-69cf" name="Data Card" hidden="false">
+          <profiles>
+            <profile id="efad-3da6-b421-4311" name="1. Move" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">4</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">4</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">4</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">4</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b21d-b2ce-951c-cbed" name="2. Armor" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">3</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">3</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">3</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="5280-aae6-c7ff-3bdd" name="3. Close Assault" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">3/3</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">2/2</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">2/2</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">1/1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="84dc-3ffd-72a2-ed2b" name="4. Damage Control" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">3</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0769-f41c-6e4b-0cf5" name="MAR" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">1/0</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">1/0</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">1/0</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">1/0</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d925-c503-3079-7ac5" name="Grenade" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">-</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Anti-Inf</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="ef19-1fd2-d3eb-f1ae" name="Light Mortar" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">3/3</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">3/3</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">2/2</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">2/2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="cdd2-038e-ed43-de73" name="Munitions" hidden="false">
+          <profiles>
+            <profile id="7f4d-149b-1f3a-7123" name="MAR" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">6</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Blaster</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8616-9de3-4458-79dc" name="Grenade" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">-</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Anti-Inf</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7fcb-3932-9cfd-552c" name="Light Mortar" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">16</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">14</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">IF, Ltd. Ammo, Strike</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="2804-d260-fef5-c4bc" name="Blaster (E17)" hidden="false" targetId="2a06-38a3-b11c-5a38" type="rule"/>
+            <infoLink id="3c97-ae40-5b23-c17d" name="Grenade (E13)" hidden="false" targetId="fa24-5e32-9628-0181" type="rule"/>
+            <infoLink id="c726-d807-ac76-f570" name="Strike (128)" hidden="false" targetId="cfba-20ba-37bf-e3c5" type="rule"/>
+            <infoLink id="78b4-3f44-9994-60f6" name="Minimum Range (127)" hidden="false" targetId="8afa-64ac-be6a-8180" type="rule"/>
+            <infoLink id="c2a0-8419-099d-eb9a" name="Anti-Infantry (119)" hidden="false" targetId="0fd9-23b7-3187-123d" type="rule"/>
+            <infoLink id="2862-abaa-4413-b98d" name="Limited Ammo (E16)" hidden="false" targetId="9719-1a67-bb77-7838" type="rule"/>
+            <infoLink id="ad0d-7227-fe04-e2aa" name="Indirect-Fire (127)" hidden="false" targetId="c418-60de-d4b7-827b" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="9eeb-71b5-a138-71cc" name="SA" hidden="false">
+          <profiles>
+            <profile id="c1b6-6b3d-31af-4acc" name="SA" hidden="false" typeId="fe4e-9428-6ade-3e50" typeName="Unit">
+              <characteristics>
+                <characteristic name="Info" typeId="f9ae-6c30-aef9-52d3">Soft, Bulky, Pop-Up, Assault 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9820-685f-58ff-5f43" name="Soft (128)" hidden="false" targetId="f23d-d95f-d99b-0e8c" type="rule"/>
+            <infoLink id="e019-0b28-0e9f-116e" name="Pop-Up (E18)" hidden="false" targetId="f511-3fdd-293a-cfcb" type="rule"/>
+            <infoLink id="d708-f141-86c3-6d5a" name="Assault (120)" hidden="false" targetId="0373-6128-cf5b-2c28" type="rule"/>
+            <infoLink id="1e93-1db9-3dba-f118" name="Bulky (126)" hidden="false" targetId="3e6a-9aa8-2992-5cf9" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
       <selectionEntryGroups>
         <selectionEntryGroup id="88fb-1628-6547-5808" name="Armor Upgrades" hidden="false" collective="false">
           <constraints>
@@ -1759,37 +2791,185 @@
             <entryLink id="8856-a6c5-ac7a-202c" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e176-3da6-e068-ea66" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="f39b-4e9e-1357-2ef7" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="dccc-cc03-1795-b33b" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="02d5-c0c2-d351-84dd" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="1bf7-9b42-1c56-7b86" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="7107-9c9a-44b2-38e1" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="5a1d-c8cc-6215-d58b" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="8329-c3fc-1a1b-2af1" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="3aa0-2a3a-211a-a74c" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="ed27-babe-402d-36ae" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="7255-f6d3-b6ba-c779" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="d0b9-1e06-de07-4665" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="1401-55fb-8750-eac6" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="78c8-64cd-fde5-672a" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="0931-256d-e478-af1e" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="6ba9-f14c-fa25-f92f" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="ff21-736a-9ec8-4b2f" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="96d2-846e-73ac-d9e6" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="b6d4-cf05-e5d1-8b0e" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="53d9-d229-bb02-2f60" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="04bb-2665-036d-338b" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="debd-a2d7-fd18-02cc" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="877a-025b-0fb8-bc27" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="b817-faa5-099f-fdcb" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="6dfa-313e-54e3-6937" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="4d61-18e0-4636-e6c8" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="ffa7-c69b-3f98-891f" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="f939-0565-5c51-1201" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="42f5-cfad-78b2-bf0d" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="1ae5-a16e-9c13-2427" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="17a4-9249-f9eb-08ee" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="f276-e55f-8ff7-e7fd" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0f8c-52a3-1941-f22a" name="Infantry Upgrades" hidden="false" collective="false">
+          <entryLinks>
+            <entryLink id="9330-9f2e-3fc9-2c4e" name="Airborne Training" hidden="false" collective="false" targetId="9ef2-062c-b11d-7889" type="selectionEntry"/>
+            <entryLink id="9fdf-c64f-c506-c483" name="Jump Pack" hidden="false" collective="false" targetId="72c9-1713-c72d-0cc8" type="selectionEntry"/>
+            <entryLink id="bee3-61f9-d6fc-d616" name="Medic" hidden="false" collective="false" targetId="f7d5-9d5b-3c76-9011" type="selectionEntry"/>
+            <entryLink id="f47a-6b6e-b765-2816" name="Motorized: Anti-Grav" hidden="false" collective="false" targetId="2079-dc02-b052-3651" type="selectionEntry"/>
+            <entryLink id="83a1-f64c-2376-7673" name="Motorized: Hover" hidden="false" collective="false" targetId="c4b7-e434-4149-34a5" type="selectionEntry"/>
+            <entryLink id="85f2-c6ff-211b-6c3f" name="Motorized: Wheeled" hidden="false" collective="false" targetId="c54d-7d13-9423-67fb" type="selectionEntry"/>
+            <entryLink id="b38a-f7c2-ce26-21b6" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="12c1-5459-e53f-2665" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bda-57c2-b7fd-c629" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="607c-f41c-18c5-10f5" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="61.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a9b9-933d-fc6f-fc9e" name="Powered Armor Infantry MAR" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fe77-3a6f-abc3-bebc" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c57a-91e3-1de0-d98f" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <infoGroups>
+        <infoGroup id="e8c6-cd3d-3622-19fd" name="Data Card" hidden="false">
+          <profiles>
+            <profile id="36bb-d7aa-5fba-b93a" name="1. Move" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">4</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">4</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">4</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">4</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="5d17-1354-18de-bc2f" name="2. Armor" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">3</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">3</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">3</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="81bf-7a49-bf34-48dc" name="3. Close Assault" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">3/3</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">2/2</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">2/2</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">1/1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e668-c452-02bd-c97d" name="4. Damage Control" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">3</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7994-ebdd-85a4-8bd8" name="MAR" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">1/0</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">1/0</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">1/0</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">1/0</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="2ae9-dbc9-290a-7c54" name="Grenade" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">-</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e4ab-05c4-56ea-6b09" name="Grenade Launcher" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-/2</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-/2</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">-/1</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">-/1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="fdac-4a9a-94d6-8462" name="Munitions" hidden="false">
+          <profiles>
+            <profile id="8899-e500-2e49-6fbf" name="MAR" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">6</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Blaster</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1760-0a44-0253-21a0" name="Grenade" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">-</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Anti-Inf</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d467-abe9-755b-379c" name="Grenade Launcher" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">3</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">1</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">IF, AoE 1, Ravage</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="0ff8-fb24-a1b0-0c15" name="Blaster (E17)" hidden="false" targetId="2a06-38a3-b11c-5a38" type="rule"/>
+            <infoLink id="10a0-574e-b07d-b325" name="Grenade (E13)" hidden="false" targetId="fa24-5e32-9628-0181" type="rule"/>
+            <infoLink id="e910-3298-a5de-923d" name="Minimum Range (127)" hidden="false" targetId="8afa-64ac-be6a-8180" type="rule"/>
+            <infoLink id="aa31-1c6d-abbd-0725" name="Anti-Infantry (119)" hidden="false" targetId="0fd9-23b7-3187-123d" type="rule"/>
+            <infoLink id="393a-ed36-2a45-4626" name="Indirect-Fire (127)" hidden="false" targetId="c418-60de-d4b7-827b" type="rule"/>
+            <infoLink id="0108-70c9-1fd9-32a6" name="AoE (125)" hidden="false" targetId="9e14-0c54-5c31-c1e4" type="rule"/>
+            <infoLink id="1014-0ebf-f7a3-06e5" name="Ravage (127)" hidden="false" targetId="517e-67d2-9699-ecd4" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="53ca-05d2-ca5b-c8e4" name="SA" hidden="false">
+          <profiles>
+            <profile id="f4f3-9442-9bef-71b6" name="SA" hidden="false" typeId="fe4e-9428-6ade-3e50" typeName="Unit">
+              <characteristics>
+                <characteristic name="Info" typeId="f9ae-6c30-aef9-52d3">Soft, Bulky, Pop-Up, Assault 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="499c-2f6e-f941-b335" name="Soft (128)" hidden="false" targetId="f23d-d95f-d99b-0e8c" type="rule"/>
+            <infoLink id="96fe-0445-965d-cd9c" name="Pop-Up (E18)" hidden="false" targetId="f511-3fdd-293a-cfcb" type="rule"/>
+            <infoLink id="0434-6b80-ba09-dd14" name="Assault (120)" hidden="false" targetId="0373-6128-cf5b-2c28" type="rule"/>
+            <infoLink id="250a-f7b9-1ce4-a23e" name="Bulky (126)" hidden="false" targetId="3e6a-9aa8-2992-5cf9" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
       <selectionEntryGroups>
         <selectionEntryGroup id="3e66-04e3-3302-9b7f" name="Armor Upgrades" hidden="false" collective="false">
           <constraints>
@@ -1821,37 +3001,184 @@
             <entryLink id="6255-9fac-e724-adc7" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8d18-d10b-139a-730c" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="a429-008f-47d7-9de3" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="6724-84a1-9dda-7d51" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="6993-43c7-8495-a1e3" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="d859-5d99-b39d-c068" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="a98a-e034-a916-befe" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="b6bd-331c-89a5-ab65" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="f6b2-c4f8-806b-d574" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="ed59-331b-b2c8-08aa" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="8fc4-4ccb-3ea8-a20d" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="8775-d33f-86bd-8126" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="2a30-ac3e-fc39-f65d" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="6a19-0499-e132-6701" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="bcb7-a249-b6b5-a6f2" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="40bd-18d1-489f-ad25" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="e161-44e4-04a8-41bb" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="5210-a9c7-504c-aff9" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="ad9b-11ac-0ce9-f0a5" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="b1c3-c906-38ba-7c4f" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="9d19-d22b-d583-5f40" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="0639-9403-f25e-d900" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="b15f-a333-fcab-e95a" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="7e0e-1d94-1bde-5165" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="2494-4f8d-508c-1f44" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="1a41-70c9-4dd4-4059" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="f184-f756-e399-ad7b" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="d0c5-2280-6efb-8e85" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="585a-f670-d074-9366" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="c4cc-061e-7213-4a97" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="7c32-6528-1cad-05aa" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="094a-1cbe-7ce5-69f9" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="0a2c-fd81-52b0-a515" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="97e2-b142-25c5-d4dd" name="Infantry Upgrades" hidden="false" collective="false">
+          <entryLinks>
+            <entryLink id="a5f9-fdce-74f7-766b" name="Airborne Training" hidden="false" collective="false" targetId="9ef2-062c-b11d-7889" type="selectionEntry"/>
+            <entryLink id="30e8-f235-4997-5b49" name="Jump Pack" hidden="false" collective="false" targetId="72c9-1713-c72d-0cc8" type="selectionEntry"/>
+            <entryLink id="89ad-c5bb-cf7d-d6b8" name="Medic" hidden="false" collective="false" targetId="f7d5-9d5b-3c76-9011" type="selectionEntry"/>
+            <entryLink id="387f-261d-b617-ef2c" name="Motorized: Anti-Grav" hidden="false" collective="false" targetId="2079-dc02-b052-3651" type="selectionEntry"/>
+            <entryLink id="0b0d-bc70-2d57-999e" name="Motorized: Hover" hidden="false" collective="false" targetId="c4b7-e434-4149-34a5" type="selectionEntry"/>
+            <entryLink id="1a37-c75b-3cbd-917a" name="Motorized: Wheeled" hidden="false" collective="false" targetId="c54d-7d13-9423-67fb" type="selectionEntry"/>
+            <entryLink id="d536-2dca-8136-b7ea" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6bb2-6b2a-33f7-041c" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e681-ad6a-64e7-b273" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="573d-2aa1-ea9c-5620" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="44.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="451a-c9ba-d933-3d23" name="Powered Armor Infantry Medium Mortar" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fe77-3a6f-abc3-bebc" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c57a-91e3-1de0-d98f" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <infoGroups>
+        <infoGroup id="aa08-0531-c694-f074" name="Data Card" hidden="false">
+          <profiles>
+            <profile id="99a1-58a5-a11a-6a86" name="1. Move" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">4</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">4</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">4</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">4</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="814b-ad66-6dea-cd2c" name="2. Armor" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">3</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">3</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">3</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7725-7a91-fcdf-f2c9" name="3. Close Assault" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">3/3</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">2/2</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">2/2</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">1/1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="84eb-1a5f-4976-6b7e" name="4. Damage Control" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">3</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="beaa-d4c2-0156-d0a6" name="MAR" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">1/0</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">1/0</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">1/0</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">1/0</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="dbf6-8ba7-30ec-d46b" name="Grenade" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">-</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="2474-f22b-0a23-2f5a" name="Medium Mortar" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">5/5</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">4/4</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">4/4</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">3/3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="3ada-cd78-ee48-f408" name="Munitions" hidden="false">
+          <profiles>
+            <profile id="cc84-c81f-2b22-2933" name="MAR" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">6</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Blaster</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b1c8-3895-3034-806a" name="Grenade" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">-</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Anti-Inf</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="9a85-5ba4-aa13-db36" name="Medium Mortar" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">16</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">14</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">IF, Ltd. Ammo, Strike</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="6610-9152-681d-b434" name="Blaster (E17)" hidden="false" targetId="2a06-38a3-b11c-5a38" type="rule"/>
+            <infoLink id="da6f-969a-4712-8763" name="Grenade (E13)" hidden="false" targetId="fa24-5e32-9628-0181" type="rule"/>
+            <infoLink id="8408-8abf-1dc8-7a74" name="Strike (128)" hidden="false" targetId="cfba-20ba-37bf-e3c5" type="rule"/>
+            <infoLink id="46ce-0310-7e89-3831" name="Minimum Range (127)" hidden="false" targetId="8afa-64ac-be6a-8180" type="rule"/>
+            <infoLink id="4a43-8fb2-d997-0d34" name="Anti-Infantry (119)" hidden="false" targetId="0fd9-23b7-3187-123d" type="rule"/>
+            <infoLink id="5997-c2de-798e-a0eb" name="Limited Ammo (E16)" hidden="false" targetId="9719-1a67-bb77-7838" type="rule"/>
+            <infoLink id="431f-e6ef-7d7c-b3e8" name="Indirect-Fire (127)" hidden="false" targetId="c418-60de-d4b7-827b" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="5a8e-82ec-a709-abff" name="SA" hidden="false">
+          <profiles>
+            <profile id="b5a0-b732-c7c7-e091" name="SA" hidden="false" typeId="fe4e-9428-6ade-3e50" typeName="Unit">
+              <characteristics>
+                <characteristic name="Info" typeId="f9ae-6c30-aef9-52d3">Soft, Bulky, Pop-Up</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="1c3b-03a1-fa5b-7879" name="Soft (128)" hidden="false" targetId="f23d-d95f-d99b-0e8c" type="rule"/>
+            <infoLink id="65eb-8908-dc4d-04dc" name="Pop-Up (E18)" hidden="false" targetId="f511-3fdd-293a-cfcb" type="rule"/>
+            <infoLink id="cdfc-fe9b-bd65-0625" name="Bulky (126)" hidden="false" targetId="3e6a-9aa8-2992-5cf9" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
       <selectionEntryGroups>
         <selectionEntryGroup id="4557-69cf-b848-d891" name="Armor Upgrades" hidden="false" collective="false">
           <constraints>
@@ -1883,32 +3210,51 @@
             <entryLink id="c8ba-2369-90ba-72eb" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="6509-2ccf-e6d8-7be8" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="ab86-f39f-c155-d6a8" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="f940-bef8-0573-017f" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="7b13-7057-3fab-ddcb" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="467a-ad93-a9b6-78e4" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="0066-f4de-38bb-d427" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="4de2-7ea6-a925-4ec0" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="8199-8625-65f2-ab42" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="a235-d4ba-19f7-2572" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="ac53-c2fa-b1af-3220" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="bc35-a4bd-7a04-e67f" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="c9ae-8fb3-1ae1-ebf6" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="bb3d-cc7b-b04c-600d" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="22fa-4a14-663d-af8c" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="0d81-43e9-9689-2fcb" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="92e6-a2d4-49d5-591d" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="dc36-5489-e28b-4946" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="00df-9507-b0af-911b" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="90c2-a923-7259-672f" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="938d-f83d-3b03-a999" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="d4bb-3484-4069-7133" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="bdef-0d9a-3d39-abda" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="1f32-3c14-3717-d2a8" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="5816-b4d7-ec9e-7a6e" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="b70b-79cd-da25-e93e" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="0e46-5d81-edf2-b90c" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="55ec-2423-cd6a-6c84" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="8b17-0b14-7fce-ca87" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="df6a-52bc-ee19-e954" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="209c-67cd-337c-4b53" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="c4ab-aab8-609b-b1ed" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="858e-f21a-7e84-e1de" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ee2e-f5e6-3898-f104" name="Infantry Upgrades" hidden="false" collective="false">
+          <entryLinks>
+            <entryLink id="d8ba-8e87-c9db-59f3" name="Airborne Training" hidden="false" collective="false" targetId="9ef2-062c-b11d-7889" type="selectionEntry"/>
+            <entryLink id="8ed1-781d-b263-e556" name="Jump Pack" hidden="false" collective="false" targetId="72c9-1713-c72d-0cc8" type="selectionEntry"/>
+            <entryLink id="ef57-2d18-d085-747f" name="Medic" hidden="false" collective="false" targetId="f7d5-9d5b-3c76-9011" type="selectionEntry"/>
+            <entryLink id="3436-7bda-749f-41e8" name="Motorized: Anti-Grav" hidden="false" collective="false" targetId="2079-dc02-b052-3651" type="selectionEntry"/>
+            <entryLink id="6803-14dd-e294-5468" name="Motorized: Hover" hidden="false" collective="false" targetId="c4b7-e434-4149-34a5" type="selectionEntry"/>
+            <entryLink id="25ad-d1ec-0f9c-00d4" name="Motorized: Wheeled" hidden="false" collective="false" targetId="c54d-7d13-9423-67fb" type="selectionEntry"/>
+            <entryLink id="430b-169a-6261-91e1" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0d9d-b5eb-f425-ca24" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e2e-1c1f-6f57-1621" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edb6-5730-b1bd-9a2b" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="66.0"/>
       </costs>
@@ -2088,31 +3434,6 @@
             <entryLink id="36f5-21fb-4316-7c98" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="48ca-6d81-e39e-ad46" name="Support Upgrades" hidden="false" collective="false">
-          <entryLinks>
-            <entryLink id="6f6c-dced-fb32-0f32" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="1c42-0429-4398-b040" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="1d57-4244-3f2f-567a" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="c0e0-f07c-e24a-8c51" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="aef4-6c65-91d1-8d45" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
-              <categoryLinks>
-                <categoryLink id="8bcd-f3aa-1aea-e305" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
-              </categoryLinks>
-            </entryLink>
-            <entryLink id="72cf-cf25-f166-4936" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="e37b-8b32-e4d4-2feb" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="bf5e-42cd-c0d0-4c79" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
-              <categoryLinks>
-                <categoryLink id="9a73-1fc3-451c-2e04" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
-              </categoryLinks>
-            </entryLink>
-            <entryLink id="b1ae-96d0-b321-1b07" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="245a-e8f1-1177-7785" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="885e-8dac-c86f-3cd2" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="0e2a-3aff-7d8c-4c0e" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="50fe-2247-0b48-542c" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
         <selectionEntryGroup id="17c7-cec7-2c1b-9695" name="Weapon Upgrades" hidden="false" collective="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="066b-d655-b586-fc85" type="max"/>
@@ -2135,6 +3456,31 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="9cd4-94b9-0259-cc2b" name="Support Upgrades" hidden="false" collective="false">
+          <entryLinks>
+            <entryLink id="79af-9e29-638a-f9c0" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="ce29-16a6-0d26-d8fc" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="979a-ed1c-6453-5d6f" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="5310-c175-293a-ba65" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="5969-f1f4-2ab4-d151" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="8557-1804-2d1e-4298" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="f12e-160c-6091-b0e5" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="204c-53d4-aec7-1885" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="b916-308d-67d7-59e0" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="785a-ebc7-a81b-f5a2" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="ea37-28c2-5fe7-43e0" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="e755-c4dc-7908-424e" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="cbdb-81b5-dcba-2230" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="d000-312f-6927-8a0f" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="14e0-cbc9-6ddd-a27b" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -2278,31 +3624,6 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="25cd-74dd-e55c-4ce2" name="Support Upgrades" hidden="false" collective="false">
-          <entryLinks>
-            <entryLink id="b91b-2dcb-6e30-8605" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="5684-025c-a8b0-4a95" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="57e3-6257-8881-4caf" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="22c1-cc56-cb5a-cc40" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="8024-2a91-2a1d-cbdb" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
-              <categoryLinks>
-                <categoryLink id="fcce-88eb-6c83-f48c" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
-              </categoryLinks>
-            </entryLink>
-            <entryLink id="0033-a0be-767e-54f1" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="edcb-0a3c-2924-4b23" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="33c5-53a0-f061-e519" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
-              <categoryLinks>
-                <categoryLink id="28c1-4d29-0397-a81d" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
-              </categoryLinks>
-            </entryLink>
-            <entryLink id="2e95-8bd6-1fd7-6673" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="6009-de10-a0c4-7ea2" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="5da7-63a6-72bb-1978" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="724f-4ef9-4346-c2ac" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="758c-0a8c-3cc1-a82c" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
         <selectionEntryGroup id="d35e-dd7a-34c3-069a" name="Ammo Upgrades" hidden="false" collective="false">
           <selectionEntries>
             <selectionEntry id="cf49-86d6-54fd-fd0e" name="HARM " hidden="false" collective="false" type="upgrade">
@@ -2370,6 +3691,31 @@
             <entryLink id="2303-9ab4-8d24-0d25" name="Officer4: COL (+5 CP)" hidden="false" collective="false" targetId="1273-a445-1540-6aaa" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="1acd-5c1a-5b8e-ebeb" name="Support Upgrades" hidden="false" collective="false">
+          <entryLinks>
+            <entryLink id="786c-aae3-920f-450c" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="5421-9872-a1cd-5d6d" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="11cc-bdca-61a2-ad79" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="8581-73d2-383f-addb" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="3c2a-a76c-408a-9539" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="b701-515d-d3ed-13ba" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="c16f-9da0-79c0-372d" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="638c-c46d-4fad-3201" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="60e8-a31f-6e38-a3a7" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="9bbe-a7f9-584f-6ed9" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="4475-f854-d386-6b66" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="2492-68a4-6284-f298" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="0737-e81b-325a-983c" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="b86a-19aa-705d-5c2f" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="0b89-a115-66f3-5a47" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="6788-5885-a305-da59" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
@@ -2415,29 +3761,29 @@
             <entryLink id="c826-e1c5-5b02-37a4" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="628d-edea-da42-7a51" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="0b6a-a85f-7a3b-6693" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="8206-f5a5-9eda-9a87" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="6d6d-6399-4642-f0bf" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="f571-0e1f-cd35-38a4" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="35e4-c2c0-6c65-caf6" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="51f3-7aff-9c18-9432" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="1078-6f4b-ad2a-ff0e" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="10a8-5bc0-a866-3a20" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="5061-d5bb-165a-bc35" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="e936-d33d-85f7-a768" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="73f8-99a5-9b8a-5891" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="46e6-a87b-b460-bfb5" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="6554-4d7a-1474-9173" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="eccb-d832-8c52-fc83" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="416d-2d03-5c70-329f" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="c1af-0ba4-6816-77fc" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="e92e-ce30-8c40-328e" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="89c4-1b34-366a-423d" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="a785-a8ce-23dc-61fa" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="9b81-0096-dd13-7710" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="dd02-4156-2ee7-740c" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="1630-0945-d009-aef8" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="92dd-3ede-f5e8-aa7c" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="d345-9194-7f4f-afd4" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="d428-186e-67a5-73b7" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="fa9a-226d-5021-febd" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="4c99-e92f-33cf-9c3c" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="72d4-8504-d7bc-d2c4" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="25bf-f95c-3bc1-6305" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="9ed3-13db-a66d-2c93" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="c682-b0c8-63b4-ae63" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2477,29 +3823,29 @@
             <entryLink id="7df6-be9a-3e5a-6277" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="caea-0446-246a-70d7" name="Support Upgrades" hidden="false" collective="false">
+        <selectionEntryGroup id="f46f-78de-f165-64f9" name="Support Upgrades" hidden="false" collective="false">
           <entryLinks>
-            <entryLink id="0460-c825-e3d0-640f" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
-            <entryLink id="299e-c56e-ecdd-e1b4" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
-            <entryLink id="01b1-7b21-9254-b456" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
-            <entryLink id="fc98-3315-e5d9-2923" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
-            <entryLink id="16d3-3c83-eeb1-5d46" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+            <entryLink id="f69d-1397-1694-1dca" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="947c-bdf8-6cd6-772e" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="979f-b204-2634-5760" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="03c1-414e-e561-1d13" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="7cd3-31a4-13f7-9fea" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="85a0-5bd7-af99-136a" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+                <categoryLink id="b4b6-4722-c4e0-5e59" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="3fd3-32a2-bedb-db37" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
-            <entryLink id="3172-4f03-eca7-6c9b" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
-            <entryLink id="595e-9c48-beeb-5afb" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+            <entryLink id="fa03-7624-c9d9-f05d" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="b7c4-5a18-73ac-7228" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="3f99-8621-6004-49f1" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
               <categoryLinks>
-                <categoryLink id="3381-910c-f400-55cd" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+                <categoryLink id="7c1d-7536-7f87-a63e" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
               </categoryLinks>
             </entryLink>
-            <entryLink id="16cb-900d-e8c4-b423" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
-            <entryLink id="b7bf-0283-9f2d-f45b" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
-            <entryLink id="e5a6-233a-427d-97fb" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
-            <entryLink id="2532-cb3f-c245-8aa7" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
-            <entryLink id="be4c-c20a-672b-49d9" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="5540-a022-c9a1-9efb" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="535e-1b85-ab32-a13c" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="dd11-165d-509f-ec67" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="be94-559b-4cb0-6d72" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="3d00-0233-824d-4ac8" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3909,6 +5255,9 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e861-eab2-73e0-e76b" type="max"/>
       </constraints>
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2948-308c-2eec-da7a" name="Close-Quarters Battle" hidden="true" collective="false" type="upgrade">
       <modifiers>
@@ -3926,6 +5275,9 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7afc-fc7c-33be-2782" type="max"/>
       </constraints>
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="36a3-b397-18dc-1a05" name="Orbital Drop Strike Team" hidden="false" collective="false" type="upgrade">
       <modifiers>
@@ -3935,9 +5287,16 @@
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ff2a-fd2f-1e39-3883" type="instanceOf"/>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6246-d585-0ebf-f1e9" type="instanceOf"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6246-d585-0ebf-f1e9" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ff2a-fd2f-1e39-3883" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="4f25-1e0d-9f94-dcc0" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="36a3-b397-18dc-1a05" type="atLeast"/>
+          </conditions>
         </modifier>
         <modifier type="increment" field="c890-7a16-f974-2f7d" value="5.0">
           <repeats>
@@ -3947,10 +5306,14 @@
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b83-3da5-500e-e98f" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f25-1e0d-9f94-dcc0" type="min"/>
       </constraints>
       <infoLinks>
         <infoLink id="b97e-1b2a-3c61-c2f5" name="Orbital Drop Strike Team (ODST) (133)" hidden="false" targetId="cc71-655c-7c94-77de" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2323-618c-8ca9-cd34" name="Heavy Cluster Munitions" hidden="false" collective="false" type="upgrade">
       <modifiers>
@@ -3966,6 +5329,9 @@
       <infoLinks>
         <infoLink id="bc6e-2c24-78eb-a608" name="Cluster Munitions (136)" hidden="false" targetId="787e-ca91-76d7-c7d6" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="91f0-f951-0012-0bcf" name="Light Cluster Munitions" hidden="false" collective="false" type="upgrade">
       <modifiers>
@@ -3981,6 +5347,9 @@
       <infoLinks>
         <infoLink id="056e-560e-1bb9-aa1e" name="Cluster Munitions (136)" hidden="false" targetId="787e-ca91-76d7-c7d6" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f9aa-7de9-c56b-d746" name="Semi-Guided Munitions" hidden="false" collective="false" type="upgrade">
       <modifiers>
@@ -3996,6 +5365,566 @@
       <infoLinks>
         <infoLink id="7153-2e98-a26d-1442" name="Semi-Guided (136)" hidden="false" targetId="91ab-6fc4-f96e-053a" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9ef2-062c-b11d-7889" name="Airborne Training" hidden="false" collective="false" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="c890-7a16-f974-2f7d" value="10.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4e8-4f1a-a1d8-4257" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd9e-a17b-6185-2e3b" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a5c0-016c-6e41-ccc9" name="Airborne Training (129)" hidden="false" targetId="f2e6-5aba-0858-7761" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="72c9-1713-c72d-0cc8" name="Jump Pack" hidden="false" collective="false" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="c890-7a16-f974-2f7d" value="10.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4e8-4f1a-a1d8-4257" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4e7-2f72-4ccd-332c" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a003-0876-c4c7-61f3" name="Jump Pack (132)" hidden="false" targetId="1070-9545-c4a8-5f34" type="rule"/>
+        <infoLink id="104d-da36-16ad-8454" name="Bulky (126)" hidden="false" targetId="3e6a-9aa8-2992-5cf9" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f7d5-9d5b-3c76-9011" name="Medic" hidden="false" collective="false" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="c890-7a16-f974-2f7d" value="15.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4e8-4f1a-a1d8-4257" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e244-0db6-566c-1319" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e479-53c1-20f3-4476" name="Medic (132)" hidden="false" targetId="161e-f55f-5306-926c" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2079-dc02-b052-3651" name="Motorized: Anti-Grav" hidden="false" collective="false" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="c890-7a16-f974-2f7d" value="10.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4e8-4f1a-a1d8-4257" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f45b-544e-11fc-45f1" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="327a-0d92-7522-7c7d" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="94ba-4c30-9860-0c04" name="Motorized (132)" hidden="false" targetId="87b1-f6ab-e27b-27a5" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c4b7-e434-4149-34a5" name="Motorized: Hover" hidden="false" collective="false" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="c890-7a16-f974-2f7d" value="10.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4e8-4f1a-a1d8-4257" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f45b-544e-11fc-45f1" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="507d-31db-2f11-1180" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2d55-f7d0-ad8c-6268" name="Motorized (132)" hidden="false" targetId="87b1-f6ab-e27b-27a5" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c54d-7d13-9423-67fb" name="Motorized: Wheeled" hidden="false" collective="false" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="c890-7a16-f974-2f7d" value="10.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4e8-4f1a-a1d8-4257" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f45b-544e-11fc-45f1" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee67-a64e-0a80-9986" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="978f-ecda-ebde-21ba" name="Motorized (132)" hidden="false" targetId="87b1-f6ab-e27b-27a5" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4b0f-7e81-980e-2d43" name="Storm Training" hidden="false" collective="false" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="c890-7a16-f974-2f7d" value="3.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4e8-4f1a-a1d8-4257" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2a5-f86b-ca02-e5db" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="0683-50a0-427d-4591" name="Storm Training (134)" hidden="false" targetId="43d4-1758-db21-c885" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="57b7-208e-cd00-3e8d" name="Powered Armor Infantry ATM" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fe77-3a6f-abc3-bebc" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c57a-91e3-1de0-d98f" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <infoGroups>
+        <infoGroup id="55df-b20d-f4e3-0575" name="Data Card" hidden="false">
+          <profiles>
+            <profile id="1aa6-4488-a54b-7c36" name="1. Move" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">4</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">4</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">4</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">4</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8cf5-c7a3-4a5e-80ad" name="2. Armor" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">3</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">3</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">3</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7680-09cc-7fb8-4b6a" name="3. Close Assault" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">3/3</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">2/2</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">2/2</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">1/1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6ba8-d7d1-07cf-b6a8" name="4. Damage Control" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">3</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="ca00-5669-6767-7a39" name="MAR" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">1/0</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">1/0</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">1/0</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">1/0</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0b7c-066c-e73b-b3cb" name="Panzerfaust AT" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">2/2</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">2/2</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">1/1</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">1/1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b7b7-d040-1030-cef8" name="Grenade" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">-</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="5079-901b-9707-61b7" name="Munitions" hidden="false">
+          <profiles>
+            <profile id="4904-d357-58c3-5bcf" name="Panzerfaust AT" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">4</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">1</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Strike, Blaster 2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0b72-6ee7-c12f-7ade" name="MAR" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">6</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Blaster</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7ea4-2614-5e6e-cdca" name="Grenade" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">-</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Anti-Inf</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3879-025f-04f8-0ce4" name="Blaster (E17)" hidden="false" targetId="2a06-38a3-b11c-5a38" type="rule"/>
+            <infoLink id="d370-07f2-b6a3-99a1" name="Grenade (E13)" hidden="false" targetId="fa24-5e32-9628-0181" type="rule"/>
+            <infoLink id="b0d8-c1ec-0489-0e6e" name="Strike (128)" hidden="false" targetId="cfba-20ba-37bf-e3c5" type="rule"/>
+            <infoLink id="cbb2-554c-8ae4-2cc6" name="Minimum Range (127)" hidden="false" targetId="8afa-64ac-be6a-8180" type="rule"/>
+            <infoLink id="ee17-e862-3069-6231" name="Anti-Infantry (119)" hidden="false" targetId="0fd9-23b7-3187-123d" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="7fc9-6320-bef9-353b" name="SA" hidden="false">
+          <profiles>
+            <profile id="ac80-6a96-779c-c981" name="SA" hidden="false" typeId="fe4e-9428-6ade-3e50" typeName="Unit">
+              <characteristics>
+                <characteristic name="Info" typeId="f9ae-6c30-aef9-52d3">Soft, Bulky, Pop-Up, Assault 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="b40a-2ce9-6a3c-9e5d" name="Soft (128)" hidden="false" targetId="f23d-d95f-d99b-0e8c" type="rule"/>
+            <infoLink id="ec16-8b80-5fbc-1c20" name="Pop-Up (E18)" hidden="false" targetId="f511-3fdd-293a-cfcb" type="rule"/>
+            <infoLink id="d6e7-3d55-11d3-af76" name="Assault (120)" hidden="false" targetId="0373-6128-cf5b-2c28" type="rule"/>
+            <infoLink id="d2b5-6072-be9d-900d" name="Bulky (126)" hidden="false" targetId="3e6a-9aa8-2992-5cf9" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="378f-6248-8dae-f2cf" name="Armor Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10ab-af90-418a-2bba" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="55e6-c751-097b-116c" name="Ablative Armor" hidden="false" collective="false" targetId="b869-88b1-7587-cf98" type="selectionEntry"/>
+            <entryLink id="6acc-fb2c-b4c3-0c2e" name="Reactive Armor" hidden="false" collective="false" targetId="5c8b-63f4-c497-275d" type="selectionEntry"/>
+            <entryLink id="c02b-a915-7c52-5e47" name="Makeshift Armor" hidden="false" collective="false" targetId="e7a7-86bd-cdc0-8471" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7d56-fbea-2396-6da8" name="Combat Engineer Upgrade" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9788-3b2f-d2b4-af35" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b3a5-3ca9-2234-0159" name="Combat Engineer 1" hidden="false" collective="false" targetId="c9b1-3c76-7beb-0ec6" type="selectionEntry"/>
+            <entryLink id="467f-7be1-76b8-1536" name="Combat Engineer 2" hidden="false" collective="false" targetId="c689-3d18-8f5c-af36" type="selectionEntry"/>
+            <entryLink id="3c4f-c27d-458e-6563" name="Combat Engineer 3" hidden="false" collective="false" targetId="fa36-9a71-23bf-0858" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d419-9b06-4dc8-8319" name="Fire Support Team Upgrade" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16e5-53d3-769a-1734" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5fe5-9ca3-6820-7771" name="FIST 1" hidden="false" collective="false" targetId="ea71-fae6-9e9f-95bc" type="selectionEntry"/>
+            <entryLink id="397a-a42b-388f-cacc" name="FIST 2" hidden="false" collective="false" targetId="667a-7e1e-5e01-7aff" type="selectionEntry"/>
+            <entryLink id="866b-8e85-a2b5-551d" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="442a-e082-e587-fad8" name="Support Upgrades" hidden="false" collective="false">
+          <entryLinks>
+            <entryLink id="0dff-aba6-a17d-0a95" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="8a63-a1e2-0f15-a451" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="f0a7-323c-d0c5-d950" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="08a2-0e1f-a358-8829" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="47a4-d585-6709-37c6" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="665b-6413-8c4e-d238" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="6088-c621-afa3-6bb7" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="7d91-aec1-6d23-f891" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="ee24-8470-7234-b06f" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="6e37-47d5-39f3-6e6c" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="1ec7-6090-adf0-f856" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="cf84-ce40-a910-1474" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="48f9-09b9-7bb9-5040" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="db02-a1f2-87ab-7437" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="bd0a-0c09-a47e-bd68" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="9597-835e-90dd-7034" name="Infantry Upgrades" hidden="false" collective="false">
+          <entryLinks>
+            <entryLink id="e237-a363-dfed-3bdc" name="Airborne Training" hidden="false" collective="false" targetId="9ef2-062c-b11d-7889" type="selectionEntry"/>
+            <entryLink id="b5a9-14a0-a350-d192" name="Jump Pack" hidden="false" collective="false" targetId="72c9-1713-c72d-0cc8" type="selectionEntry"/>
+            <entryLink id="ea52-5ac4-b4ac-e0c1" name="Medic" hidden="false" collective="false" targetId="f7d5-9d5b-3c76-9011" type="selectionEntry"/>
+            <entryLink id="5efe-f5d2-6501-593b" name="Motorized: Anti-Grav" hidden="false" collective="false" targetId="2079-dc02-b052-3651" type="selectionEntry"/>
+            <entryLink id="38be-983f-9630-495d" name="Motorized: Hover" hidden="false" collective="false" targetId="c4b7-e434-4149-34a5" type="selectionEntry"/>
+            <entryLink id="3c73-4068-2ae8-a02a" name="Motorized: Wheeled" hidden="false" collective="false" targetId="c54d-7d13-9423-67fb" type="selectionEntry"/>
+            <entryLink id="4b16-8560-c225-22df" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="52f3-405a-f843-73c3" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63b1-4c71-9cb8-fa3e" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="76e3-9610-2f05-f133" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="58.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="750b-3f3c-c8dd-af8c" name="Powered Armor Infantry SAM" hidden="false" collective="false" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fe77-3a6f-abc3-bebc" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c57a-91e3-1de0-d98f" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <infoGroups>
+        <infoGroup id="abf5-7ef1-28c6-a0ad" name="Data Card" hidden="false">
+          <profiles>
+            <profile id="2771-c16b-5bbc-2969" name="1. Move" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">4</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">4</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">4</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">4</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="dcde-b934-30d4-52b2" name="2. Armor" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">3</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">3</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">3</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="bc0d-60a5-0735-e09b" name="3. Close Assault" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">3/3</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">2/2</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">2/2</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">1/1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="3aaf-e358-4685-979f" name="4. Damage Control" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">3</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b6cf-04ea-a1a0-265b" name="MAR" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">1/0</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">1/0</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">1/0</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">1/0</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="5cb0-aa0a-8b40-a977" name="Grenade" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">-</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d162-9050-ab0a-fd80" name="Stinger SAM" hidden="false" typeId="c5da-1816-ef6d-e95f" typeName="Dmg Track 3">
+              <characteristics>
+                <characteristic name="0" typeId="e38d-9a8f-46ba-c40d">-/3</characteristic>
+                <characteristic name="1" typeId="28c6-a6c3-0270-b719">-/3</characteristic>
+                <characteristic name="2" typeId="0665-079d-c90f-735e">-/2</characteristic>
+                <characteristic name="3" typeId="2a5e-bcf7-f4a1-9543">-/2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="0fa9-16c6-e8c0-2996" name="Munitions" hidden="false">
+          <profiles>
+            <profile id="109b-e7b9-5cca-d1ed" name="Stinger SAM" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">4</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Anti-Aircraft 1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="457b-7c48-1634-22b5" name="MAR" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">6</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Blaster</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0200-7a6c-a00f-6af0" name="Grenade" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">-</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Anti-Inf</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="b4f4-37b6-c2c3-337b" name="Blaster (E17)" hidden="false" targetId="2a06-38a3-b11c-5a38" type="rule"/>
+            <infoLink id="282f-cf1e-fe4f-99f0" name="Grenade (E13)" hidden="false" targetId="fa24-5e32-9628-0181" type="rule"/>
+            <infoLink id="096e-35bf-e81b-ef0c" name="Anti-Aircraft (E14)" hidden="false" targetId="9a8d-7faf-7e2e-f54a" type="rule"/>
+            <infoLink id="a880-f4f4-d440-707b" name="Anti-Infantry (119)" hidden="false" targetId="0fd9-23b7-3187-123d" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="1283-25a0-d5db-b40b" name="SA" hidden="false">
+          <profiles>
+            <profile id="0d39-0f5b-1eb7-9d66" name="SA" hidden="false" typeId="fe4e-9428-6ade-3e50" typeName="Unit">
+              <characteristics>
+                <characteristic name="Info" typeId="f9ae-6c30-aef9-52d3">Soft, Bulky, Pop-Up, Assault 1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="42d8-6e9a-128e-5b09" name="Soft (128)" hidden="false" targetId="f23d-d95f-d99b-0e8c" type="rule"/>
+            <infoLink id="2275-6f38-01b5-7d46" name="Pop-Up (E18)" hidden="false" targetId="f511-3fdd-293a-cfcb" type="rule"/>
+            <infoLink id="b638-3405-8956-05d2" name="Assault (120)" hidden="false" targetId="0373-6128-cf5b-2c28" type="rule"/>
+            <infoLink id="6a79-c490-1d87-d300" name="Bulky (126)" hidden="false" targetId="3e6a-9aa8-2992-5cf9" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5aa2-4ad0-b183-f07a" name="Armor Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa09-aa59-8f82-44d5" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e4bc-424c-d731-3993" name="Ablative Armor" hidden="false" collective="false" targetId="b869-88b1-7587-cf98" type="selectionEntry"/>
+            <entryLink id="8dc7-6b0a-4012-3de1" name="Reactive Armor" hidden="false" collective="false" targetId="5c8b-63f4-c497-275d" type="selectionEntry"/>
+            <entryLink id="e1ed-4adf-09de-144d" name="Makeshift Armor" hidden="false" collective="false" targetId="e7a7-86bd-cdc0-8471" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="21fa-0e85-0291-c303" name="Combat Engineer Upgrade" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="166c-60f5-4354-54b9" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a0bf-ce26-f4a2-cc3b" name="Combat Engineer 1" hidden="false" collective="false" targetId="c9b1-3c76-7beb-0ec6" type="selectionEntry"/>
+            <entryLink id="a146-3660-2f49-7aaa" name="Combat Engineer 2" hidden="false" collective="false" targetId="c689-3d18-8f5c-af36" type="selectionEntry"/>
+            <entryLink id="cf4e-6f24-1060-0cb4" name="Combat Engineer 3" hidden="false" collective="false" targetId="fa36-9a71-23bf-0858" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="afff-95a4-f7d1-f966" name="Fire Support Team Upgrade" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5fe-43b2-64ac-e642" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1b9c-c51c-052e-33d4" name="FIST 1" hidden="false" collective="false" targetId="ea71-fae6-9e9f-95bc" type="selectionEntry"/>
+            <entryLink id="baa1-f6d0-fc0e-64e9" name="FIST 2" hidden="false" collective="false" targetId="667a-7e1e-5e01-7aff" type="selectionEntry"/>
+            <entryLink id="22bf-a53d-85b2-dc50" name="FIST 3" hidden="false" collective="false" targetId="0906-f38c-5065-b836" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1a2b-3181-a2dd-4962" name="Support Upgrades" hidden="false" collective="false">
+          <entryLinks>
+            <entryLink id="ea9b-cd66-e5c7-aded" name="Buffering" hidden="false" collective="false" targetId="3997-a98c-10d6-00f2" type="selectionEntry"/>
+            <entryLink id="c7b3-c47d-363a-02c6" name="External Anti-Nano Dispersion Pod" hidden="false" collective="false" targetId="f54e-005f-4033-2e06" type="selectionEntry"/>
+            <entryLink id="9069-5c3f-48fb-363b" name="Claymore Anti-Personnel Mine" hidden="false" collective="false" targetId="3191-ce3b-23c4-5a7a" type="selectionEntry"/>
+            <entryLink id="bc2d-7338-9314-e8f1" name="Experimental Nano-Tech" hidden="false" collective="false" targetId="a513-3f04-1e16-c9ce" type="selectionEntry"/>
+            <entryLink id="dd21-e8e5-7cb7-6cb2" name="External Active Phase Array" hidden="false" collective="false" targetId="04a1-dbde-94e4-7c2b" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="9f3a-4bc7-5746-3b53" name="APA" hidden="false" targetId="800e-00d3-5890-31c7" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="024d-ed64-fff5-1ad0" name="External Ammo Bin" hidden="false" collective="false" targetId="fed9-bd58-6aa3-787f" type="selectionEntry"/>
+            <entryLink id="6265-3629-05ea-7cfd" name="External Chain-Fire Pod" hidden="false" collective="false" targetId="a7f7-863e-40d2-805f" type="selectionEntry"/>
+            <entryLink id="b5ee-5ee4-3ed7-332c" name="External ECM Pod" hidden="false" collective="false" targetId="3f9f-994e-9857-3917" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="e4a0-b5ff-717f-3def" name="ECM" hidden="false" targetId="8d8e-b952-cb61-6b2a" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="2857-6311-8912-5fee" name="External Fire Control Pod" hidden="false" collective="false" targetId="5cad-7b72-cadf-c543" type="selectionEntry"/>
+            <entryLink id="7b3b-7ee9-28f3-8601" name="Fire-Suppression System" hidden="false" collective="false" targetId="dcb4-e779-fc2e-9c21" type="selectionEntry"/>
+            <entryLink id="6042-1058-646c-ff69" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
+            <entryLink id="0ce2-81b0-6378-acc0" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
+            <entryLink id="a0d9-d7b6-535b-93b0" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d24e-b969-2793-b18c" name="Infantry Upgrades" hidden="false" collective="false">
+          <entryLinks>
+            <entryLink id="6a35-b82c-c994-656f" name="Airborne Training" hidden="false" collective="false" targetId="9ef2-062c-b11d-7889" type="selectionEntry"/>
+            <entryLink id="2997-d378-c934-6d47" name="Jump Pack" hidden="false" collective="false" targetId="72c9-1713-c72d-0cc8" type="selectionEntry"/>
+            <entryLink id="fd18-44cb-fd6b-c1e8" name="Medic" hidden="false" collective="false" targetId="f7d5-9d5b-3c76-9011" type="selectionEntry"/>
+            <entryLink id="5d73-838a-eb42-5028" name="Motorized: Anti-Grav" hidden="false" collective="false" targetId="2079-dc02-b052-3651" type="selectionEntry"/>
+            <entryLink id="de12-565b-a3c9-e82e" name="Motorized: Hover" hidden="false" collective="false" targetId="c4b7-e434-4149-34a5" type="selectionEntry"/>
+            <entryLink id="4f3b-d31c-b626-9b4e" name="Motorized: Wheeled" hidden="false" collective="false" targetId="c54d-7d13-9423-67fb" type="selectionEntry"/>
+            <entryLink id="08a0-f7a4-7df9-6257" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="cd14-5873-cc55-98ac" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="042b-3e26-b573-d2b9" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f746-a90e-2ab7-74b9" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="48.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
@@ -4003,11 +5932,10 @@
       <description>Increases their AV (+1) and decrease their MV (-1).</description>
     </rule>
     <rule id="552b-9272-d4b2-64e7" name="Reactive Armor (133)" hidden="false">
-      <description>(+2) AV bonus when hit by any weapon system with the SA: Ammo/Limited Ammo. The model will also receive a (-1) to its AV when hit by any other weapon system
-type.</description>
+      <description>(+2) AV vs SA: Ammo/Limited Ammo weapon systems. (-1) AV vs all other weapon systems.</description>
     </rule>
     <rule id="0c99-dddd-bae1-603f" name="Ablative Armor (129)" hidden="false">
-      <description>(+2) to amodels base AV when it has been hit by a weapon system without the SA:Ammo/Limited Ammo but a (-1) when hit by a weapon system with this SA.</description>
+      <description>(-1) AV vs SA: Ammo/Limited Ammo weapon systems. (+2) AV vs all other weapon systems.</description>
     </rule>
     <rule id="7206-4532-8852-826e" name="Ammo ( E16)" hidden="false">
       <description>Critical Fumble (Combat Roll only) requires 1d6 roll. On a (1) result, “jam/out of ammo” for all weapon systems of that type</description>
@@ -4049,10 +5977,10 @@ type.</description>
       <description>Roll Target-Point Roll vs SA: Shock value on any successful Combat Roll hit (no damage required). Failed roll results in Model State: Suppression.</description>
     </rule>
     <rule id="d8f1-a8a5-ea5a-2c80" name="Superior Mobility (123)" hidden="false">
-      <description>Reduces the MV cost by (-1) when moving through the following terrain types: rough/broken, rubble, light woods, and elevation.</description>
+      <description>(-1) MV cost when moving through rough, rubble, light woods, or elevation-based terrain objects.</description>
     </rule>
     <rule id="a7f4-7c0e-ca8a-411b" name="Advanced Targeting Computer (119)" hidden="false">
-      <description>By using the target-lock action, a model may add (+) the rating level of the SA: Advanced Targeting Computer to a primary combat or strike point roll.</description>
+      <description>(+1/+2) to all direct-fire ranged assault Combat Roll(s) or Strike-Point Roll(s). Requires Target-Lock Action to activate.</description>
     </rule>
     <rule id="d5b2-cc58-58c7-f092" name="Ace Pilot (129)" hidden="false">
       <description>Add a (+2) to any die roll made by the model they have been assigned to.</description>
@@ -4117,7 +6045,7 @@ point roll and each attacking model is still required to make a successful comba
       <description>Increases a model&apos;s base MV by (+1). (Already Calculated)</description>
     </rule>
     <rule id="0373-6128-cf5b-2c28" name="Assault (120)" hidden="false">
-      <description>Reduces the combat roll penalty for a model using a combat action to conduct a Run &apos;N Gun by (-1) for each rating level indicated. The SA: Assault applies to the penalty only and cannot be used to provide a bonus to the combat roll.</description>
+      <description>Removes one Combat Roll penalty per level when using the Combat Action: Run N’ Gun. Does NOT provide Combat Roll bonus.</description>
     </rule>
     <rule id="2839-22b7-f0c2-1f02" name="ECM (E15)" hidden="false">
       <description>May use a special action to perform one of the following functions each turn: 1. Block any target-lock attempt by an enemy model currently located within its area of effect. 2. Attempt to “jam” any enemy model using the SA: Active Phase Array or SA: ECM currently located within its area of effect. 3. Receive an automatic target-lock on one model using the SA: Active Phase Array (within GM range) and use the combat action to _re one or more anti-radiation guided missiles at the enemy model, provided it has not already used a combat or target-lock action during the current turn.</description>
@@ -4129,10 +6057,10 @@ point roll and each attacking model is still required to make a successful comba
       <description>Adds an extra hard-point to a model, decreasing it’s base armor value by (-2). (Already Calculated)</description>
     </rule>
     <rule id="30d5-d2c0-47dd-45a5" name="Rugged (124)" hidden="false">
-      <description>Will always receive a critical success when successfully rolling for the repair action, repairing two points of damage (non-lingering only).</description>
+      <description>Allows model to repair x2 non-lingering damage tracks with successful Repair Action 10+ Roll.</description>
     </rule>
     <rule id="f62b-aa7a-b502-b0fe" name="Relentless (124)" hidden="false">
-      <description>Ignores any MV critical damage results.</description>
+      <description>Allows model to ignore any Critical Damage Table reduction result(s). Model will still receive three damage points.</description>
     </rule>
     <rule id="4910-3b5b-ccda-cd5f" name="HARM (136)" hidden="false">
       <description>High-speed anti-radiation ammo that are designed to detect and lock-on to a &quot;radio&quot; emission source. Radar, jamming units, and even some high-powered radio transmitters can be targeted. Model must have APA or ECM and Guided Missile Weapon System to equip. </description>
@@ -4147,7 +6075,7 @@ point roll and each attacking model is still required to make a successful comba
       <description>Allows model to use Combat Action vs NoE aircraft models. (+1/+2) to Combat Roll(s) vs aircraft models.</description>
     </rule>
     <rule id="0fd9-23b7-3187-123d" name="Anti-Infantry (119)" hidden="false">
-      <description>Provides a (+1) to the models combat roll value when the equipping model is the primary attacker against a defending infantry model or, the model is the defender in a close-combat assault and any attacker is an infantry model. A model with the SA: Anti-Infantry will not receive this bonus if it is a supporting attacker or there are no infantry models attacking it.</description>
+      <description>(+1) to all close-combat assault Combat Roll(s) vs infantry models.</description>
     </rule>
     <rule id="2a06-38a3-b11c-5a38" name="Blaster (E17)" hidden="false">
       <description>Increases the chance of a Critical Success (+1d6 to nal roll) when making a Combat Roll. Blaster (+1), Blaster 1 (+2), Blaster 2 (+3).</description>
@@ -4159,14 +6087,13 @@ point roll and each attacking model is still required to make a successful comba
       <description>Counts as two models for the purpose of transport.</description>
     </rule>
     <rule id="8813-842b-a7c6-67e5" name="CHAMELEON (120)" hidden="false">
-      <description>A model attempting a direct-fire, ranged assault on a defending model with the SA: CHAMELEON will add a (+1) to their target point value.</description>
+      <description>(-1) to all direct-fire ranged assault Combat Roll(s) from medium range-band or greater.</description>
     </rule>
     <rule id="570e-0d39-3ab9-ec3f" name="Counter-Measures (120)" hidden="false">
-      <description>Can be used to block a target lock or tag attempt once per turn as a free action with a successful 10+roll. Each SA: Counter-Measures rating level will add a (+1) to the final roll value.</description>
+      <description>Allows for one attempt per turn to“block”Target-Lock Action or SA: TAG (0 AP). (+1) to 10+ Roll per rating level equipped.</description>
     </rule>
     <rule id="6786-447b-c294-9231" name="Double-Time (E18)" hidden="false">
-      <description>(Requires MV 11+) Using the move action during an activation will receive a (-2) situation modifier to any enemy combat roll made against it until its next activation. The model must expend its full MV allowance when conducting the move action and any movement backwards will negate this “bonus.” A model may not use the Run N’ Gun
-ranged-assault in conjunction with the SA: Double-Time.</description>
+      <description>(-2) to any Combat Roll vs equipped model if full MV used for 1 AP in single direction. Requires MV (11+).</description>
     </rule>
     <rule id="3a87-e36e-96c7-03d1" name="Improved Armor (122)" hidden="false">
       <description>Increase their armor value by (+1) and reduce their movement and damage control value by (-2).</description>
@@ -4179,31 +6106,31 @@ ranged-assault in conjunction with the SA: Double-Time.</description>
 1” without changing their facing, using only 1 MV (plus any additional terrain-type costs) for the maneuver. Multiple lateral shifts/rolls can be used by the model during the same move action.</description>
     </rule>
     <rule id="2db4-5149-09e9-1bb4" name="Overdrive (E17)" hidden="false">
-      <description>Doubles any damage. Requires declaration before any Combat Roll(s). Roll 1d6, target-point (1), +1 per additional weapon system used. Failed result prevents weapon system(s) use one turn. Critical Fumble (Combat Roll only) disables weapon system(s) for remainder of game</description>
+      <description>Doubles any damage. Requires declaration before any Combat Roll(s). Roll 1d6, target-point (1), +1 per additional weapon system used. Failed result prevents weapon system(s) use one turn. Critical Fumble (Combat Roll only) disables weapon system(s) for remainder of game.</description>
     </rule>
     <rule id="9ad9-6551-1820-5545" name="Piercing (123)" hidden="false">
       <description>(+1) to any single weapon system type a model has equipped with a Hard RAV of “0+”.</description>
     </rule>
     <rule id="f511-3fdd-293a-cfcb" name="Pop-Up (E18)" hidden="false">
-      <description>May rise above any blocking cover that is up to one elevation level higher than the model and conduct a ranged-assault, dropping back behind cover before an enemy model without a valid LoS to the model’s location can make a direct-_re ranged assault in return (no defensive fire or over-watch).</description>
+      <description>Allows model to conduct a direct-fire ranged assault from some Blocking Cover terrain objects with no return fire permitted by enemy model(s).</description>
     </rule>
     <rule id="a35d-bb53-221a-0971" name="Shielded (124)" hidden="false">
       <description>Ignores the effects of nano-disassemblers and ion disruptor cannons.</description>
     </rule>
     <rule id="f23d-d95f-d99b-0e8c" name="Soft (128)" hidden="false">
-      <description>Model is considered a “soft” target and is subject to any game rules that may apply to a model with this SA.</description>
+      <description>Model is considered a soft target when determining damage value track to use.</description>
     </rule>
     <rule id="cfba-20ba-37bf-e3c5" name="Strike (128)" hidden="false">
       <description>Blocks use vs aircraft or infantry as part of a ranged assault Combat Action.</description>
     </rule>
     <rule id="adf2-6487-e6d7-921b" name="TAG (124)" hidden="false">
-      <description>Used to “paint” a target for laser-guided weapon systems. The use of the SA: TAG requires a model to use the target lock action and have a valid LoS to the target model.</description>
+      <description>Allows equipped model to use guided missiles and/or other laser-based weapon systems as part of a ranged assault. Does not add any (+).</description>
     </rule>
     <rule id="c07c-4a38-b3fa-fc31" name="Turret (E16)" hidden="false">
-      <description>Allows for a 360-degree arc of fire. A vehicle model with the SA: Turret adjacent (within 1”) to an elevation level 1 hill is considered to be “hull-down”, allowing it to receive a heavy cover bonus (-2) to any direct-fire ranged assaults with a LoS that crosses the elevation level being used.</description>
+      <description>Allows for unlimited firing arc and vehicles to use “hull-down”when adjacent to E1 hill terrain object. Hull-down provides for valid LoS for direct-fire ranged assaults and Heavy Cover bonus to equipped model.</description>
     </rule>
     <rule id="7caf-d838-afc9-0b63" name="Wizzo (125)" hidden="false">
-      <description>Provides for a (+1) to any primary combat or strike-point roll made by the model.</description>
+      <description>(+1) to any direct-Fire ranged assault Combat Roll(s) or indirect-fire Strike-Point Roll(s).</description>
     </rule>
     <rule id="f2e6-5aba-0858-7761" name="Airborne Training (129)" hidden="false">
       <description>May dismount a transporting aircraft at any point along its declared flight path during the activation of either the infantry or aircraft model as a free action.</description>
@@ -4224,14 +6151,13 @@ ranged-assault in conjunction with the SA: Double-Time.</description>
       <description>Use the mount or dismount action as a free action when disembarking from a ground-based transport.</description>
     </rule>
     <rule id="fb42-a775-c348-30c8" name="Active Phased Array (118)" hidden="false">
-      <description>May use a special action to perform one of the following functions each turn: 1. Provide a (+1) for each rating level to any friendly model&apos;s primary combat roll if the targeted enemy model is currently located within its area of effect. 2. Attempt to “jam” any enemy model using the SA: Active Phase Array or SA: ECM currently located within
-its area of effect. 3. Receive an automatic target-lock on any model using the SA: ECM (within GM range) and use the attack action to _re one or more anti-radiation guided missiles at the enemy model, provided it has not already used an attack or target-lock action in the current turn.</description>
+      <description>(+1/+2) to all direct-fire ranged assault Combat Roll(s) or Strike Roll(s). Requires enemy model in range (24”/30”). Allows Jamming Action. Requires Special Action to activate.</description>
     </rule>
     <rule id="39fc-c8d7-2473-2758" name="FCS (121)" hidden="false">
       <description>For each additional model with the SA: FCS in a squad, a (+1) is added to each model&apos;s Strike-Point Roll.</description>
     </rule>
     <rule id="c165-02e2-8af7-dd47" name="Gun Port (122)" hidden="false">
-      <description>Allows a single infantry model inside to conduct a direct-fire, ranged assault during its activation.</description>
+      <description>Allows one mounted infantry model to perform one direct-fire ranged assault during activation per rating level equipped.</description>
     </rule>
     <rule id="365b-d48b-18da-9fb0" name="Improved Breeder (122)" hidden="false">
       <description>Increases a model&apos;s base MV by (+2). (Already Calculated)</description>
@@ -4240,52 +6166,52 @@ its area of effect. 3. Receive an automatic target-lock on any model using the S
       <description>Increase the Soft RAV of a single weapon type on a model by 1</description>
     </rule>
     <rule id="9881-5b2e-2636-6d8e" name="Specialist (128)" hidden="false">
-      <description>A Model with this SA may only be assigned to a specialist squad during force group construction. </description>
+      <description>Model can only be used as part of a Specialist Squad.</description>
     </rule>
     <rule id="1f4e-edce-3006-ee30" name="Unique (128)" hidden="false">
-      <description>A model with this SA may only be selected once as part of a force group and/or by a specific faction (if any) as detailed by the model&apos;s description or data card. </description>
+      <description>Allows only one model of this type or description as part of a valid Force Group.</description>
     </rule>
     <rule id="5bff-3bf1-0f67-bf0b" name="Large Sensor Profile (122)" hidden="false">
       <description>A model with this SA provides a (+1) to the primary combat or strike-point roll of any enemy model attacking the model with a ranged assault. </description>
     </rule>
     <rule id="dffc-c05d-893b-868d" name="AEGIS (119)" hidden="false">
-      <description>A Defending model in a close-combat assault with this SA receives a (+1) to it&apos;s final combat roll value. </description>
+      <description>(+1) to close-combat assault Combat Roll(s) when defending.</description>
     </rule>
     <rule id="6c1a-b815-2265-518a" name="Airborne (119)" hidden="false">
       <description>May dismount a transporting aircraft at any point along its declared flight path during the activation of either the infantry or aircraft model as a free action.</description>
     </rule>
     <rule id="0c4f-c6de-4189-b9ef" name="Amphibious (119)" hidden="false">
-      <description>A model with this SA has been equipped to travel underwater, allowing for complete submersion for an extended period, allowing it to move &quot;through&quot; water terrain that would normally be impassable to it. An additional 1 MV is required for each one inch traveled underwater and any attack actions are prohibited. </description>
+      <description>Allows model to“cross” non-allowed water-based terrain objects. Requires additional (+1) MV per inch moved.</description>
     </rule>
     <rule id="2502-8a06-60c5-0995" name="Chain-Fire Pod (120)" hidden="false">
-      <description>A model with this SA allows other models in teh same squad to use it&apos;s final strike-point location, provided they have not already attempted a strike-point attempt of their own during the current turn. This model must use the target-lock action before attempting the strike-point roll and each attacking model is still required to to make a successful combat roll to damage any defending models. A model is note require to have the SA:Chain-Fire Pod in ofer to &quot;chain-in&quot; and use the designated strike-point. </description>
+      <description>Allows other models in same squad to use equipped model’s final Strike-Point location. Requires Target-Lock Action to activate.</description>
     </rule>
     <rule id="23f0-8120-01c7-17b3" name="Counter-Battery (120/E15)" hidden="false">
-      <description>A model with this SA is equipped with additional radar systems designed to detect incoming artillery or rockets and locate the exact position of the model that fired them. As a result, a model wquipped with this SA may declare an indirect-fire ranged assault against any enemy model who&apos;s final strike point location is 12&quot; or less from teh model provided it has not already used the Combat Action during the current turn. In addition, the model with this SA is NOT required to make it&apos;s own Strike-Point Roll (automatic success) when attempting this type of counter-fire. </description>
+      <description>Allows for indirect-fire ranged assault (no Strike-Point Roll required) vs enemy model with a final Strike-Point Location 12” or less from equipped model. Requires 1 AP and available Combat Action to activate.</description>
     </rule>
     <rule id="002b-8f39-3470-c2d7" name="Fire-Proof (121)" hidden="false">
-      <description>A model with this SA is equipped with a fire-suppression system designed to cover itself with a chemical agent and extinguish any fire(Free Action), making it immune to the State: Burning.</description>
+      <description>Allows model to ignore Model State: Burning. Additional rating level allows model to remove state within 3” from any other model or terrain object. Requires Special Action to activate.</description>
     </rule>
     <rule id="676f-d7cc-1b3d-5476" name="Grenadier (122)" hidden="false">
-      <description>An infantry model with this SA has received additional training when engaging the enemy in a close-combat assault as a primary attacker or defender and will receive a(+1) to their final combat roll value. </description>
+      <description>(+1) to any close-combat assault Combat Roll. Available to infantry models only.</description>
     </rule>
     <rule id="4f1a-c2c4-41f6-b17d" name="Launcher (122)" hidden="false">
-      <description>A model with this SA is used to transport and launch one or more cruise missiles (one for each rating level) purchased as part of a Battlefield Support Strike(141). The model with this SA serves as the point of deployment for a cruise missile attack. </description>
+      <description>Allows model to serve as deployment point for (1+) cruise missile(s) per rating level.</description>
     </rule>
     <rule id="6cb6-603e-a70b-426b" name="Point Defense (123/E16)" hidden="false">
       <description>A successful +10 Roll, when useing this SA, will shoot-down any incoming guided missile, mortar, or rocket tranged-attack from a single attacker, preventing ANY Combat Roll for that weapon system(s) once per turn. </description>
     </rule>
     <rule id="4f14-1698-5a32-799b" name="Rat (123)" hidden="false">
-      <description>Infantry models with this SA are adept in using the surrounding terrain to mask their position and receive a light cover bonus, reqardless of the terrain type they are in, when targeted by a ranged assault. This SA also negates the SA: Ravage, removing any qeapon system damage bonuses. </description>
+      <description>Allows infantry models Light Cover vs any ranged assault Combat Roll(s). Blocks SA: Ravage.</description>
     </rule>
     <rule id="f0e5-ddb6-e114-9bac" name="Reduced Turn (123)" hidden="false">
       <description>This SA removes the free facing change a non-infantry model receives when using the move action. Any facing changed requires the model to spend 1 MV to perform. </description>
     </rule>
     <rule id="1f72-8fdd-9615-3ce2" name="Reinforced (123)" hidden="false">
-      <description>A model with this SA is less susceptible to a damaging hit and will reduce any margin of success value by the rating level of the SA. </description>
+      <description>Allows model to reduce any Combat Roll Damage Table MoS by equipped rating level. Cannot be used to reduce below“0.”</description>
     </rule>
     <rule id="9f18-74e0-aaaf-db0e" name="Re-Supply (124)" hidden="false">
-      <description>A model with this SA may use a special action to reload the &quot;ammo&quot; of any model that it is currently in B2B contact with once per turn. </description>
+      <description>Allows model to remove any “jam/out of ammo” from a friendly model it is currently B2B with. Requires Special Action to activate.</description>
     </rule>
     <rule id="b296-ee4a-b02d-2e10" name="Shredder (124)" hidden="false">
       <description>(+1) to any single weapon system type a model has equipped with a Soft RAV of “0+”.</description>
@@ -4294,22 +6220,26 @@ its area of effect. 3. Receive an automatic target-lock on any model using the S
       <description>A model with this SA is equipped with a smoke generator that can be used to disrupt targeting systems and block a TAG attempt. Using a special action to activate, a model with this SA can be used to create a smoke field in place(2&quot; radius) or a &quot;line&quot; of smoke as the model moves (1&quot; wide X 1&quot; long) for each 1&quot; spent moving in a straight line(any facing change ends the smoke line). The smoke will provide a light cover bonus to any model that an attacker&apos;s line of sight passes through for a direct-fired, ranged attack. The smoke will also block any TAG attempt that traces a line through it. Lasts till this Model&apos;s next activation. </description>
     </rule>
     <rule id="7b4f-dd97-fbbb-5607" name="Storm (124)" hidden="false">
-      <description>Infantry models with this SA use the mount or dismount action as a free action when disembarking from a ground-based transport. </description>
+      <description>Allows infantry model to use Mount/Dismount Action from ground-based transport vehicles and aircraft for (0) AP.</description>
     </rule>
     <rule id="2c36-d17c-52ca-af00" name="Transport (125)" hidden="false">
-      <description>Models with this SA are tasked with moving infantry models. each rating level is the amount of transport space it has. Infantry models with the SA:Bulky count as 2 models when determining transport space availability. </description>
+      <description>Allows model to transport one non-bulky infantry model per rating level equipped.</description>
     </rule>
     <rule id="47b7-ce3c-ba78-1e86" name="C3 (126)" hidden="false">
-      <description>A model with this SA is equipped with superior command, control, and communications abilities. For each C3 level, one C3 point is added to a force group&apos;s C3 point pool at the start of the game. </description>
+      <description>Increases C3 point pool (+1) per rating level equipped.</description>
     </rule>
     <rule id="282e-723f-3576-e22d" name="Locked-On (127)" hidden="false">
-      <description>This SA allows a model to use the target-lock action as a free action during it&apos;s activation. </description>
+      <description>Allows model to use Target-Lock Action with no AP cost (0 AP).</description>
     </rule>
     <rule id="11cf-3901-db63-e6e2" name="Satellite Uplink (127)" hidden="false">
-      <description>This SA allows a model to use a free action once per turn during its activation for priority access to the BattleNet and request an attack from an orbiting space-based asset. The player will roll 1d6 and if a &quot;6&quot; is rolled, may choose any one attack from teh Strike Package: Space for immediate deployment anywhere on the game-board surface. </description>
+      <description>Allows model to request one Strike Package: Space attack per turn (0 AP) anywhere on game board with successful Target-Point Roll (1) 1d6.</description>
     </rule>
     <rule id="88cd-b8c8-d8e9-a62c" name="Slow-Fire (128)" hidden="false">
-      <description>A weapon system with this SA cannot be used to make a ranged assault in any two consecutive turns. </description>
+      <description>Blocks indicated weapon system(s) from being used in two consecutive turns.</description>
+    </rule>
+    <rule id="fa24-5e32-9628-0181" name="Grenade (E13)" hidden="false">
+      <description>A small “bomb” that is thrown by hand and is especially useful during close-assault and for “clearing” out an enemy-occupied structure. As an exception to the rule on p. 66, infantry
+equipped with grenades can be used to conduct a close-combat assault against an enemy infantry model located “inside” a structure. An attacking model must be in B2B contact with the structure and both attacking and defending models must be on the same elevation level or adjacent floors (if both models are inside the structure).</description>
     </rule>
   </sharedRules>
 </gameSystem>
