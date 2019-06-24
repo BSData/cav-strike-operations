@@ -1611,6 +1611,37 @@
             <entryLink id="c76b-27aa-7340-7300" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="5d71-a883-28cf-68bc" name="Weapon Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d1d-dc7a-a044-3b5e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="dbc5-b0ad-9260-a0e1" name="Amped Light Mortar (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="9900-c09a-0e94-abc3" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6116-eee3-fa65-4fd0" name="Amped Light Mortar (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="c516-576f-dcc4-a524" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d1dc-37f2-ba6b-d23a" name="Amped Submachine Gun (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="2b21-1d15-e35c-778c" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="c975-eb81-a49e-3152" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
@@ -1800,6 +1831,37 @@
             <entryLink id="3e33-9a77-73fd-85ae" name="Motorized: Wheeled" hidden="false" collective="false" targetId="c54d-7d13-9423-67fb" type="selectionEntry"/>
             <entryLink id="ccd3-e36a-68e4-32ce" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c3de-6464-3606-ea0c" name="Weapon Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85bd-b68f-e5c1-6d47" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="bd94-4ae4-23f0-d8c8" name="Amped Medium Mortar (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="9328-228b-d6ae-0c03" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="21ef-95fb-7b18-f9ab" name="Amped Medium Mortar (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="6de4-26a7-a802-3bbd" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1aa9-a943-c105-f538" name="Amped Submachine Gun (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="decb-4bb4-7ed7-70ec" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -2008,6 +2070,29 @@
             <entryLink id="d6b6-0ec7-3c1e-9a95" name="Motorized: Wheeled" hidden="false" collective="false" targetId="c54d-7d13-9423-67fb" type="selectionEntry"/>
             <entryLink id="4897-5861-6152-ecab" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="80af-5b7f-4a0b-1f48" name="Weapon Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="498c-d06f-9da1-c2fb" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="bcb4-7aa0-2503-7a06" name="Amped Grenade Launcher (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="021d-f8a2-9d0e-390c" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="daa6-12df-6e24-7a85" name="Amped Assault Rifle (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="0a18-c000-5136-48ee" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -2218,6 +2303,37 @@
             <entryLink id="0d97-bfa3-6c6f-182f" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="6738-cac3-b132-cbc6" name="Weapon Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="026e-4f4d-ff90-b729" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6396-4020-8e4e-7883" name="Amped Light Mortar (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="8f36-a8a0-ca06-a67d" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1bba-3efe-2d8f-6a31" name="Amped Light Mortar (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="e237-e374-9e4f-ee56" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b277-4512-aeec-86ee" name="Amped Submachine Gun (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="8b08-0f84-0241-a4e0" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="c18e-9415-2da6-6960" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
@@ -2407,6 +2523,37 @@
             <entryLink id="2095-3f27-70ce-91e6" name="Motorized: Wheeled" hidden="false" collective="false" targetId="c54d-7d13-9423-67fb" type="selectionEntry"/>
             <entryLink id="46ac-3758-00d9-69a8" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c2d3-a736-3bdc-b579" name="Weapon Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dfe-9c28-72fa-79fe" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="325f-0e8d-6a2e-e7eb" name="Amped Medium Mortar (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="bbf5-5421-2604-3aca" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="773e-3964-3900-0de4" name="Amped Medium Mortar (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="e079-57fa-e900-599b" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="63f0-aa01-71e9-5753" name="Amped Submachine Gun (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="5ee0-e358-318d-22bf" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -2615,6 +2762,29 @@
             <entryLink id="cef7-edb4-accd-e3d2" name="Motorized: Wheeled" hidden="false" collective="false" targetId="c54d-7d13-9423-67fb" type="selectionEntry"/>
             <entryLink id="099f-bfc8-b525-ff34" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="021f-33fe-a1b4-811f" name="Weapon Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="225c-13d7-2c5b-5a5a" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2512-26cb-2d49-fd46" name="Amped Grenade Launcher (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="1810-5a69-bfb5-5c1d" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="236b-2a82-408b-a84c" name="Amped Assault Rifle (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="a5a7-ba41-02ef-79c8" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -2827,6 +2997,45 @@
             <entryLink id="b38a-f7c2-ce26-21b6" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="9760-c230-7666-65fb" name="Weapon Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3213-7abe-a176-41a8" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1b96-cd26-2243-6fda" name="Amped Light Mortar (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="9159-7bf2-fd7f-8a81" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ba47-4f09-149d-57db" name="Amped Light Mortar (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="9796-efa0-ab89-9e9d" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2b67-3cae-8d74-c220" name="Amped MAR (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="b2a9-d2e2-0d33-a3e5" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0ddb-09fe-d0cc-a0df" name="Amped MAR (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="2d2a-26cc-6719-6b48" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="12c1-5459-e53f-2665" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
@@ -3037,6 +3246,37 @@
             <entryLink id="d536-2dca-8136-b7ea" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="b621-fdf3-86e2-91db" name="Weapon Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ad9-2660-077f-d51d" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1cb4-9401-bfab-8d3c" name="Amped Grenade Launcher (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="3a0f-07c9-c5bd-c81f" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0231-53c2-3290-5aac" name="Amped MAR (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="a6cb-f2cb-da44-34be" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f2b4-5a98-f371-bbc0" name="Amped MAR (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="3564-c20d-a73a-1188" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="6bb2-6b2a-33f7-041c" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
@@ -3245,6 +3485,45 @@
             <entryLink id="25ad-d1ec-0f9c-00d4" name="Motorized: Wheeled" hidden="false" collective="false" targetId="c54d-7d13-9423-67fb" type="selectionEntry"/>
             <entryLink id="430b-169a-6261-91e1" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3a52-5143-7796-abd3" name="Weapon Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0b4-419f-99d8-950e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4b7e-784c-2247-2e07" name="Amped Medium Mortar (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="3580-d7b8-32e5-1edb" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6cd4-454f-8f9b-52c0" name="Amped Medium Mortar (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="2223-0f04-289f-39f5" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c66b-8e95-2e56-ac6b" name="Amped MAR (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="fdf1-845b-89ac-81e9" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d46f-22a0-e16b-4643" name="Amped MAR (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="d836-6d41-8f2c-106e" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -5706,6 +5985,45 @@
             <entryLink id="4b16-8560-c225-22df" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="ff0d-3b60-7a8c-4dbc" name="Weapon Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a89f-90b0-cab7-25cf" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d360-4b77-4053-342d" name="Amped Panzerfaust AT (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="7006-bcef-9289-1a1d" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="395b-cc25-4924-e0b4" name="Amped Panzerfaust AT (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="7f36-996b-fbe7-594d" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c084-c828-a3f9-3102" name="Amped MAR (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="7eb3-3f05-9f4d-9e54" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9443-10c4-afa6-115d" name="Amped MAR (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="7ede-2bc9-2516-f767" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="52f3-405a-f843-73c3" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
@@ -5912,6 +6230,37 @@
             <entryLink id="4f3b-d31c-b626-9b4e" name="Motorized: Wheeled" hidden="false" collective="false" targetId="c54d-7d13-9423-67fb" type="selectionEntry"/>
             <entryLink id="08a0-f7a4-7df9-6257" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c2cd-d487-281a-2630" name="Weapon Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1b0-29e4-f033-b596" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5fd5-15e5-d293-5162" name="Amped Stinger SAM (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="a5ee-4b9f-fffb-56b5" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ac04-38e7-d055-c2c3" name="Amped MAR (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="6dc8-d4bc-b367-1ff1" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bbd5-b8a6-d6fe-9e2b" name="Amped MAR (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="7eb9-b9e2-e386-f8a8" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
