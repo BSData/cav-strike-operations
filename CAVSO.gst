@@ -1008,6 +1008,7 @@
             <entryLink id="80c5-0326-baa3-5458" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
             <entryLink id="aee0-0247-0038-18c9" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
             <entryLink id="f683-2738-d258-8ba3" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="95d4-9ffb-c47f-bcde" name="Loadmaster" hidden="false" collective="false" targetId="4c86-7519-0a89-cbf2" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1268,6 +1269,7 @@
             <entryLink id="745e-46da-0f8c-dcaf" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
             <entryLink id="9981-e1ea-1b31-0355" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
             <entryLink id="79d2-badc-3b1b-85bb" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="26bd-2489-7358-fb7b" name="Loadmaster" hidden="false" collective="false" targetId="4c86-7519-0a89-cbf2" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1284,6 +1286,99 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b090-b96a-e201-a337" name="Ripper (Vehicle)" hidden="false" collective="false" type="unit">
+      <infoGroups>
+        <infoGroup id="d809-dafd-593d-decc" name="Data Card" hidden="false">
+          <profiles>
+            <profile id="dd68-8085-9bf5-1eb7" name="2. Armor" hidden="false" typeId="0bbc-0987-7185-4aa9" typeName="Dmg Track 6">
+              <characteristics>
+                <characteristic name="0" typeId="9691-74aa-8ff9-5be6">2</characteristic>
+                <characteristic name="1" typeId="1baa-9c9d-3597-7a67">2</characteristic>
+                <characteristic name="2" typeId="c8c8-6abd-10a8-a57e">2</characteristic>
+                <characteristic name="3" typeId="dfa0-67c3-31c8-2af0">2</characteristic>
+                <characteristic name="4" typeId="21df-1818-2fb3-305e">1</characteristic>
+                <characteristic name="5" typeId="c412-0178-50e3-016b">1</characteristic>
+                <characteristic name="6" typeId="56b5-bf92-58cd-181b">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b8ba-7355-26b1-066a" name="3. Close Assault" hidden="false" typeId="0bbc-0987-7185-4aa9" typeName="Dmg Track 6">
+              <characteristics>
+                <characteristic name="0" typeId="9691-74aa-8ff9-5be6">0/0</characteristic>
+                <characteristic name="1" typeId="1baa-9c9d-3597-7a67">0/0</characteristic>
+                <characteristic name="2" typeId="c8c8-6abd-10a8-a57e">0/0</characteristic>
+                <characteristic name="3" typeId="dfa0-67c3-31c8-2af0">0/0</characteristic>
+                <characteristic name="4" typeId="21df-1818-2fb3-305e">0/0</characteristic>
+                <characteristic name="5" typeId="c412-0178-50e3-016b">0/0</characteristic>
+                <characteristic name="6" typeId="56b5-bf92-58cd-181b">0/0</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a21d-cae4-40c6-ea69" name="4. Damage Control" hidden="false" typeId="0bbc-0987-7185-4aa9" typeName="Dmg Track 6">
+              <characteristics>
+                <characteristic name="0" typeId="9691-74aa-8ff9-5be6">-</characteristic>
+                <characteristic name="1" typeId="1baa-9c9d-3597-7a67">-</characteristic>
+                <characteristic name="2" typeId="c8c8-6abd-10a8-a57e">5</characteristic>
+                <characteristic name="3" typeId="dfa0-67c3-31c8-2af0">3</characteristic>
+                <characteristic name="4" typeId="21df-1818-2fb3-305e">2</characteristic>
+                <characteristic name="5" typeId="c412-0178-50e3-016b">1</characteristic>
+                <characteristic name="6" typeId="56b5-bf92-58cd-181b">0</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8d94-3eee-3599-c5ef" name="1. Move" hidden="false" typeId="0bbc-0987-7185-4aa9" typeName="Dmg Track 6">
+              <characteristics>
+                <characteristic name="0" typeId="9691-74aa-8ff9-5be6">11</characteristic>
+                <characteristic name="1" typeId="1baa-9c9d-3597-7a67">10</characteristic>
+                <characteristic name="2" typeId="c8c8-6abd-10a8-a57e">10</characteristic>
+                <characteristic name="3" typeId="dfa0-67c3-31c8-2af0">9</characteristic>
+                <characteristic name="4" typeId="21df-1818-2fb3-305e">8</characteristic>
+                <characteristic name="5" typeId="c412-0178-50e3-016b">7</characteristic>
+                <characteristic name="6" typeId="56b5-bf92-58cd-181b">7</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f6ca-539b-bbc7-0921" name="Cruise Missile Launcher" hidden="false" typeId="0bbc-0987-7185-4aa9" typeName="Dmg Track 6">
+              <characteristics>
+                <characteristic name="0" typeId="9691-74aa-8ff9-5be6">na</characteristic>
+                <characteristic name="1" typeId="1baa-9c9d-3597-7a67">na</characteristic>
+                <characteristic name="2" typeId="c8c8-6abd-10a8-a57e">na</characteristic>
+                <characteristic name="3" typeId="dfa0-67c3-31c8-2af0">na</characteristic>
+                <characteristic name="4" typeId="21df-1818-2fb3-305e">na</characteristic>
+                <characteristic name="5" typeId="c412-0178-50e3-016b">na</characteristic>
+                <characteristic name="6" typeId="56b5-bf92-58cd-181b">na</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="e9f0-8596-3e80-b816" name="Munitions" hidden="false">
+          <profiles>
+            <profile id="2d02-e612-2b40-ad11" name="Cruise Missile Launcher" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">F1</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">-</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Page 141 (Cruise/Advance Cruise Missile)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="5ab5-f256-9772-8d1b" name="Advanced Cruise Missile (141)" hidden="false" targetId="bcb3-1086-c19f-cab9" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="7091-62a3-57b9-8c5b" name="SA" hidden="false">
+          <profiles>
+            <profile id="75f6-eb19-913a-a7e5" name="SA:" hidden="false" typeId="fe4e-9428-6ade-3e50" typeName="Unit">
+              <characteristics>
+                <characteristic name="Info" typeId="f9ae-6c30-aef9-52d3">Soft, Double-Time, Improved Handling, FIST</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="25f7-c0ce-f99f-eaeb" name="Soft (128)" hidden="false" targetId="f23d-d95f-d99b-0e8c" type="rule"/>
+            <infoLink id="9511-057b-8aa7-670e" name="Double-Time (E18)" hidden="false" targetId="6786-447b-c294-9231" type="rule"/>
+            <infoLink id="36e0-71e4-34d4-1d5c" name="Improved Handling (E17)" hidden="false" targetId="58ff-837e-ff40-ab30" type="rule"/>
+            <infoLink id="988f-0e7b-fe2e-d78f" name="FIST (Fire Support Team) (131)" hidden="false" targetId="c8f3-49c1-6db8-494b" type="rule"/>
+            <infoLink id="6d28-bfe1-f461-a7b3" name="Turret (E16)" hidden="false" targetId="c07c-4a38-b3fa-fc31" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
       <selectionEntryGroups>
         <selectionEntryGroup id="5b37-4333-4851-d7a8" name="Armor Upgrades" hidden="false" collective="false">
           <constraints>
@@ -1338,14 +1433,86 @@
             <entryLink id="a551-767a-14f0-cfdc" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
             <entryLink id="639c-a40c-0f93-d367" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
             <entryLink id="c79e-9b42-c529-2774" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="a4b5-6285-c8f0-2c77" name="Loadmaster" hidden="false" collective="false" targetId="4c86-7519-0a89-cbf2" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="90e0-881e-e419-945c" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80e2-673f-fcec-64aa" type="max"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24ef-40ce-e0e1-69d6" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="53.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c1f1-6ddd-4324-b960" name="Whisper (Vehicle)" hidden="false" collective="false" type="unit">
+      <infoGroups>
+        <infoGroup id="1e20-73a8-070c-37f1" name="Data Card" hidden="false">
+          <profiles>
+            <profile id="e4fa-6ecb-0f19-f751" name="2. Armor" hidden="false" typeId="0bbc-0987-7185-4aa9" typeName="Dmg Track 6">
+              <characteristics>
+                <characteristic name="0" typeId="9691-74aa-8ff9-5be6">2</characteristic>
+                <characteristic name="1" typeId="1baa-9c9d-3597-7a67">2</characteristic>
+                <characteristic name="2" typeId="c8c8-6abd-10a8-a57e">2</characteristic>
+                <characteristic name="3" typeId="dfa0-67c3-31c8-2af0">2</characteristic>
+                <characteristic name="4" typeId="21df-1818-2fb3-305e">1</characteristic>
+                <characteristic name="5" typeId="c412-0178-50e3-016b">1</characteristic>
+                <characteristic name="6" typeId="56b5-bf92-58cd-181b">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b83b-da5b-7b77-efec" name="3. Close Assault" hidden="false" typeId="0bbc-0987-7185-4aa9" typeName="Dmg Track 6">
+              <characteristics>
+                <characteristic name="0" typeId="9691-74aa-8ff9-5be6">0/0</characteristic>
+                <characteristic name="1" typeId="1baa-9c9d-3597-7a67">0/0</characteristic>
+                <characteristic name="2" typeId="c8c8-6abd-10a8-a57e">0/0</characteristic>
+                <characteristic name="3" typeId="dfa0-67c3-31c8-2af0">0/0</characteristic>
+                <characteristic name="4" typeId="21df-1818-2fb3-305e">0/0</characteristic>
+                <characteristic name="5" typeId="c412-0178-50e3-016b">0/0</characteristic>
+                <characteristic name="6" typeId="56b5-bf92-58cd-181b">0/0</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f50b-653b-2e6f-f23e" name="4. Damage Control" hidden="false" typeId="0bbc-0987-7185-4aa9" typeName="Dmg Track 6">
+              <characteristics>
+                <characteristic name="0" typeId="9691-74aa-8ff9-5be6">-</characteristic>
+                <characteristic name="1" typeId="1baa-9c9d-3597-7a67">-</characteristic>
+                <characteristic name="2" typeId="c8c8-6abd-10a8-a57e">5</characteristic>
+                <characteristic name="3" typeId="dfa0-67c3-31c8-2af0">3</characteristic>
+                <characteristic name="4" typeId="21df-1818-2fb3-305e">2</characteristic>
+                <characteristic name="5" typeId="c412-0178-50e3-016b">1</characteristic>
+                <characteristic name="6" typeId="56b5-bf92-58cd-181b">0</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="aff5-e618-547d-9d9d" name="1. Move" hidden="false" typeId="cf6b-2200-4228-f843" typeName="Dmg Track 8">
+              <characteristics>
+                <characteristic name="0" typeId="f1bb-272b-882e-cf74">10</characteristic>
+                <characteristic name="1" typeId="0f50-6982-8527-255e">10</characteristic>
+                <characteristic name="2" typeId="50e7-11e4-36ba-2717">9</characteristic>
+                <characteristic name="3" typeId="a09b-1bdd-3f67-a6f2">9</characteristic>
+                <characteristic name="4" typeId="cd97-382e-2f15-d348">8</characteristic>
+                <characteristic name="5" typeId="a997-e5d3-770f-9dd0">8</characteristic>
+                <characteristic name="6" typeId="9c88-ea03-66e6-5a37">7</characteristic>
+                <characteristic name="7" typeId="2fd6-11b1-163d-fe58">7</characteristic>
+                <characteristic name="8" typeId="de14-d09d-0563-62df">6</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="884e-0415-65dd-982e" name="Cruise Missile Launcher" hidden="false" typeId="0bbc-0987-7185-4aa9" typeName="Dmg Track 6">
+              <characteristics>
+                <characteristic name="0" typeId="9691-74aa-8ff9-5be6">na</characteristic>
+                <characteristic name="1" typeId="1baa-9c9d-3597-7a67">na</characteristic>
+                <characteristic name="2" typeId="c8c8-6abd-10a8-a57e">na</characteristic>
+                <characteristic name="3" typeId="dfa0-67c3-31c8-2af0">na</characteristic>
+                <characteristic name="4" typeId="21df-1818-2fb3-305e">na</characteristic>
+                <characteristic name="5" typeId="c412-0178-50e3-016b">na</characteristic>
+                <characteristic name="6" typeId="56b5-bf92-58cd-181b">na</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+      </infoGroups>
       <selectionEntryGroups>
         <selectionEntryGroup id="2065-bdaf-26a6-1285" name="Armor Upgrades" hidden="false" collective="false">
           <constraints>
@@ -1400,9 +1567,18 @@
             <entryLink id="9ae9-e7c8-e936-5882" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
             <entryLink id="ed10-e989-6e76-0aef" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
             <entryLink id="7c6c-47b1-c39f-9aa2" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="0d02-6446-dea0-133a" name="Loadmaster" hidden="false" collective="false" targetId="4c86-7519-0a89-cbf2" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3f24-dfec-b831-9a6d" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88e7-4c01-6500-06ba" type="max"/>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a351-aa5a-34fc-f783" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="127.0"/>
       </costs>
@@ -1611,6 +1787,37 @@
             <entryLink id="c76b-27aa-7340-7300" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="5d71-a883-28cf-68bc" name="Weapon Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d1d-dc7a-a044-3b5e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="dbc5-b0ad-9260-a0e1" name="Amped Light Mortar (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="9900-c09a-0e94-abc3" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6116-eee3-fa65-4fd0" name="Amped Light Mortar (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="c516-576f-dcc4-a524" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d1dc-37f2-ba6b-d23a" name="Amped Submachine Gun (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="2b21-1d15-e35c-778c" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="c975-eb81-a49e-3152" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
@@ -1801,6 +2008,37 @@
             <entryLink id="ccd3-e36a-68e4-32ce" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="c3de-6464-3606-ea0c" name="Weapon Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85bd-b68f-e5c1-6d47" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="bd94-4ae4-23f0-d8c8" name="Amped Medium Mortar (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="9328-228b-d6ae-0c03" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="21ef-95fb-7b18-f9ab" name="Amped Medium Mortar (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="6de4-26a7-a802-3bbd" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1aa9-a943-c105-f538" name="Amped Submachine Gun (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="decb-4bb4-7ed7-70ec" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="8127-d3c0-2549-22b3" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
@@ -1904,7 +2142,7 @@
                 <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
                 <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
                 <characteristic name="Rng" typeId="07a3-4d31-009c-a269">2</characteristic>
-                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d"></characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d"/>
                 <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Full Auto</characteristic>
               </characteristics>
             </profile>
@@ -2008,6 +2246,29 @@
             <entryLink id="d6b6-0ec7-3c1e-9a95" name="Motorized: Wheeled" hidden="false" collective="false" targetId="c54d-7d13-9423-67fb" type="selectionEntry"/>
             <entryLink id="4897-5861-6152-ecab" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="80af-5b7f-4a0b-1f48" name="Weapon Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="498c-d06f-9da1-c2fb" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="bcb4-7aa0-2503-7a06" name="Amped Grenade Launcher (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="021d-f8a2-9d0e-390c" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="daa6-12df-6e24-7a85" name="Amped Assault Rifle (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="0a18-c000-5136-48ee" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -2218,6 +2479,37 @@
             <entryLink id="0d97-bfa3-6c6f-182f" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="6738-cac3-b132-cbc6" name="Weapon Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="026e-4f4d-ff90-b729" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6396-4020-8e4e-7883" name="Amped Light Mortar (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="8f36-a8a0-ca06-a67d" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1bba-3efe-2d8f-6a31" name="Amped Light Mortar (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="e237-e374-9e4f-ee56" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b277-4512-aeec-86ee" name="Amped Submachine Gun (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="8b08-0f84-0241-a4e0" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="c18e-9415-2da6-6960" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
@@ -2408,6 +2700,37 @@
             <entryLink id="46ac-3758-00d9-69a8" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="c2d3-a736-3bdc-b579" name="Weapon Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dfe-9c28-72fa-79fe" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="325f-0e8d-6a2e-e7eb" name="Amped Medium Mortar (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="bbf5-5421-2604-3aca" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="773e-3964-3900-0de4" name="Amped Medium Mortar (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="e079-57fa-e900-599b" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="63f0-aa01-71e9-5753" name="Amped Submachine Gun (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="5ee0-e358-318d-22bf" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="71af-18c5-cfe1-134a" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
@@ -2511,7 +2834,7 @@
                 <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
                 <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
                 <characteristic name="Rng" typeId="07a3-4d31-009c-a269">2</characteristic>
-                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d"></characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d"/>
                 <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Full Auto</characteristic>
               </characteristics>
             </profile>
@@ -2615,6 +2938,29 @@
             <entryLink id="cef7-edb4-accd-e3d2" name="Motorized: Wheeled" hidden="false" collective="false" targetId="c54d-7d13-9423-67fb" type="selectionEntry"/>
             <entryLink id="099f-bfc8-b525-ff34" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="021f-33fe-a1b4-811f" name="Weapon Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="225c-13d7-2c5b-5a5a" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2512-26cb-2d49-fd46" name="Amped Grenade Launcher (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="1810-5a69-bfb5-5c1d" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="236b-2a82-408b-a84c" name="Amped Assault Rifle (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="a5a7-ba41-02ef-79c8" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -2827,6 +3173,45 @@
             <entryLink id="b38a-f7c2-ce26-21b6" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="9760-c230-7666-65fb" name="Weapon Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3213-7abe-a176-41a8" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1b96-cd26-2243-6fda" name="Amped Light Mortar (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="9159-7bf2-fd7f-8a81" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ba47-4f09-149d-57db" name="Amped Light Mortar (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="9796-efa0-ab89-9e9d" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2b67-3cae-8d74-c220" name="Amped MAR (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="b2a9-d2e2-0d33-a3e5" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0ddb-09fe-d0cc-a0df" name="Amped MAR (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="2d2a-26cc-6719-6b48" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="12c1-5459-e53f-2665" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
@@ -3037,6 +3422,37 @@
             <entryLink id="d536-2dca-8136-b7ea" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="b621-fdf3-86e2-91db" name="Weapon Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ad9-2660-077f-d51d" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1cb4-9401-bfab-8d3c" name="Amped Grenade Launcher (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="3a0f-07c9-c5bd-c81f" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0231-53c2-3290-5aac" name="Amped MAR (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="a6cb-f2cb-da44-34be" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f2b4-5a98-f371-bbc0" name="Amped MAR (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="3564-c20d-a73a-1188" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="6bb2-6b2a-33f7-041c" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
@@ -3246,6 +3662,45 @@
             <entryLink id="430b-169a-6261-91e1" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="3a52-5143-7796-abd3" name="Weapon Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0b4-419f-99d8-950e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4b7e-784c-2247-2e07" name="Amped Medium Mortar (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="3580-d7b8-32e5-1edb" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6cd4-454f-8f9b-52c0" name="Amped Medium Mortar (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="2223-0f04-289f-39f5" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c66b-8e95-2e56-ac6b" name="Amped MAR (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="fdf1-845b-89ac-81e9" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d46f-22a0-e16b-4643" name="Amped MAR (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="d836-6d41-8f2c-106e" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="0d9d-b5eb-f425-ca24" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
@@ -3358,13 +3813,12 @@
                 <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">F</characteristic>
                 <characteristic name="Rng" typeId="07a3-4d31-009c-a269">12</characteristic>
                 <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">1</characteristic>
-                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Ltd. Ammo, Piercing</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Ltd. Ammo</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="21b3-102d-203e-bc68" name="Limited Ammo (E16)" hidden="false" targetId="9719-1a67-bb77-7838" type="rule"/>
-            <infoLink id="222f-2448-971c-de6b" name="Piercing (123)" hidden="false" targetId="9ad9-6551-1820-5545" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="d157-e476-d583-4ff1" name="SA" hidden="false">
@@ -3480,6 +3934,7 @@
             <entryLink id="cbdb-81b5-dcba-2230" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
             <entryLink id="d000-312f-6927-8a0f" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
             <entryLink id="14e0-cbc9-6ddd-a27b" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="3d3c-a1ac-10a1-49b2" name="Loadmaster" hidden="false" collective="false" targetId="4c86-7519-0a89-cbf2" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3714,6 +4169,7 @@
             <entryLink id="0737-e81b-325a-983c" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
             <entryLink id="b86a-19aa-705d-5c2f" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
             <entryLink id="0b89-a115-66f3-5a47" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="c6ee-ed48-f2d7-562d" name="Loadmaster" hidden="false" collective="false" targetId="4c86-7519-0a89-cbf2" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3730,6 +4186,90 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2e97-f6a5-3e05-db4a" name="Scimitar (Vehicle)" hidden="false" collective="false" type="model">
+      <infoGroups>
+        <infoGroup id="6769-134d-9259-058e" name="Data Card" hidden="false">
+          <profiles>
+            <profile id="319b-d9fa-ee13-4faa" name="2. Armor" hidden="false" typeId="ee53-a9ed-e4e2-14ef" typeName="Dmg Track 4">
+              <characteristics>
+                <characteristic name="0" typeId="5043-b35e-b4a4-f214">5</characteristic>
+                <characteristic name="1" typeId="fb3e-92f5-7199-1192">4</characteristic>
+                <characteristic name="2" typeId="17f1-ab3f-1376-01fa">4</characteristic>
+                <characteristic name="3" typeId="0417-e7d6-5512-c66a">3</characteristic>
+                <characteristic name="4" typeId="9fa3-4ca3-3d88-e448">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="33c0-ad11-7be5-8514" name="3. Close Assault" hidden="false" typeId="ee53-a9ed-e4e2-14ef" typeName="Dmg Track 4">
+              <characteristics>
+                <characteristic name="0" typeId="5043-b35e-b4a4-f214">1/1</characteristic>
+                <characteristic name="1" typeId="fb3e-92f5-7199-1192">1/1</characteristic>
+                <characteristic name="2" typeId="17f1-ab3f-1376-01fa">1/1</characteristic>
+                <characteristic name="3" typeId="0417-e7d6-5512-c66a">0/0</characteristic>
+                <characteristic name="4" typeId="9fa3-4ca3-3d88-e448">0/0</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="18f0-8122-35d7-578c" name="4. Damage Control" hidden="false" typeId="ee53-a9ed-e4e2-14ef" typeName="Dmg Track 4">
+              <characteristics>
+                <characteristic name="0" typeId="5043-b35e-b4a4-f214">-</characteristic>
+                <characteristic name="1" typeId="fb3e-92f5-7199-1192">-</characteristic>
+                <characteristic name="2" typeId="17f1-ab3f-1376-01fa">5</characteristic>
+                <characteristic name="3" typeId="0417-e7d6-5512-c66a">1</characteristic>
+                <characteristic name="4" typeId="9fa3-4ca3-3d88-e448"></characteristic>
+              </characteristics>
+            </profile>
+            <profile id="46e6-3ea5-4f22-e9fa" name="1. Move" hidden="false" typeId="ee53-a9ed-e4e2-14ef" typeName="Dmg Track 4">
+              <characteristics>
+                <characteristic name="0" typeId="5043-b35e-b4a4-f214">8</characteristic>
+                <characteristic name="1" typeId="fb3e-92f5-7199-1192">7</characteristic>
+                <characteristic name="2" typeId="17f1-ab3f-1376-01fa">6</characteristic>
+                <characteristic name="3" typeId="0417-e7d6-5512-c66a">6</characteristic>
+                <characteristic name="4" typeId="9fa3-4ca3-3d88-e448">5</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1fc1-0a92-cbff-109c" name="Medium LBG" hidden="false" typeId="ee53-a9ed-e4e2-14ef" typeName="Dmg Track 4">
+              <characteristics>
+                <characteristic name="0" typeId="5043-b35e-b4a4-f214">4/4</characteristic>
+                <characteristic name="1" typeId="fb3e-92f5-7199-1192">3/3</characteristic>
+                <characteristic name="2" typeId="17f1-ab3f-1376-01fa">3/3</characteristic>
+                <characteristic name="3" typeId="0417-e7d6-5512-c66a">2/2</characteristic>
+                <characteristic name="4" typeId="9fa3-4ca3-3d88-e448">1/1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="3b99-c591-3418-2c81" name="Munitions" hidden="false">
+          <profiles>
+            <profile id="d113-8c38-92ac-5fb1" name="Medium LBG" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">T1</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">10</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Imp Rng</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="6244-2819-cbc7-7f2b" name="Improved Range (127)" hidden="false" targetId="838c-1438-ed5e-1d8e" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="2614-1930-4c62-cde6" name="SA" hidden="false">
+          <profiles>
+            <profile id="4352-8e38-40a2-811e" name="SA:" hidden="false" typeId="fe4e-9428-6ade-3e50" typeName="Unit">
+              <characteristics>
+                <characteristic name="Info" typeId="f9ae-6c30-aef9-52d3">Hard, Turret, Assault 1, Improved Chassis, Advanced TC 1, Wizzo</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="a017-7654-b756-1cd7" name="Hard (126)" hidden="false" targetId="6145-77ee-e293-d0fe" type="rule"/>
+            <infoLink id="88b5-ba09-539e-f309" name="Advanced Targeting Computer (119)" hidden="false" targetId="a7f4-7c0e-ca8a-411b" type="rule"/>
+            <infoLink id="de62-fa1f-87c5-b193" name="Assault (120)" hidden="false" targetId="0373-6128-cf5b-2c28" type="rule"/>
+            <infoLink id="1a36-351a-49a4-73c8" name="Turret (E16)" hidden="false" targetId="c07c-4a38-b3fa-fc31" type="rule"/>
+            <infoLink id="58bc-1b96-1700-58d2" name="Improved Chassis (122)" hidden="false" targetId="0561-4e4b-1a87-f7b5" type="rule"/>
+            <infoLink id="9161-55d3-1dcc-cd33" name="Wizzo (125)" hidden="false" targetId="7caf-d838-afc9-0b63" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
       <selectionEntryGroups>
         <selectionEntryGroup id="a185-aa50-6555-1a9a" name="Armor Upgrades" hidden="false" collective="false">
           <constraints>
@@ -3784,14 +4324,159 @@
             <entryLink id="25bf-f95c-3bc1-6305" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
             <entryLink id="9ed3-13db-a66d-2c93" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
             <entryLink id="c682-b0c8-63b4-ae63" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="7475-6d10-03cf-7fad" name="Loadmaster" hidden="false" collective="false" targetId="4c86-7519-0a89-cbf2" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="7c59-3a6d-e998-4818" name="Weapon Upgrades" hidden="false" collective="false">
+          <selectionEntries>
+            <selectionEntry id="f30e-8c3b-e27f-bc90" name="Amped Medium LBG (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="c1d6-37e4-b025-ae66" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="40.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1c85-0fec-44cf-134b" name="Amped Medium LBG (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="4d6e-159c-5c09-68cc" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="40.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2803-3539-ae46-f615" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="232a-198a-47e6-1c2b" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b16-bbef-c750-cc47" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="113.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="485a-3171-655f-9fd5" name="Simba (CAV) (Quad)" hidden="false" collective="false" type="model">
+      <infoGroups>
+        <infoGroup id="00dc-e3ee-0cb9-add6" name="Data Card" hidden="false">
+          <profiles>
+            <profile id="85db-876a-de36-59e1" name="1. Move" hidden="false" typeId="b0d2-1102-ee0c-ea17" typeName="Dmg Track10">
+              <characteristics>
+                <characteristic name="0" typeId="746c-4616-e37a-66ed">8</characteristic>
+                <characteristic name="1" typeId="07e3-431a-8c54-cdfa">8</characteristic>
+                <characteristic name="2" typeId="348d-0faa-cf40-799a">8</characteristic>
+                <characteristic name="3" typeId="83e3-693c-fb2c-e966">8</characteristic>
+                <characteristic name="4" typeId="55cc-0fe5-a919-f094">8</characteristic>
+                <characteristic name="5" typeId="a6c7-06e6-4e8c-46cd">7</characteristic>
+                <characteristic name="6" typeId="49b2-8261-068c-f87f">7</characteristic>
+                <characteristic name="7" typeId="a90b-1f3f-e348-e594">7</characteristic>
+                <characteristic name="8" typeId="74e9-8845-1405-24ea">6</characteristic>
+                <characteristic name="9" typeId="45c9-7e28-bb4e-7c4a">6</characteristic>
+                <characteristic name="10" typeId="44e9-77ff-475d-79d8">6</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f778-6e90-91cf-c754" name="2. Armor" hidden="false" typeId="b0d2-1102-ee0c-ea17" typeName="Dmg Track10">
+              <characteristics>
+                <characteristic name="0" typeId="746c-4616-e37a-66ed">8</characteristic>
+                <characteristic name="1" typeId="07e3-431a-8c54-cdfa">8</characteristic>
+                <characteristic name="2" typeId="348d-0faa-cf40-799a">7</characteristic>
+                <characteristic name="3" typeId="83e3-693c-fb2c-e966">7</characteristic>
+                <characteristic name="4" typeId="55cc-0fe5-a919-f094">6</characteristic>
+                <characteristic name="5" typeId="a6c7-06e6-4e8c-46cd">6</characteristic>
+                <characteristic name="6" typeId="49b2-8261-068c-f87f">6</characteristic>
+                <characteristic name="7" typeId="a90b-1f3f-e348-e594">5</characteristic>
+                <characteristic name="8" typeId="74e9-8845-1405-24ea">5</characteristic>
+                <characteristic name="9" typeId="45c9-7e28-bb4e-7c4a">4</characteristic>
+                <characteristic name="10" typeId="44e9-77ff-475d-79d8">4</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="95d2-0453-17d6-2ae8" name="3. Close Assault" hidden="false" typeId="b0d2-1102-ee0c-ea17" typeName="Dmg Track10">
+              <characteristics>
+                <characteristic name="0" typeId="746c-4616-e37a-66ed">6/6</characteristic>
+                <characteristic name="1" typeId="07e3-431a-8c54-cdfa">6/6</characteristic>
+                <characteristic name="2" typeId="348d-0faa-cf40-799a">5/5</characteristic>
+                <characteristic name="3" typeId="83e3-693c-fb2c-e966">5/5</characteristic>
+                <characteristic name="4" typeId="55cc-0fe5-a919-f094">4/4</characteristic>
+                <characteristic name="5" typeId="a6c7-06e6-4e8c-46cd">4/4</characteristic>
+                <characteristic name="6" typeId="49b2-8261-068c-f87f">3/3</characteristic>
+                <characteristic name="7" typeId="a90b-1f3f-e348-e594">3/3</characteristic>
+                <characteristic name="8" typeId="74e9-8845-1405-24ea">2/2</characteristic>
+                <characteristic name="9" typeId="45c9-7e28-bb4e-7c4a">2/2</characteristic>
+                <characteristic name="10" typeId="44e9-77ff-475d-79d8">2/2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a2b9-2113-ef82-be4a" name="4. Damage Control" hidden="false" typeId="b0d2-1102-ee0c-ea17" typeName="Dmg Track10">
+              <characteristics>
+                <characteristic name="0" typeId="746c-4616-e37a-66ed">-</characteristic>
+                <characteristic name="1" typeId="07e3-431a-8c54-cdfa">-</characteristic>
+                <characteristic name="2" typeId="348d-0faa-cf40-799a">6</characteristic>
+                <characteristic name="3" typeId="83e3-693c-fb2c-e966">6</characteristic>
+                <characteristic name="4" typeId="55cc-0fe5-a919-f094">5</characteristic>
+                <characteristic name="5" typeId="a6c7-06e6-4e8c-46cd">5</characteristic>
+                <characteristic name="6" typeId="49b2-8261-068c-f87f">4</characteristic>
+                <characteristic name="7" typeId="a90b-1f3f-e348-e594">3</characteristic>
+                <characteristic name="8" typeId="74e9-8845-1405-24ea">2</characteristic>
+                <characteristic name="9" typeId="45c9-7e28-bb4e-7c4a">1</characteristic>
+                <characteristic name="10" typeId="44e9-77ff-475d-79d8">0</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="faed-e4ec-0296-7e81" name="Light LBG" hidden="false" typeId="b0d2-1102-ee0c-ea17" typeName="Dmg Track10">
+              <characteristics>
+                <characteristic name="0" typeId="746c-4616-e37a-66ed">4/3</characteristic>
+                <characteristic name="1" typeId="07e3-431a-8c54-cdfa">4/3</characteristic>
+                <characteristic name="2" typeId="348d-0faa-cf40-799a">3/3</characteristic>
+                <characteristic name="3" typeId="83e3-693c-fb2c-e966">3/2</characteristic>
+                <characteristic name="4" typeId="55cc-0fe5-a919-f094">3/2</characteristic>
+                <characteristic name="5" typeId="a6c7-06e6-4e8c-46cd">3/2</characteristic>
+                <characteristic name="6" typeId="49b2-8261-068c-f87f">2/2</characteristic>
+                <characteristic name="7" typeId="a90b-1f3f-e348-e594">2/2</characteristic>
+                <characteristic name="8" typeId="74e9-8845-1405-24ea">2/1</characteristic>
+                <characteristic name="9" typeId="45c9-7e28-bb4e-7c4a">2/1</characteristic>
+                <characteristic name="10" typeId="44e9-77ff-475d-79d8">1/1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="8572-f400-fa0a-1b80" name="Munitions" hidden="false">
+          <profiles>
+            <profile id="9675-75ce-f07c-a121" name="Light LBG" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">T1</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">10</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Imp Rng</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e6c3-e023-b945-9598" name="Improved Range (127)" hidden="false" targetId="838c-1438-ed5e-1d8e" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="30ff-ad43-5cca-ca25" name="SA" hidden="false">
+          <profiles>
+            <profile id="ed20-357a-0b1e-6a0a" name="SA:" hidden="false" typeId="fe4e-9428-6ade-3e50" typeName="Unit">
+              <characteristics>
+                <characteristic name="Info" typeId="f9ae-6c30-aef9-52d3">Hard, Improved Handling, Rugged, Shielded, Superior Mobility, Tag, Transport 4, Turret</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="51ca-fe92-f065-5af2" name="Hard (126)" hidden="false" targetId="6145-77ee-e293-d0fe" type="rule"/>
+            <infoLink id="c4e6-c42e-a2aa-b8f4" name="Improved Handling (E17)" hidden="false" targetId="58ff-837e-ff40-ab30" type="rule"/>
+            <infoLink id="485f-b1b0-381b-c4b9" name="Rugged (124)" hidden="false" targetId="30d5-d2c0-47dd-45a5" type="rule"/>
+            <infoLink id="ee47-c5ad-5be4-869c" name="Turret (E16)" hidden="false" targetId="c07c-4a38-b3fa-fc31" type="rule"/>
+            <infoLink id="1c9d-0852-9f0a-ff9f" name="Shielded (124)" hidden="false" targetId="a35d-bb53-221a-0971" type="rule"/>
+            <infoLink id="32ed-adc6-42b7-c7dd" name="Superior Mobility (123)" hidden="false" targetId="d8f1-a8a5-ea5a-2c80" type="rule"/>
+            <infoLink id="0bb7-d652-fcb7-ef8d" name="TAG (124)" hidden="false" targetId="adf2-6487-e6d7-921b" type="rule"/>
+            <infoLink id="aceb-3f28-4b76-ec8a" name="Transport (125)" hidden="false" targetId="2c36-d17c-52ca-af00" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
       <selectionEntryGroups>
         <selectionEntryGroup id="fb56-3d17-7dfa-e230" name="Armor Upgrades" hidden="false" collective="false">
           <constraints>
@@ -3846,9 +4531,38 @@
             <entryLink id="dd11-165d-509f-ec67" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
             <entryLink id="be94-559b-4cb0-6d72" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
             <entryLink id="3d00-0233-824d-4ac8" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="21e4-df63-376b-78db" name="Loadmaster" hidden="false" collective="false" targetId="4c86-7519-0a89-cbf2" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="e17e-f65d-eb70-3c8c" name="Weapon Upgrades" hidden="false" collective="false">
+          <selectionEntries>
+            <selectionEntry id="c62a-1548-495d-fcdc" name="Amped Light LBG (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="75c7-a75d-7815-d869" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="300.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b1d8-b0d3-16c2-d655" name="Amped Light LBG (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="0d93-f0fe-fa7b-729b" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="300.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1c61-9988-42d1-1909" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a7d-ed00-d731-cc30" type="max"/>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b6b-2fbb-b80a-80d0" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="545.0"/>
       </costs>
@@ -3971,11 +4685,95 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="7a84-8eae-bfcd-6ef6" name="Cruise Missile" hidden="false" collective="false" type="upgrade">
+              <infoGroups>
+                <infoGroup id="ebb0-7395-e5be-61ee" name="Data Card" hidden="false">
+                  <profiles>
+                    <profile id="9054-fc0a-5bac-c57e" name="1. Move" hidden="false" typeId="0bbc-0987-7185-4aa9" typeName="Dmg Track 6">
+                      <characteristics>
+                        <characteristic name="0" typeId="9691-74aa-8ff9-5be6">16</characteristic>
+                        <characteristic name="1" typeId="1baa-9c9d-3597-7a67">15</characteristic>
+                        <characteristic name="2" typeId="c8c8-6abd-10a8-a57e">14</characteristic>
+                        <characteristic name="3" typeId="dfa0-67c3-31c8-2af0">13</characteristic>
+                        <characteristic name="4" typeId="21df-1818-2fb3-305e">12</characteristic>
+                        <characteristic name="5" typeId="c412-0178-50e3-016b">11</characteristic>
+                        <characteristic name="6" typeId="56b5-bf92-58cd-181b">10</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="963e-300d-2447-4a60" name="2. Armor" hidden="false" typeId="0bbc-0987-7185-4aa9" typeName="Dmg Track 6">
+                      <characteristics>
+                        <characteristic name="0" typeId="9691-74aa-8ff9-5be6">4</characteristic>
+                        <characteristic name="1" typeId="1baa-9c9d-3597-7a67">4</characteristic>
+                        <characteristic name="2" typeId="c8c8-6abd-10a8-a57e">3</characteristic>
+                        <characteristic name="3" typeId="dfa0-67c3-31c8-2af0">3</characteristic>
+                        <characteristic name="4" typeId="21df-1818-2fb3-305e">3</characteristic>
+                        <characteristic name="5" typeId="c412-0178-50e3-016b">2</characteristic>
+                        <characteristic name="6" typeId="56b5-bf92-58cd-181b">2</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </infoGroup>
+                <infoGroup id="999d-cfc7-9c4e-0101" name="SA" hidden="false">
+                  <profiles>
+                    <profile id="eeea-b494-c2b0-81e5" name="SA" hidden="false" typeId="fe4e-9428-6ade-3e50" typeName="Unit">
+                      <characteristics>
+                        <characteristic name="Info" typeId="f9ae-6c30-aef9-52d3">Double-Time, Min Range(12), Reduced Turn, Soft</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="abb8-3ae3-7daa-828f" name="Soft (128)" hidden="false" targetId="f23d-d95f-d99b-0e8c" type="rule"/>
+                    <infoLink id="aa42-c520-ed01-eeab" name="Double-Time (E18)" hidden="false" targetId="6786-447b-c294-9231" type="rule"/>
+                    <infoLink id="290e-8c65-3202-ff58" name="Minimum Range (127)" hidden="false" targetId="8afa-64ac-be6a-8180" type="rule"/>
+                    <infoLink id="5bd5-fc7c-9ac8-34a0" name="Reduced Turn (123)" hidden="false" targetId="f0e5-ddb6-e114-9bac" type="rule"/>
+                  </infoLinks>
+                </infoGroup>
+              </infoGroups>
               <costs>
                 <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="100.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="32e2-c241-2b88-1f96" name="Advance Cruise Missile" hidden="false" collective="false" type="upgrade">
+              <infoGroups>
+                <infoGroup id="1717-ca74-7918-3e36" name="Data Card" hidden="false">
+                  <profiles>
+                    <profile id="d40f-7768-2fa0-65f2" name="1. Move" hidden="false" typeId="1184-3eec-0128-fc1b" typeName="Dmg Track 5">
+                      <characteristics>
+                        <characteristic name="0" typeId="c3cf-a390-8d42-5f55">14</characteristic>
+                        <characteristic name="1" typeId="4159-0a35-2c11-560d">13</characteristic>
+                        <characteristic name="2" typeId="8dbf-e107-ac07-b0cb">12</characteristic>
+                        <characteristic name="3" typeId="cd25-5838-54ac-e996">11</characteristic>
+                        <characteristic name="4" typeId="37b8-f3c2-37c7-af78">10</characteristic>
+                        <characteristic name="5" typeId="d807-e4bd-2320-28d4">8</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="8799-e306-4393-5d98" name="2. Armor" hidden="false" typeId="1184-3eec-0128-fc1b" typeName="Dmg Track 5">
+                      <characteristics>
+                        <characteristic name="0" typeId="c3cf-a390-8d42-5f55">4</characteristic>
+                        <characteristic name="1" typeId="4159-0a35-2c11-560d">4</characteristic>
+                        <characteristic name="2" typeId="8dbf-e107-ac07-b0cb">3</characteristic>
+                        <characteristic name="3" typeId="cd25-5838-54ac-e996">3</characteristic>
+                        <characteristic name="4" typeId="37b8-f3c2-37c7-af78">2</characteristic>
+                        <characteristic name="5" typeId="d807-e4bd-2320-28d4">2</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </infoGroup>
+                <infoGroup id="e836-7b52-835a-3e36" name="SA" hidden="false">
+                  <profiles>
+                    <profile id="084e-625f-1bb6-4450" name="SA" hidden="false" typeId="fe4e-9428-6ade-3e50" typeName="Unit">
+                      <characteristics>
+                        <characteristic name="Info" typeId="f9ae-6c30-aef9-52d3">Double-Time, Min Range(12), Reduced Turn, Soft</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="8a0b-a29d-3a5b-c6fd" name="Soft (128)" hidden="false" targetId="f23d-d95f-d99b-0e8c" type="rule"/>
+                    <infoLink id="72f7-69ca-33db-624b" name="Double-Time (E18)" hidden="false" targetId="6786-447b-c294-9231" type="rule"/>
+                    <infoLink id="455f-a561-436b-f46e" name="Minimum Range (127)" hidden="false" targetId="8afa-64ac-be6a-8180" type="rule"/>
+                    <infoLink id="8a5d-02aa-378e-a191" name="Reduced Turn (123)" hidden="false" targetId="f0e5-ddb6-e114-9bac" type="rule"/>
+                  </infoLinks>
+                </infoGroup>
+              </infoGroups>
               <costs>
                 <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="500.0"/>
               </costs>
@@ -5706,6 +6504,45 @@
             <entryLink id="4b16-8560-c225-22df" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="ff0d-3b60-7a8c-4dbc" name="Weapon Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a89f-90b0-cab7-25cf" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d360-4b77-4053-342d" name="Amped Panzerfaust AT (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="7006-bcef-9289-1a1d" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="395b-cc25-4924-e0b4" name="Amped Panzerfaust AT (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="7f36-996b-fbe7-594d" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c084-c828-a3f9-3102" name="Amped MAR (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="7eb3-3f05-9f4d-9e54" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9443-10c4-afa6-115d" name="Amped MAR (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="7ede-2bc9-2516-f767" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="52f3-405a-f843-73c3" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
@@ -5913,6 +6750,37 @@
             <entryLink id="08a0-f7a4-7df9-6257" name="Storm Training" hidden="false" collective="false" targetId="4b0f-7e81-980e-2d43" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="c2cd-d487-281a-2630" name="Weapon Upgrades" hidden="false" collective="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1b0-29e4-f033-b596" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5fd5-15e5-d293-5162" name="Amped Stinger SAM (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="a5ee-4b9f-fffb-56b5" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ac04-38e7-d055-c2c3" name="Amped MAR (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="6dc8-d4bc-b367-1ff1" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bbd5-b8a6-d6fe-9e2b" name="Amped MAR (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="7eb9-b9e2-e386-f8a8" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="30.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="cd14-5873-cc55-98ac" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
@@ -5925,6 +6793,26 @@
       <costs>
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="48.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="4c86-7519-0a89-cbf2" name="Loadmaster" hidden="false" collective="false" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="c890-7a16-f974-2f7d" value="10.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4e8-4f1a-a1d8-4257" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="af15-a901-2d26-266b" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc25-beb8-3d45-7e5a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="ce4c-9edf-815f-5c01" name="Loadmaster (132)" hidden="false" targetId="cce9-fe16-491e-3c52" type="rule"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
@@ -6240,6 +7128,15 @@ point roll and each attacking model is still required to make a successful comba
     <rule id="fa24-5e32-9628-0181" name="Grenade (E13)" hidden="false">
       <description>A small “bomb” that is thrown by hand and is especially useful during close-assault and for “clearing” out an enemy-occupied structure. As an exception to the rule on p. 66, infantry
 equipped with grenades can be used to conduct a close-combat assault against an enemy infantry model located “inside” a structure. An attacking model must be in B2B contact with the structure and both attacking and defending models must be on the same elevation level or adjacent floors (if both models are inside the structure).</description>
+    </rule>
+    <rule id="bcb3-1086-c19f-cab9" name="Advanced Cruise Missile (141)" hidden="false">
+      <description>See P. 141</description>
+    </rule>
+    <rule id="e105-1337-c6de-c8ec" name="Cruise Missile (141)" hidden="false">
+      <description>See P. 141</description>
+    </rule>
+    <rule id="cce9-fe16-491e-3c52" name="Loadmaster (132)" hidden="false">
+      <description>+1 to Transport level</description>
     </rule>
   </sharedRules>
 </gameSystem>
