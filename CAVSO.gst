@@ -1008,6 +1008,7 @@
             <entryLink id="80c5-0326-baa3-5458" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
             <entryLink id="aee0-0247-0038-18c9" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
             <entryLink id="f683-2738-d258-8ba3" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="95d4-9ffb-c47f-bcde" name="Loadmaster" hidden="false" collective="false" targetId="4c86-7519-0a89-cbf2" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1268,6 +1269,7 @@
             <entryLink id="745e-46da-0f8c-dcaf" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
             <entryLink id="9981-e1ea-1b31-0355" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
             <entryLink id="79d2-badc-3b1b-85bb" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="26bd-2489-7358-fb7b" name="Loadmaster" hidden="false" collective="false" targetId="4c86-7519-0a89-cbf2" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1284,6 +1286,99 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b090-b96a-e201-a337" name="Ripper (Vehicle)" hidden="false" collective="false" type="unit">
+      <infoGroups>
+        <infoGroup id="d809-dafd-593d-decc" name="Data Card" hidden="false">
+          <profiles>
+            <profile id="dd68-8085-9bf5-1eb7" name="2. Armor" hidden="false" typeId="0bbc-0987-7185-4aa9" typeName="Dmg Track 6">
+              <characteristics>
+                <characteristic name="0" typeId="9691-74aa-8ff9-5be6">2</characteristic>
+                <characteristic name="1" typeId="1baa-9c9d-3597-7a67">2</characteristic>
+                <characteristic name="2" typeId="c8c8-6abd-10a8-a57e">2</characteristic>
+                <characteristic name="3" typeId="dfa0-67c3-31c8-2af0">2</characteristic>
+                <characteristic name="4" typeId="21df-1818-2fb3-305e">1</characteristic>
+                <characteristic name="5" typeId="c412-0178-50e3-016b">1</characteristic>
+                <characteristic name="6" typeId="56b5-bf92-58cd-181b">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b8ba-7355-26b1-066a" name="3. Close Assault" hidden="false" typeId="0bbc-0987-7185-4aa9" typeName="Dmg Track 6">
+              <characteristics>
+                <characteristic name="0" typeId="9691-74aa-8ff9-5be6">0/0</characteristic>
+                <characteristic name="1" typeId="1baa-9c9d-3597-7a67">0/0</characteristic>
+                <characteristic name="2" typeId="c8c8-6abd-10a8-a57e">0/0</characteristic>
+                <characteristic name="3" typeId="dfa0-67c3-31c8-2af0">0/0</characteristic>
+                <characteristic name="4" typeId="21df-1818-2fb3-305e">0/0</characteristic>
+                <characteristic name="5" typeId="c412-0178-50e3-016b">0/0</characteristic>
+                <characteristic name="6" typeId="56b5-bf92-58cd-181b">0/0</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a21d-cae4-40c6-ea69" name="4. Damage Control" hidden="false" typeId="0bbc-0987-7185-4aa9" typeName="Dmg Track 6">
+              <characteristics>
+                <characteristic name="0" typeId="9691-74aa-8ff9-5be6">-</characteristic>
+                <characteristic name="1" typeId="1baa-9c9d-3597-7a67">-</characteristic>
+                <characteristic name="2" typeId="c8c8-6abd-10a8-a57e">5</characteristic>
+                <characteristic name="3" typeId="dfa0-67c3-31c8-2af0">3</characteristic>
+                <characteristic name="4" typeId="21df-1818-2fb3-305e">2</characteristic>
+                <characteristic name="5" typeId="c412-0178-50e3-016b">1</characteristic>
+                <characteristic name="6" typeId="56b5-bf92-58cd-181b">0</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8d94-3eee-3599-c5ef" name="1. Move" hidden="false" typeId="0bbc-0987-7185-4aa9" typeName="Dmg Track 6">
+              <characteristics>
+                <characteristic name="0" typeId="9691-74aa-8ff9-5be6">11</characteristic>
+                <characteristic name="1" typeId="1baa-9c9d-3597-7a67">10</characteristic>
+                <characteristic name="2" typeId="c8c8-6abd-10a8-a57e">10</characteristic>
+                <characteristic name="3" typeId="dfa0-67c3-31c8-2af0">9</characteristic>
+                <characteristic name="4" typeId="21df-1818-2fb3-305e">8</characteristic>
+                <characteristic name="5" typeId="c412-0178-50e3-016b">7</characteristic>
+                <characteristic name="6" typeId="56b5-bf92-58cd-181b">7</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f6ca-539b-bbc7-0921" name="Cruise Missile Launcher" hidden="false" typeId="0bbc-0987-7185-4aa9" typeName="Dmg Track 6">
+              <characteristics>
+                <characteristic name="0" typeId="9691-74aa-8ff9-5be6">na</characteristic>
+                <characteristic name="1" typeId="1baa-9c9d-3597-7a67">na</characteristic>
+                <characteristic name="2" typeId="c8c8-6abd-10a8-a57e">na</characteristic>
+                <characteristic name="3" typeId="dfa0-67c3-31c8-2af0">na</characteristic>
+                <characteristic name="4" typeId="21df-1818-2fb3-305e">na</characteristic>
+                <characteristic name="5" typeId="c412-0178-50e3-016b">na</characteristic>
+                <characteristic name="6" typeId="56b5-bf92-58cd-181b">na</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="e9f0-8596-3e80-b816" name="Munitions" hidden="false">
+          <profiles>
+            <profile id="2d02-e612-2b40-ad11" name="Cruise Missile Launcher" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">F1</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">-</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Page 141 (Cruise/Advance Cruise Missile)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="5ab5-f256-9772-8d1b" name="Advanced Cruise Missile (141)" hidden="false" targetId="bcb3-1086-c19f-cab9" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="7091-62a3-57b9-8c5b" name="SA" hidden="false">
+          <profiles>
+            <profile id="75f6-eb19-913a-a7e5" name="SA:" hidden="false" typeId="fe4e-9428-6ade-3e50" typeName="Unit">
+              <characteristics>
+                <characteristic name="Info" typeId="f9ae-6c30-aef9-52d3">Soft, Double-Time, Improved Handling, FIST</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="25f7-c0ce-f99f-eaeb" name="Soft (128)" hidden="false" targetId="f23d-d95f-d99b-0e8c" type="rule"/>
+            <infoLink id="9511-057b-8aa7-670e" name="Double-Time (E18)" hidden="false" targetId="6786-447b-c294-9231" type="rule"/>
+            <infoLink id="36e0-71e4-34d4-1d5c" name="Improved Handling (E17)" hidden="false" targetId="58ff-837e-ff40-ab30" type="rule"/>
+            <infoLink id="988f-0e7b-fe2e-d78f" name="FIST (Fire Support Team) (131)" hidden="false" targetId="c8f3-49c1-6db8-494b" type="rule"/>
+            <infoLink id="6d28-bfe1-f461-a7b3" name="Turret (E16)" hidden="false" targetId="c07c-4a38-b3fa-fc31" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
       <selectionEntryGroups>
         <selectionEntryGroup id="5b37-4333-4851-d7a8" name="Armor Upgrades" hidden="false" collective="false">
           <constraints>
@@ -1338,14 +1433,86 @@
             <entryLink id="a551-767a-14f0-cfdc" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
             <entryLink id="639c-a40c-0f93-d367" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
             <entryLink id="c79e-9b42-c529-2774" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="a4b5-6285-c8f0-2c77" name="Loadmaster" hidden="false" collective="false" targetId="4c86-7519-0a89-cbf2" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="90e0-881e-e419-945c" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80e2-673f-fcec-64aa" type="max"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24ef-40ce-e0e1-69d6" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="53.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c1f1-6ddd-4324-b960" name="Whisper (Vehicle)" hidden="false" collective="false" type="unit">
+      <infoGroups>
+        <infoGroup id="1e20-73a8-070c-37f1" name="Data Card" hidden="false">
+          <profiles>
+            <profile id="e4fa-6ecb-0f19-f751" name="2. Armor" hidden="false" typeId="0bbc-0987-7185-4aa9" typeName="Dmg Track 6">
+              <characteristics>
+                <characteristic name="0" typeId="9691-74aa-8ff9-5be6">2</characteristic>
+                <characteristic name="1" typeId="1baa-9c9d-3597-7a67">2</characteristic>
+                <characteristic name="2" typeId="c8c8-6abd-10a8-a57e">2</characteristic>
+                <characteristic name="3" typeId="dfa0-67c3-31c8-2af0">2</characteristic>
+                <characteristic name="4" typeId="21df-1818-2fb3-305e">1</characteristic>
+                <characteristic name="5" typeId="c412-0178-50e3-016b">1</characteristic>
+                <characteristic name="6" typeId="56b5-bf92-58cd-181b">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b83b-da5b-7b77-efec" name="3. Close Assault" hidden="false" typeId="0bbc-0987-7185-4aa9" typeName="Dmg Track 6">
+              <characteristics>
+                <characteristic name="0" typeId="9691-74aa-8ff9-5be6">0/0</characteristic>
+                <characteristic name="1" typeId="1baa-9c9d-3597-7a67">0/0</characteristic>
+                <characteristic name="2" typeId="c8c8-6abd-10a8-a57e">0/0</characteristic>
+                <characteristic name="3" typeId="dfa0-67c3-31c8-2af0">0/0</characteristic>
+                <characteristic name="4" typeId="21df-1818-2fb3-305e">0/0</characteristic>
+                <characteristic name="5" typeId="c412-0178-50e3-016b">0/0</characteristic>
+                <characteristic name="6" typeId="56b5-bf92-58cd-181b">0/0</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f50b-653b-2e6f-f23e" name="4. Damage Control" hidden="false" typeId="0bbc-0987-7185-4aa9" typeName="Dmg Track 6">
+              <characteristics>
+                <characteristic name="0" typeId="9691-74aa-8ff9-5be6">-</characteristic>
+                <characteristic name="1" typeId="1baa-9c9d-3597-7a67">-</characteristic>
+                <characteristic name="2" typeId="c8c8-6abd-10a8-a57e">5</characteristic>
+                <characteristic name="3" typeId="dfa0-67c3-31c8-2af0">3</characteristic>
+                <characteristic name="4" typeId="21df-1818-2fb3-305e">2</characteristic>
+                <characteristic name="5" typeId="c412-0178-50e3-016b">1</characteristic>
+                <characteristic name="6" typeId="56b5-bf92-58cd-181b">0</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="aff5-e618-547d-9d9d" name="1. Move" hidden="false" typeId="cf6b-2200-4228-f843" typeName="Dmg Track 8">
+              <characteristics>
+                <characteristic name="0" typeId="f1bb-272b-882e-cf74">10</characteristic>
+                <characteristic name="1" typeId="0f50-6982-8527-255e">10</characteristic>
+                <characteristic name="2" typeId="50e7-11e4-36ba-2717">9</characteristic>
+                <characteristic name="3" typeId="a09b-1bdd-3f67-a6f2">9</characteristic>
+                <characteristic name="4" typeId="cd97-382e-2f15-d348">8</characteristic>
+                <characteristic name="5" typeId="a997-e5d3-770f-9dd0">8</characteristic>
+                <characteristic name="6" typeId="9c88-ea03-66e6-5a37">7</characteristic>
+                <characteristic name="7" typeId="2fd6-11b1-163d-fe58">7</characteristic>
+                <characteristic name="8" typeId="de14-d09d-0563-62df">6</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="884e-0415-65dd-982e" name="Cruise Missile Launcher" hidden="false" typeId="0bbc-0987-7185-4aa9" typeName="Dmg Track 6">
+              <characteristics>
+                <characteristic name="0" typeId="9691-74aa-8ff9-5be6">na</characteristic>
+                <characteristic name="1" typeId="1baa-9c9d-3597-7a67">na</characteristic>
+                <characteristic name="2" typeId="c8c8-6abd-10a8-a57e">na</characteristic>
+                <characteristic name="3" typeId="dfa0-67c3-31c8-2af0">na</characteristic>
+                <characteristic name="4" typeId="21df-1818-2fb3-305e">na</characteristic>
+                <characteristic name="5" typeId="c412-0178-50e3-016b">na</characteristic>
+                <characteristic name="6" typeId="56b5-bf92-58cd-181b">na</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+      </infoGroups>
       <selectionEntryGroups>
         <selectionEntryGroup id="2065-bdaf-26a6-1285" name="Armor Upgrades" hidden="false" collective="false">
           <constraints>
@@ -1400,9 +1567,18 @@
             <entryLink id="9ae9-e7c8-e936-5882" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
             <entryLink id="ed10-e989-6e76-0aef" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
             <entryLink id="7c6c-47b1-c39f-9aa2" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="0d02-6446-dea0-133a" name="Loadmaster" hidden="false" collective="false" targetId="4c86-7519-0a89-cbf2" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3f24-dfec-b831-9a6d" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88e7-4c01-6500-06ba" type="max"/>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a351-aa5a-34fc-f783" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="127.0"/>
       </costs>
@@ -1966,7 +2142,7 @@
                 <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
                 <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
                 <characteristic name="Rng" typeId="07a3-4d31-009c-a269">2</characteristic>
-                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d"></characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d"/>
                 <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Full Auto</characteristic>
               </characteristics>
             </profile>
@@ -2658,7 +2834,7 @@
                 <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
                 <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">-</characteristic>
                 <characteristic name="Rng" typeId="07a3-4d31-009c-a269">2</characteristic>
-                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d"></characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d"/>
                 <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Full Auto</characteristic>
               </characteristics>
             </profile>
@@ -3637,13 +3813,12 @@
                 <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">F</characteristic>
                 <characteristic name="Rng" typeId="07a3-4d31-009c-a269">12</characteristic>
                 <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">1</characteristic>
-                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Ltd. Ammo, Piercing</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Ltd. Ammo</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
             <infoLink id="21b3-102d-203e-bc68" name="Limited Ammo (E16)" hidden="false" targetId="9719-1a67-bb77-7838" type="rule"/>
-            <infoLink id="222f-2448-971c-de6b" name="Piercing (123)" hidden="false" targetId="9ad9-6551-1820-5545" type="rule"/>
           </infoLinks>
         </infoGroup>
         <infoGroup id="d157-e476-d583-4ff1" name="SA" hidden="false">
@@ -3759,6 +3934,7 @@
             <entryLink id="cbdb-81b5-dcba-2230" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
             <entryLink id="d000-312f-6927-8a0f" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
             <entryLink id="14e0-cbc9-6ddd-a27b" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="3d3c-a1ac-10a1-49b2" name="Loadmaster" hidden="false" collective="false" targetId="4c86-7519-0a89-cbf2" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3993,6 +4169,7 @@
             <entryLink id="0737-e81b-325a-983c" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
             <entryLink id="b86a-19aa-705d-5c2f" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
             <entryLink id="0b89-a115-66f3-5a47" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="c6ee-ed48-f2d7-562d" name="Loadmaster" hidden="false" collective="false" targetId="4c86-7519-0a89-cbf2" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -4009,6 +4186,90 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2e97-f6a5-3e05-db4a" name="Scimitar (Vehicle)" hidden="false" collective="false" type="model">
+      <infoGroups>
+        <infoGroup id="6769-134d-9259-058e" name="Data Card" hidden="false">
+          <profiles>
+            <profile id="319b-d9fa-ee13-4faa" name="2. Armor" hidden="false" typeId="ee53-a9ed-e4e2-14ef" typeName="Dmg Track 4">
+              <characteristics>
+                <characteristic name="0" typeId="5043-b35e-b4a4-f214">5</characteristic>
+                <characteristic name="1" typeId="fb3e-92f5-7199-1192">4</characteristic>
+                <characteristic name="2" typeId="17f1-ab3f-1376-01fa">4</characteristic>
+                <characteristic name="3" typeId="0417-e7d6-5512-c66a">3</characteristic>
+                <characteristic name="4" typeId="9fa3-4ca3-3d88-e448">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="33c0-ad11-7be5-8514" name="3. Close Assault" hidden="false" typeId="ee53-a9ed-e4e2-14ef" typeName="Dmg Track 4">
+              <characteristics>
+                <characteristic name="0" typeId="5043-b35e-b4a4-f214">1/1</characteristic>
+                <characteristic name="1" typeId="fb3e-92f5-7199-1192">1/1</characteristic>
+                <characteristic name="2" typeId="17f1-ab3f-1376-01fa">1/1</characteristic>
+                <characteristic name="3" typeId="0417-e7d6-5512-c66a">0/0</characteristic>
+                <characteristic name="4" typeId="9fa3-4ca3-3d88-e448">0/0</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="18f0-8122-35d7-578c" name="4. Damage Control" hidden="false" typeId="ee53-a9ed-e4e2-14ef" typeName="Dmg Track 4">
+              <characteristics>
+                <characteristic name="0" typeId="5043-b35e-b4a4-f214">-</characteristic>
+                <characteristic name="1" typeId="fb3e-92f5-7199-1192">-</characteristic>
+                <characteristic name="2" typeId="17f1-ab3f-1376-01fa">5</characteristic>
+                <characteristic name="3" typeId="0417-e7d6-5512-c66a">1</characteristic>
+                <characteristic name="4" typeId="9fa3-4ca3-3d88-e448"></characteristic>
+              </characteristics>
+            </profile>
+            <profile id="46e6-3ea5-4f22-e9fa" name="1. Move" hidden="false" typeId="ee53-a9ed-e4e2-14ef" typeName="Dmg Track 4">
+              <characteristics>
+                <characteristic name="0" typeId="5043-b35e-b4a4-f214">8</characteristic>
+                <characteristic name="1" typeId="fb3e-92f5-7199-1192">7</characteristic>
+                <characteristic name="2" typeId="17f1-ab3f-1376-01fa">6</characteristic>
+                <characteristic name="3" typeId="0417-e7d6-5512-c66a">6</characteristic>
+                <characteristic name="4" typeId="9fa3-4ca3-3d88-e448">5</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1fc1-0a92-cbff-109c" name="Medium LBG" hidden="false" typeId="ee53-a9ed-e4e2-14ef" typeName="Dmg Track 4">
+              <characteristics>
+                <characteristic name="0" typeId="5043-b35e-b4a4-f214">4/4</characteristic>
+                <characteristic name="1" typeId="fb3e-92f5-7199-1192">3/3</characteristic>
+                <characteristic name="2" typeId="17f1-ab3f-1376-01fa">3/3</characteristic>
+                <characteristic name="3" typeId="0417-e7d6-5512-c66a">2/2</characteristic>
+                <characteristic name="4" typeId="9fa3-4ca3-3d88-e448">1/1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="3b99-c591-3418-2c81" name="Munitions" hidden="false">
+          <profiles>
+            <profile id="d113-8c38-92ac-5fb1" name="Medium LBG" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">T1</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">10</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Imp Rng</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="6244-2819-cbc7-7f2b" name="Improved Range (127)" hidden="false" targetId="838c-1438-ed5e-1d8e" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="2614-1930-4c62-cde6" name="SA" hidden="false">
+          <profiles>
+            <profile id="4352-8e38-40a2-811e" name="SA:" hidden="false" typeId="fe4e-9428-6ade-3e50" typeName="Unit">
+              <characteristics>
+                <characteristic name="Info" typeId="f9ae-6c30-aef9-52d3">Hard, Turret, Assault 1, Improved Chassis, Advanced TC 1, Wizzo</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="a017-7654-b756-1cd7" name="Hard (126)" hidden="false" targetId="6145-77ee-e293-d0fe" type="rule"/>
+            <infoLink id="88b5-ba09-539e-f309" name="Advanced Targeting Computer (119)" hidden="false" targetId="a7f4-7c0e-ca8a-411b" type="rule"/>
+            <infoLink id="de62-fa1f-87c5-b193" name="Assault (120)" hidden="false" targetId="0373-6128-cf5b-2c28" type="rule"/>
+            <infoLink id="1a36-351a-49a4-73c8" name="Turret (E16)" hidden="false" targetId="c07c-4a38-b3fa-fc31" type="rule"/>
+            <infoLink id="58bc-1b96-1700-58d2" name="Improved Chassis (122)" hidden="false" targetId="0561-4e4b-1a87-f7b5" type="rule"/>
+            <infoLink id="9161-55d3-1dcc-cd33" name="Wizzo (125)" hidden="false" targetId="7caf-d838-afc9-0b63" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
       <selectionEntryGroups>
         <selectionEntryGroup id="a185-aa50-6555-1a9a" name="Armor Upgrades" hidden="false" collective="false">
           <constraints>
@@ -4063,14 +4324,159 @@
             <entryLink id="25bf-f95c-3bc1-6305" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
             <entryLink id="9ed3-13db-a66d-2c93" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
             <entryLink id="c682-b0c8-63b4-ae63" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="7475-6d10-03cf-7fad" name="Loadmaster" hidden="false" collective="false" targetId="4c86-7519-0a89-cbf2" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="7c59-3a6d-e998-4818" name="Weapon Upgrades" hidden="false" collective="false">
+          <selectionEntries>
+            <selectionEntry id="f30e-8c3b-e27f-bc90" name="Amped Medium LBG (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="c1d6-37e4-b025-ae66" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="40.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1c85-0fec-44cf-134b" name="Amped Medium LBG (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="4d6e-159c-5c09-68cc" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="40.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2803-3539-ae46-f615" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="232a-198a-47e6-1c2b" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b16-bbef-c750-cc47" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="113.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="485a-3171-655f-9fd5" name="Simba (CAV) (Quad)" hidden="false" collective="false" type="model">
+      <infoGroups>
+        <infoGroup id="00dc-e3ee-0cb9-add6" name="Data Card" hidden="false">
+          <profiles>
+            <profile id="85db-876a-de36-59e1" name="1. Move" hidden="false" typeId="b0d2-1102-ee0c-ea17" typeName="Dmg Track10">
+              <characteristics>
+                <characteristic name="0" typeId="746c-4616-e37a-66ed">8</characteristic>
+                <characteristic name="1" typeId="07e3-431a-8c54-cdfa">8</characteristic>
+                <characteristic name="2" typeId="348d-0faa-cf40-799a">8</characteristic>
+                <characteristic name="3" typeId="83e3-693c-fb2c-e966">8</characteristic>
+                <characteristic name="4" typeId="55cc-0fe5-a919-f094">8</characteristic>
+                <characteristic name="5" typeId="a6c7-06e6-4e8c-46cd">7</characteristic>
+                <characteristic name="6" typeId="49b2-8261-068c-f87f">7</characteristic>
+                <characteristic name="7" typeId="a90b-1f3f-e348-e594">7</characteristic>
+                <characteristic name="8" typeId="74e9-8845-1405-24ea">6</characteristic>
+                <characteristic name="9" typeId="45c9-7e28-bb4e-7c4a">6</characteristic>
+                <characteristic name="10" typeId="44e9-77ff-475d-79d8">6</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f778-6e90-91cf-c754" name="2. Armor" hidden="false" typeId="b0d2-1102-ee0c-ea17" typeName="Dmg Track10">
+              <characteristics>
+                <characteristic name="0" typeId="746c-4616-e37a-66ed">8</characteristic>
+                <characteristic name="1" typeId="07e3-431a-8c54-cdfa">8</characteristic>
+                <characteristic name="2" typeId="348d-0faa-cf40-799a">7</characteristic>
+                <characteristic name="3" typeId="83e3-693c-fb2c-e966">7</characteristic>
+                <characteristic name="4" typeId="55cc-0fe5-a919-f094">6</characteristic>
+                <characteristic name="5" typeId="a6c7-06e6-4e8c-46cd">6</characteristic>
+                <characteristic name="6" typeId="49b2-8261-068c-f87f">6</characteristic>
+                <characteristic name="7" typeId="a90b-1f3f-e348-e594">5</characteristic>
+                <characteristic name="8" typeId="74e9-8845-1405-24ea">5</characteristic>
+                <characteristic name="9" typeId="45c9-7e28-bb4e-7c4a">4</characteristic>
+                <characteristic name="10" typeId="44e9-77ff-475d-79d8">4</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="95d2-0453-17d6-2ae8" name="3. Close Assault" hidden="false" typeId="b0d2-1102-ee0c-ea17" typeName="Dmg Track10">
+              <characteristics>
+                <characteristic name="0" typeId="746c-4616-e37a-66ed">6/6</characteristic>
+                <characteristic name="1" typeId="07e3-431a-8c54-cdfa">6/6</characteristic>
+                <characteristic name="2" typeId="348d-0faa-cf40-799a">5/5</characteristic>
+                <characteristic name="3" typeId="83e3-693c-fb2c-e966">5/5</characteristic>
+                <characteristic name="4" typeId="55cc-0fe5-a919-f094">4/4</characteristic>
+                <characteristic name="5" typeId="a6c7-06e6-4e8c-46cd">4/4</characteristic>
+                <characteristic name="6" typeId="49b2-8261-068c-f87f">3/3</characteristic>
+                <characteristic name="7" typeId="a90b-1f3f-e348-e594">3/3</characteristic>
+                <characteristic name="8" typeId="74e9-8845-1405-24ea">2/2</characteristic>
+                <characteristic name="9" typeId="45c9-7e28-bb4e-7c4a">2/2</characteristic>
+                <characteristic name="10" typeId="44e9-77ff-475d-79d8">2/2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a2b9-2113-ef82-be4a" name="4. Damage Control" hidden="false" typeId="b0d2-1102-ee0c-ea17" typeName="Dmg Track10">
+              <characteristics>
+                <characteristic name="0" typeId="746c-4616-e37a-66ed">-</characteristic>
+                <characteristic name="1" typeId="07e3-431a-8c54-cdfa">-</characteristic>
+                <characteristic name="2" typeId="348d-0faa-cf40-799a">6</characteristic>
+                <characteristic name="3" typeId="83e3-693c-fb2c-e966">6</characteristic>
+                <characteristic name="4" typeId="55cc-0fe5-a919-f094">5</characteristic>
+                <characteristic name="5" typeId="a6c7-06e6-4e8c-46cd">5</characteristic>
+                <characteristic name="6" typeId="49b2-8261-068c-f87f">4</characteristic>
+                <characteristic name="7" typeId="a90b-1f3f-e348-e594">3</characteristic>
+                <characteristic name="8" typeId="74e9-8845-1405-24ea">2</characteristic>
+                <characteristic name="9" typeId="45c9-7e28-bb4e-7c4a">1</characteristic>
+                <characteristic name="10" typeId="44e9-77ff-475d-79d8">0</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="faed-e4ec-0296-7e81" name="Light LBG" hidden="false" typeId="b0d2-1102-ee0c-ea17" typeName="Dmg Track10">
+              <characteristics>
+                <characteristic name="0" typeId="746c-4616-e37a-66ed">4/3</characteristic>
+                <characteristic name="1" typeId="07e3-431a-8c54-cdfa">4/3</characteristic>
+                <characteristic name="2" typeId="348d-0faa-cf40-799a">3/3</characteristic>
+                <characteristic name="3" typeId="83e3-693c-fb2c-e966">3/2</characteristic>
+                <characteristic name="4" typeId="55cc-0fe5-a919-f094">3/2</characteristic>
+                <characteristic name="5" typeId="a6c7-06e6-4e8c-46cd">3/2</characteristic>
+                <characteristic name="6" typeId="49b2-8261-068c-f87f">2/2</characteristic>
+                <characteristic name="7" typeId="a90b-1f3f-e348-e594">2/2</characteristic>
+                <characteristic name="8" typeId="74e9-8845-1405-24ea">2/1</characteristic>
+                <characteristic name="9" typeId="45c9-7e28-bb4e-7c4a">2/1</characteristic>
+                <characteristic name="10" typeId="44e9-77ff-475d-79d8">1/1</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </infoGroup>
+        <infoGroup id="8572-f400-fa0a-1b80" name="Munitions" hidden="false">
+          <profiles>
+            <profile id="9675-75ce-f07c-a121" name="Light LBG" hidden="false" typeId="1d65-6ade-a891-0f72" typeName="Munitions">
+              <characteristics>
+                <characteristic name="#" typeId="aeb6-0f9c-0f64-4074">1</characteristic>
+                <characteristic name="Loc" typeId="ff2f-505b-3594-85e4">T1</characteristic>
+                <characteristic name="Rng" typeId="07a3-4d31-009c-a269">10</characteristic>
+                <characteristic name="Min Rng" typeId="4ba3-fb53-df18-757d">-</characteristic>
+                <characteristic name="Weapon SA" typeId="7c5a-d8d3-de38-25cb">Imp Rng</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e6c3-e023-b945-9598" name="Improved Range (127)" hidden="false" targetId="838c-1438-ed5e-1d8e" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+        <infoGroup id="30ff-ad43-5cca-ca25" name="SA" hidden="false">
+          <profiles>
+            <profile id="ed20-357a-0b1e-6a0a" name="SA:" hidden="false" typeId="fe4e-9428-6ade-3e50" typeName="Unit">
+              <characteristics>
+                <characteristic name="Info" typeId="f9ae-6c30-aef9-52d3">Hard, Improved Handling, Rugged, Shielded, Superior Mobility, Tag, Transport 4, Turret</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="51ca-fe92-f065-5af2" name="Hard (126)" hidden="false" targetId="6145-77ee-e293-d0fe" type="rule"/>
+            <infoLink id="c4e6-c42e-a2aa-b8f4" name="Improved Handling (E17)" hidden="false" targetId="58ff-837e-ff40-ab30" type="rule"/>
+            <infoLink id="485f-b1b0-381b-c4b9" name="Rugged (124)" hidden="false" targetId="30d5-d2c0-47dd-45a5" type="rule"/>
+            <infoLink id="ee47-c5ad-5be4-869c" name="Turret (E16)" hidden="false" targetId="c07c-4a38-b3fa-fc31" type="rule"/>
+            <infoLink id="1c9d-0852-9f0a-ff9f" name="Shielded (124)" hidden="false" targetId="a35d-bb53-221a-0971" type="rule"/>
+            <infoLink id="32ed-adc6-42b7-c7dd" name="Superior Mobility (123)" hidden="false" targetId="d8f1-a8a5-ea5a-2c80" type="rule"/>
+            <infoLink id="0bb7-d652-fcb7-ef8d" name="TAG (124)" hidden="false" targetId="adf2-6487-e6d7-921b" type="rule"/>
+            <infoLink id="aceb-3f28-4b76-ec8a" name="Transport (125)" hidden="false" targetId="2c36-d17c-52ca-af00" type="rule"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
       <selectionEntryGroups>
         <selectionEntryGroup id="fb56-3d17-7dfa-e230" name="Armor Upgrades" hidden="false" collective="false">
           <constraints>
@@ -4125,9 +4531,38 @@
             <entryLink id="dd11-165d-509f-ec67" name="Close-Quarters Battle" hidden="false" collective="false" targetId="2948-308c-2eec-da7a" type="selectionEntry"/>
             <entryLink id="be94-559b-4cb0-6d72" name="Turbo-Charged" hidden="false" collective="false" targetId="2c58-b665-3a30-9b65" type="selectionEntry"/>
             <entryLink id="3d00-0233-824d-4ac8" name="Orbital Drop Strike Team" hidden="false" collective="false" targetId="36a3-b397-18dc-1a05" type="selectionEntry"/>
+            <entryLink id="21e4-df63-376b-78db" name="Loadmaster" hidden="false" collective="false" targetId="4c86-7519-0a89-cbf2" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="e17e-f65d-eb70-3c8c" name="Weapon Upgrades" hidden="false" collective="false">
+          <selectionEntries>
+            <selectionEntry id="c62a-1548-495d-fcdc" name="Amped Light LBG (P)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="75c7-a75d-7815-d869" name="Amped Weapons (P) (129)" hidden="false" targetId="2703-3803-03f9-217a" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="300.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b1d8-b0d3-16c2-d655" name="Amped Light LBG (S)" hidden="false" collective="false" type="upgrade">
+              <infoLinks>
+                <infoLink id="0d93-f0fe-fa7b-729b" name="Amped Weapons (S) (129)" hidden="false" targetId="d750-fd73-060a-8372" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="300.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1c61-9988-42d1-1909" name="DT" hidden="false" collective="false" targetId="565c-a90a-a672-e541" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a7d-ed00-d731-cc30" type="max"/>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b6b-2fbb-b80a-80d0" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="545.0"/>
       </costs>
@@ -4250,11 +4685,95 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="7a84-8eae-bfcd-6ef6" name="Cruise Missile" hidden="false" collective="false" type="upgrade">
+              <infoGroups>
+                <infoGroup id="ebb0-7395-e5be-61ee" name="Data Card" hidden="false">
+                  <profiles>
+                    <profile id="9054-fc0a-5bac-c57e" name="1. Move" hidden="false" typeId="0bbc-0987-7185-4aa9" typeName="Dmg Track 6">
+                      <characteristics>
+                        <characteristic name="0" typeId="9691-74aa-8ff9-5be6">16</characteristic>
+                        <characteristic name="1" typeId="1baa-9c9d-3597-7a67">15</characteristic>
+                        <characteristic name="2" typeId="c8c8-6abd-10a8-a57e">14</characteristic>
+                        <characteristic name="3" typeId="dfa0-67c3-31c8-2af0">13</characteristic>
+                        <characteristic name="4" typeId="21df-1818-2fb3-305e">12</characteristic>
+                        <characteristic name="5" typeId="c412-0178-50e3-016b">11</characteristic>
+                        <characteristic name="6" typeId="56b5-bf92-58cd-181b">10</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="963e-300d-2447-4a60" name="2. Armor" hidden="false" typeId="0bbc-0987-7185-4aa9" typeName="Dmg Track 6">
+                      <characteristics>
+                        <characteristic name="0" typeId="9691-74aa-8ff9-5be6">4</characteristic>
+                        <characteristic name="1" typeId="1baa-9c9d-3597-7a67">4</characteristic>
+                        <characteristic name="2" typeId="c8c8-6abd-10a8-a57e">3</characteristic>
+                        <characteristic name="3" typeId="dfa0-67c3-31c8-2af0">3</characteristic>
+                        <characteristic name="4" typeId="21df-1818-2fb3-305e">3</characteristic>
+                        <characteristic name="5" typeId="c412-0178-50e3-016b">2</characteristic>
+                        <characteristic name="6" typeId="56b5-bf92-58cd-181b">2</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </infoGroup>
+                <infoGroup id="999d-cfc7-9c4e-0101" name="SA" hidden="false">
+                  <profiles>
+                    <profile id="eeea-b494-c2b0-81e5" name="SA" hidden="false" typeId="fe4e-9428-6ade-3e50" typeName="Unit">
+                      <characteristics>
+                        <characteristic name="Info" typeId="f9ae-6c30-aef9-52d3">Double-Time, Min Range(12), Reduced Turn, Soft</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="abb8-3ae3-7daa-828f" name="Soft (128)" hidden="false" targetId="f23d-d95f-d99b-0e8c" type="rule"/>
+                    <infoLink id="aa42-c520-ed01-eeab" name="Double-Time (E18)" hidden="false" targetId="6786-447b-c294-9231" type="rule"/>
+                    <infoLink id="290e-8c65-3202-ff58" name="Minimum Range (127)" hidden="false" targetId="8afa-64ac-be6a-8180" type="rule"/>
+                    <infoLink id="5bd5-fc7c-9ac8-34a0" name="Reduced Turn (123)" hidden="false" targetId="f0e5-ddb6-e114-9bac" type="rule"/>
+                  </infoLinks>
+                </infoGroup>
+              </infoGroups>
               <costs>
                 <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="100.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="32e2-c241-2b88-1f96" name="Advance Cruise Missile" hidden="false" collective="false" type="upgrade">
+              <infoGroups>
+                <infoGroup id="1717-ca74-7918-3e36" name="Data Card" hidden="false">
+                  <profiles>
+                    <profile id="d40f-7768-2fa0-65f2" name="1. Move" hidden="false" typeId="1184-3eec-0128-fc1b" typeName="Dmg Track 5">
+                      <characteristics>
+                        <characteristic name="0" typeId="c3cf-a390-8d42-5f55">14</characteristic>
+                        <characteristic name="1" typeId="4159-0a35-2c11-560d">13</characteristic>
+                        <characteristic name="2" typeId="8dbf-e107-ac07-b0cb">12</characteristic>
+                        <characteristic name="3" typeId="cd25-5838-54ac-e996">11</characteristic>
+                        <characteristic name="4" typeId="37b8-f3c2-37c7-af78">10</characteristic>
+                        <characteristic name="5" typeId="d807-e4bd-2320-28d4">8</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="8799-e306-4393-5d98" name="2. Armor" hidden="false" typeId="1184-3eec-0128-fc1b" typeName="Dmg Track 5">
+                      <characteristics>
+                        <characteristic name="0" typeId="c3cf-a390-8d42-5f55">4</characteristic>
+                        <characteristic name="1" typeId="4159-0a35-2c11-560d">4</characteristic>
+                        <characteristic name="2" typeId="8dbf-e107-ac07-b0cb">3</characteristic>
+                        <characteristic name="3" typeId="cd25-5838-54ac-e996">3</characteristic>
+                        <characteristic name="4" typeId="37b8-f3c2-37c7-af78">2</characteristic>
+                        <characteristic name="5" typeId="d807-e4bd-2320-28d4">2</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </infoGroup>
+                <infoGroup id="e836-7b52-835a-3e36" name="SA" hidden="false">
+                  <profiles>
+                    <profile id="084e-625f-1bb6-4450" name="SA" hidden="false" typeId="fe4e-9428-6ade-3e50" typeName="Unit">
+                      <characteristics>
+                        <characteristic name="Info" typeId="f9ae-6c30-aef9-52d3">Double-Time, Min Range(12), Reduced Turn, Soft</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="8a0b-a29d-3a5b-c6fd" name="Soft (128)" hidden="false" targetId="f23d-d95f-d99b-0e8c" type="rule"/>
+                    <infoLink id="72f7-69ca-33db-624b" name="Double-Time (E18)" hidden="false" targetId="6786-447b-c294-9231" type="rule"/>
+                    <infoLink id="455f-a561-436b-f46e" name="Minimum Range (127)" hidden="false" targetId="8afa-64ac-be6a-8180" type="rule"/>
+                    <infoLink id="8a5d-02aa-378e-a191" name="Reduced Turn (123)" hidden="false" targetId="f0e5-ddb6-e114-9bac" type="rule"/>
+                  </infoLinks>
+                </infoGroup>
+              </infoGroups>
               <costs>
                 <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="500.0"/>
               </costs>
@@ -6275,6 +6794,26 @@
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="48.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4c86-7519-0a89-cbf2" name="Loadmaster" hidden="false" collective="false" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="c890-7a16-f974-2f7d" value="10.0">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f4e8-4f1a-a1d8-4257" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="af15-a901-2d26-266b" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc25-beb8-3d45-7e5a" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="ce4c-9edf-815f-5c01" name="Loadmaster (132)" hidden="false" targetId="cce9-fe16-491e-3c52" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="e72c-84ea-f8be-8451" name="Makeshift Armor (131)" hidden="false">
@@ -6589,6 +7128,15 @@ point roll and each attacking model is still required to make a successful comba
     <rule id="fa24-5e32-9628-0181" name="Grenade (E13)" hidden="false">
       <description>A small “bomb” that is thrown by hand and is especially useful during close-assault and for “clearing” out an enemy-occupied structure. As an exception to the rule on p. 66, infantry
 equipped with grenades can be used to conduct a close-combat assault against an enemy infantry model located “inside” a structure. An attacking model must be in B2B contact with the structure and both attacking and defending models must be on the same elevation level or adjacent floors (if both models are inside the structure).</description>
+    </rule>
+    <rule id="bcb3-1086-c19f-cab9" name="Advanced Cruise Missile (141)" hidden="false">
+      <description>See P. 141</description>
+    </rule>
+    <rule id="e105-1337-c6de-c8ec" name="Cruise Missile (141)" hidden="false">
+      <description>See P. 141</description>
+    </rule>
+    <rule id="cce9-fe16-491e-3c52" name="Loadmaster (132)" hidden="false">
+      <description>+1 to Transport level</description>
     </rule>
   </sharedRules>
 </gameSystem>
