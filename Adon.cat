@@ -232,6 +232,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="c8d8-fcaf-dd57-f8aa" name="Dragonfly (Recon)" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ff2a-fd2f-1e39-3883" type="atLeast"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a048-f5b2-4a14-b181" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <costs>
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="111.0"/>
       </costs>
@@ -242,6 +254,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3781-29ea-baa3-5b24" name="Eagle (Attack)" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ff2a-fd2f-1e39-3883" type="atLeast"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3bd6-9cfb-0450-720a" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <costs>
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="156.0"/>
       </costs>
@@ -282,6 +306,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f78d-c793-5d11-338e" name="Overlord (Attack)" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ff2a-fd2f-1e39-3883" type="atLeast"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3bd6-9cfb-0450-720a" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <costs>
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="302.0"/>
       </costs>

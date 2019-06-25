@@ -136,6 +136,18 @@
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="fbec-e09c-925f-6952" name="Barracuda (Recon)" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a048-f5b2-4a14-b181" type="atLeast"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ff2a-fd2f-1e39-3883" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <costs>
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="76.0"/>
       </costs>
@@ -191,11 +203,35 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="41b5-1d1a-6b4b-081e" name="Kharl (Attack)" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3bd6-9cfb-0450-720a" type="atLeast"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ff2a-fd2f-1e39-3883" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <costs>
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="171.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4c57-d9de-a688-bda3" name="Kraken B (Attack)" hidden="false" collective="false" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3bd6-9cfb-0450-720a" type="atLeast"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ff2a-fd2f-1e39-3883" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <costs>
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="197.0"/>
       </costs>
