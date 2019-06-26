@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3713-e893-933c-28d4" name="Terran" revision="1" battleScribeVersion="2.02" library="false" gameSystemId="1c60-fd57-cb2f-e952" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3713-e893-933c-28d4" name="Terran" revision="2" battleScribeVersion="2.02" library="false" gameSystemId="1c60-fd57-cb2f-e952" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="8825-a194-47a2-5feb" name="Archer (CAV)" hidden="false" collective="false" targetId="97b1-75c2-8510-c73d" type="selectionEntry">
       <categoryLinks>
@@ -178,6 +178,13 @@
         <categoryLink id="1838-822e-1ef5-90f5" name="Attack" hidden="false" targetId="a048-f5b2-4a14-b181" primary="false"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="a720-27f6-8a4c-d3b4" name="Thunderhawk (CAV)" hidden="false" collective="false" targetId="a74b-2523-4962-1bc2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4d40-8a6d-abe6-e9ec" name="New CategoryLink" hidden="false" targetId="a048-f5b2-4a14-b181" primary="true"/>
+        <categoryLink id="ae62-9ca3-a74b-67b0" name="CAV" hidden="false" targetId="4a66-075b-596e-0578" primary="false"/>
+        <categoryLink id="fde4-d1b5-dcde-de63" name="Terran" hidden="false" targetId="f247-3bb1-b384-9b2a" primary="false"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="864d-2fcb-dd1a-64d8" name="Harpy (Attack)" hidden="false" collective="false" type="model">
@@ -313,6 +320,11 @@
     <selectionEntry id="a9de-250e-a012-1373" name="Tsuiseki II (Attack)" hidden="false" collective="false" type="model">
       <costs>
         <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="327.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a74b-2523-4962-1bc2" name="Thunderhawk (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="912.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
