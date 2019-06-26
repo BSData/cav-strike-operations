@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="2e9e-a2a9-29e3-e7f5" name="Ritterlich-data" revision="3" battleScribeVersion="2.02" library="true" gameSystemId="1c60-fd57-cb2f-e952" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry id="6bfe-2bad-246e-0938" name="Armadillo (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="305.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5a37-5dc3-202b-e9f6" name="Avenger (Attack)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="229.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3897-a8e9-cff9-5903" name="Blitz (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="480.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="503b-34b8-3157-cb10" name="Catamount (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="441.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="14e8-c171-0acc-0eb6" name="Cataphract (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="620.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eb82-0f70-7190-6ed4" name="Cheetah (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="588.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="78f0-ce28-c565-7dec" name="Cougar (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="215.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="25c1-000d-1422-1070" name="Cougar II (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="195.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="489f-f925-8584-c1d6" name="Griffin (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="446.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="58a6-677b-5a21-be2a" name="Jaguar (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="413.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6217-f6f3-f15e-12a1" name="Leopard (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="334.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5185-2997-e987-013c" name="Lion (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="355.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2bdf-7aa1-ad17-684d" name="Lion II (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="368.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f29a-2962-013b-4cc3" name="Lukas (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="128.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="53aa-7219-7db4-afe2" name="Lynx (Transport)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="193.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c21a-21e1-45dd-a4d4" name="Manticore (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="368.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a771-78b1-1fe1-d210" name="Mastodon (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="579.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d490-14b5-d25b-4cf3" name="Ocelot (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="233.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9418-15ec-e443-ccb2" name="Panther (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="209.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f534-f381-ce95-3361" name="Panther II (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="306.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5de5-4eca-ee36-2acf" name="Puma (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="129.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cc4a-dda9-0da1-3d1e" name="Rhino (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="809.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9864-c83c-e529-38ea" name="Rhino II (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="976.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="08a9-4808-1c73-8c86" name="Rudegern (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bc9f-3983-03f6-6de3" name="Sabertooth (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="383.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3f02-a8a5-b8fd-5adb" name="Silverback (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="705.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fdb6-3595-b4f1-a2ad" name="Tiamat (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="779.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4682-cc7b-e0fd-033a" name="Tiger (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="517.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a534-62d6-548a-dd90" name="Typhoon (Attack)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="265.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="57e6-d1e4-871e-6bbc" name="Wolverine (Vehicle)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="375.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2460-0348-16ec-4d64" name="Tiger II (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="528.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b029-70c4-3aff-a56b" name="King Tiger (CAV)" hidden="false" collective="false" type="model">
+      <costs>
+        <cost name="TVP" typeId="c890-7a16-f974-2f7d" value="769.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
